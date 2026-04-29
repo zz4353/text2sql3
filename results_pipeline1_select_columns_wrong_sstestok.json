@@ -1,0 +1,238 @@
+[
+  {
+    "id": 2,
+    "db_id": "student_club",
+    "user_request": "Register the following new members:\n\n```csv\nmember id,first name,last name,email,position,t-shirt size,phone,zip code,major,gender,date_of_birth,graduation_year\nrecsAbzfZ6SZ2VXUIyi,Daniel,Kim,daniel.kim@lpu.edu,Member,Large,(510) 555-2001,55108,recxK3MHQFbR9J5uO,Male,2003-05-12,2026\nrec3IEIVj8rYnpYwtbQ,Grace,Nguyen,grace.nguyen@lpu.edu,Member,Small,408-555-2002,1020,rec7BxKpjJ7bNph3O,Female,2004-08-23,2027\nrecl3J4Ccx5Iv9mDCCU,Ryan,Patel,ryan.patel@lpu.edu,Member,Medium,(650) 555-2003,98290,recdIBgeU38UbV2sy,Male,2003-11-30,2026\nrecJ0oAJDJqujvyT51r,Chloe,Smith,chloe.smith@lpu.edu,Member,Medium,925-555-2004,94102,recaJdSK83k6ekRJL,Female,2004-02-14,2027\nreca2i7KGsCW8EwwPXc,Kevin,Lopez,kevin.lopez@lpu.edu,Member,X-Large,(831) 555-2005,90210,recCk8lCDOTRp6rKN,Male,2003-07-19,2026\nrecjrOi0kQPhOMNkRqG,Rachel,White,rachel.white@lpu.edu,Member,Small,707-555-2006,55108,recxK3MHQFbR9J5uO,Female,2004-09-05,2027\nrecdWQ2uWLyYLAboATW,Brandon,Scott,brandon.scott@lpu.edu,Member,Large,(916) 555-2007,1020,rec7BxKpjJ7bNph3O,Male,2003-03-28,2026\nrecXyy22mwE3O6UIRnZ,Ashley,Green,ashley.green@lpu.edu,Member,Medium,805-555-2008,98290,recdIBgeU38UbV2sy,Female,2004-06-17,2027\nrecYgm9V1BxUV3CD4Rs,Justin,Adams,justin.adams@lpu.edu,Member,Large,(760) 555-2009,94102,recaJdSK83k6ekRJL,Male,2003-12-08,2026\nrecxf84ooYlKCuWIn45,Nicole,Baker,nicole.baker@lpu.edu,Member,Small,858-555-2010,90210,recCk8lCDOTRp6rKN,Female,2004-04-22,2027\nrecz9um8CogrEdPMEqE,Andrew,Nelson,andrew.nelson@lpu.edu,Member,Medium,(619) 555-2011,55108,recxK3MHQFbR9J5uO,Male,2003-10-15,2026\nrece6awiTCGqOz1BXDt,Samantha,Carter,samantha.carter@lpu.edu,Member,Small,714-555-2012,1020,rec7BxKpjJ7bNph3O,Female,2004-01-09,2027\nrecb4IEoRSH1VTsAJvF,Matthew,Mitchell,matthew.mitchell@lpu.edu,Member,X-Large,(626) 555-2013,98290,recdIBgeU38UbV2sy,Male,2003-08-03,2026\nrecg1MvQP3I75Jsyc4h,Lauren,Perez,lauren.perez@lpu.edu,Member,Medium,562-555-2014,94102,recaJdSK83k6ekRJL,Female,2004-11-27,2027\nrecXDJIH2EzOFnWZSGM,Joshua,Roberts,joshua.roberts@lpu.edu,Member,Large,(909) 555-2015,90210,recCk8lCDOTRp6rKN,Male,2003-04-11,2026\nrecQP5Rd1ToCyXiJkLG,Amanda,Turner,amanda.turner@lpu.edu,Member,Small,951-555-2016,55108,recxK3MHQFbR9J5uO,Female,2004-07-25,2027\nrecVSwdmspLNHBbglPR,Christopher,Phillips,christopher.phillips@lpu.edu,Member,Large,(818) 555-2017,1020,rec7BxKpjJ7bNph3O,Male,2003-09-18,2026\nrecNvX3Zx44O5BfPGpX,Stephanie,Campbell,stephanie.campbell@lpu.edu,Member,Medium,949-555-2018,98290,recdIBgeU38UbV2sy,Female,2004-03-06,2027\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "db_id": "california_schools",
+    "user_request": "Register the following charter schools:\n\n| school code | status | county | district | county office | district type | last update | school name | charter number | funding type |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 99100220000001 | Active | Fictional | Charter Network A | Fictional County Office of Education | Unified School District | 2024-02-01 | Innovation Charter Academy | 1001 | Directly funded |\n| 99100220000002 | Active | Fictional | Charter Network A | Fictional County Office of Education | Unified School District | 2024-02-01 | Discovery Charter School | 1002 | Directly funded |\n| 99200230000001 | Active | Fictional | Charter Network B | Fictional County Office of Education | Unified School District | 2024-02-02 | Excellence Charter High | 1003 | Locally funded |\n| 99200230000002 | Active | Fictional | Charter Network B | Fictional County Office of Education | Unified School District | 2024-02-02 | Achievement Charter Middle | 1004 | Locally funded |\n| 99300240000001 | Active | Fictional | Charter Network C | Fictional County Office of Education | Unified School District | 2024-02-03 | Horizon Charter Academy | 1005 | Directly funded |\n| 99300240000002 | Active | Fictional | Charter Network C | Fictional County Office of Education | Unified School District | 2024-02-03 | Summit Charter School | 1006 | Directly funded |\n| 99400250000001 | Active | Fictional | Charter Network D | Fictional County Office of Education | Unified School District | 2024-02-04 | Aspire Charter Elementary | 1007 | Locally funded |\n| 99400250000002 | Active | Fictional | Charter Network D | Fictional County Office of Education | Unified School District | 2024-02-04 | Inspire Charter Academy | 1008 | Locally funded |\n| 99500260000001 | Active | Fictional | Charter Network E | Fictional County Office of Education | Unified School District | 2024-02-05 | Pathway Charter High | 1009 | Directly funded |\n| 99500260000002 | Active | Fictional | Charter Network E | Fictional County Office of Education | Unified School District | 2024-02-05 | Gateway Charter School | 1010 | Directly funded |\n| 99600270000001 | Active | Fictional | Charter Network F | Fictional County Office of Education | Unified School District | 2024-02-06 | Bright Future Charter | 1011 | Directly funded |\n| 99600270000002 | Active | Fictional | Charter Network F | Fictional County Office of Education | Unified School District | 2024-02-06 | New Horizons Charter | 1012 | Locally funded |\n| 99700280000001 | Active | Fictional | Charter Network G | Fictional County Office of Education | Unified School District | 2024-02-07 | Pioneer Charter Academy | 1013 | Directly funded |\n| 99700280000002 | Active | Fictional | Charter Network G | Fictional County Office of Education | Unified School District | 2024-02-07 | Trailblazer Charter School | 1014 | Locally funded |\n| 99800290000001 | Active | Fictional | Charter Network H | Fictional County Office of Education | Unified School District | 2024-02-08 | Visionary Charter High | 1015 | Directly funded |\n| 99800290000002 | Active | Fictional | Charter Network H | Fictional County Office of Education | Unified School District | 2024-02-08 | Legacy Charter Academy | 1016 | Directly funded |\n| 99900300000001 | Active | Fictional | Charter Network I | Fictional County Office of Education | Unified School District | 2024-02-09 | Renaissance Charter School | 1017 | Locally funded |\n| 99900300000002 | Active | Fictional | Charter Network I | Fictional County Office of Education | Unified School District | 2024-02-09 | Odyssey Charter Academy | 1018 | Locally funded |\n| 99100310000001 | Active | Fictional | Charter Network J | Fictional County Office of Education | Unified School District | 2024-02-10 | Endeavor Charter High | 1019 | Directly funded |\n| 99100310000002 | Active | Fictional | Charter Network J | Fictional County Office of Education | Unified School District | 2024-02-10 | Quest Charter School | 1020 | Directly funded |",
+    "tables_missing": [],
+    "tables_extra": [
+      "frpm"
+    ],
+    "diff": {
+      "frpm": {
+        "gold": [],
+        "predicted": [
+          "cdscode",
+          "charter school (y/n)",
+          "county name",
+          "district name",
+          "district type",
+          "school name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "cdscode",
+          "charter school (y/n)",
+          "county name",
+          "district name",
+          "district type",
+          "school name"
+        ],
+        "table_status": "extra_table"
+      },
+      "schools": {
+        "gold": [
+          "cdscode",
+          "charternum",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "fundingtype",
+          "lastupdate",
+          "school",
+          "statustype"
+        ],
+        "predicted": [
+          "cdscode",
+          "charter",
+          "charternum",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "fundingtype",
+          "lastupdate",
+          "school",
+          "statustype"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "charter"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "db_id": "student_club",
+    "user_request": "Register the following new club members:\n\n```json\n[\n  {\n    \"member id\": \"rec62cSezwha5smDSYg\",\n    \"first name\": \"Maya\",\n    \"last name\": \"Chen\",\n    \"email\": \"maya.chen@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(408) 555-1234\",\n    \"zip code\": 55108,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"recQskA78LnlM0zQH1D\",\n    \"first name\": \"Tyler\",\n    \"last name\": \"Martinez\",\n    \"email\": \"tyler.martinez@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"415-555-2345\",\n    \"zip code\": 1020,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recmSfvWJBkxx3WE5Jt\",\n    \"first name\": \"Emma\",\n    \"last name\": \"Johnson\",\n    \"email\": \"emma.johnson@lpu.edu\",\n    \"position\": \"Vice President\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(510) 555-3456\",\n    \"zip code\": 98290,\n    \"major\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"recypQPutmMiQRXYZ5C\",\n    \"first name\": \"Jackson\",\n    \"last name\": \"Williams\",\n    \"email\": \"jackson.williams@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"X-Large\",\n    \"phone\": \"650-555-4567\",\n    \"zip code\": 55108,\n    \"major\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"rec0WzCvVKjphksglEI\",\n    \"first name\": \"Sophia\",\n    \"last name\": \"Brown\",\n    \"email\": \"sophia.brown@lpu.edu\",\n    \"position\": \"Treasurer\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(925) 555-5678\",\n    \"zip code\": 1020,\n    \"major\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"reclhNHsjDDjhN5EIiE\",\n    \"first name\": \"Ethan\",\n    \"last name\": \"Davis\",\n    \"email\": \"ethan.davis@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"831-555-6789\",\n    \"zip code\": 98290,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"rec3pyZEPEaXnWOmfkT\",\n    \"first name\": \"Olivia\",\n    \"last name\": \"Garcia\",\n    \"email\": \"olivia.garcia@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(707) 555-7890\",\n    \"zip code\": 55108,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recH56AQA6MVBSyEHRh\",\n    \"first name\": \"Liam\",\n    \"last name\": \"Rodriguez\",\n    \"email\": \"liam.rodriguez@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"916-555-8901\",\n    \"zip code\": 1020,\n    \"major\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"reckyThkYYtzDd3dq7C\",\n    \"first name\": \"Ava\",\n    \"last name\": \"Wilson\",\n    \"email\": \"ava.wilson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"(805) 555-9012\",\n    \"zip code\": 98290,\n    \"major\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"recTrU7ROG37RPyjsIf\",\n    \"first name\": \"Noah\",\n    \"last name\": \"Anderson\",\n    \"email\": \"noah.anderson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"X-Large\",\n    \"phone\": \"760-555-0123\",\n    \"zip code\": 55108,\n    \"major\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"recdQreC4gDmEs9AGGY\",\n    \"first name\": \"Isabella\",\n    \"last name\": \"Taylor\",\n    \"email\": \"isabella.taylor@lpu.edu\",\n    \"position\": \"Inactive\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(858) 555-1235\",\n    \"zip code\": 1020,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"reckDIHMtbYvdP6dWtZ\",\n    \"first name\": \"Lucas\",\n    \"last name\": \"Thomas\",\n    \"email\": \"lucas.thomas@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"619-555-2346\",\n    \"zip code\": 98290,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recpMdaffvmJtt2eX1J\",\n    \"first name\": \"Mia\",\n    \"last name\": \"Moore\",\n    \"email\": \"mia.moore@lpu.edu\",\n    \"position\": \"Secretary\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(442) 555-3457\",\n    \"zip code\": 55108,\n    \"major\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"recC2g3bc6lGblq6qjy\",\n    \"first name\": \"Aiden\",\n    \"last name\": \"Jackson\",\n    \"email\": \"aiden.jackson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"951-555-4568\",\n    \"zip code\": 1020,\n    \"major\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"recVH0P87iJmFiZSyqG\",\n    \"first name\": \"Charlotte\",\n    \"last name\": \"White\",\n    \"email\": \"charlotte.white@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(909) 555-5679\",\n    \"zip code\": 98290,\n    \"major\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"recYa6t7KaboVe1mRNE\",\n    \"first name\": \"Elijah\",\n    \"last name\": \"Harris\",\n    \"email\": \"elijah.harris@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"X-Large\",\n    \"phone\": \"562-555-6780\",\n    \"zip code\": 55108,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"rec2ZDnP2eO4Pkkv5sz\",\n    \"first name\": \"Amelia\",\n    \"last name\": \"Martin\",\n    \"email\": \"amelia.martin@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(714) 555-7891\",\n    \"zip code\": 1020,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recz3ATpd8sw8L62Svq\",\n    \"first name\": \"James\",\n    \"last name\": \"Thompson\",\n    \"email\": \"james.thompson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"626-555-8902\",\n    \"zip code\": 98290,\n    \"major\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"reczoZNPYC4kcYQUKkk\",\n    \"first name\": \"Harper\",\n    \"last name\": \"Garcia\",\n    \"email\": \"harper.garcia@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(818) 555-9013\",\n    \"zip code\": 55108,\n    \"major\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"recKke78PFMaNvOApl9\",\n    \"first name\": \"Benjamin\",\n    \"last name\": \"Martinez\",\n    \"email\": \"benjamin.martinez@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"949-555-0124\",\n    \"zip code\": 1020,\n    \"major\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"rec0MMmmzAqmL3JFNgo\",\n    \"first name\": \"Evelyn\",\n    \"last name\": \"Robinson\",\n    \"email\": \"evelyn.robinson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(323) 555-1236\",\n    \"zip code\": 98290,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"rec0p0P46ysm6VzF5az\",\n    \"first name\": \"Logan\",\n    \"last name\": \"Clark\",\n    \"email\": \"logan.clark@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"213-555-2347\",\n    \"zip code\": 55108,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "db_id": "formula_1",
+    "user_request": "Add the following new F1 teams:\n\n```json\n[\n  {\n    \"team name\": \"Andretti Global\",\n    \"nationality\": \"American\",\n    \"team reference\": \"andretti\"\n  },\n  {\n    \"team name\": \"Porsche F1 Team\",\n    \"nationality\": \"German\",\n    \"team reference\": \"porsche\"\n  },\n  {\n    \"team name\": \"Audi Sport\",\n    \"nationality\": \"German\",\n    \"team reference\": \"audi\"\n  },\n  {\n    \"team name\": \"Cadillac Racing\",\n    \"nationality\": \"American\",\n    \"team reference\": \"cadillac\"\n  },\n  {\n    \"team name\": \"Hyundai Motorsport\",\n    \"nationality\": \"South Korean\",\n    \"team reference\": \"hyundai\"\n  },\n  {\n    \"team name\": \"Genesis Racing\",\n    \"nationality\": \"South Korean\",\n    \"team reference\": \"genesis\"\n  },\n  {\n    \"team name\": \"Lamborghini Squadra Corse\",\n    \"nationality\": \"Italian\",\n    \"team reference\": \"lamborghini\"\n  },\n  {\n    \"team name\": \"Bentley Motorsport\",\n    \"nationality\": \"British\",\n    \"team reference\": \"bentley\"\n  },\n  {\n    \"team name\": \"Bugatti Racing\",\n    \"nationality\": \"French\",\n    \"team reference\": \"bugatti\"\n  },\n  {\n    \"team name\": \"Koenigsegg Racing\",\n    \"nationality\": \"Swedish\",\n    \"team reference\": \"koenigsegg\"\n  },\n  {\n    \"team name\": \"Pagani F1\",\n    \"nationality\": \"Italian\",\n    \"team reference\": \"pagani\"\n  },\n  {\n    \"team name\": \"Rimac Racing\",\n    \"nationality\": \"Croatian\",\n    \"team reference\": \"rimac\"\n  },\n  {\n    \"team name\": \"Tesla Motorsport\",\n    \"nationality\": \"American\",\n    \"team reference\": \"tesla\"\n  },\n  {\n    \"team name\": \"Lucid Racing\",\n    \"nationality\": \"American\",\n    \"team reference\": \"lucid\"\n  },\n  {\n    \"team name\": \"Rivian F1\",\n    \"nationality\": \"American\",\n    \"team reference\": \"rivian\"\n  },\n  {\n    \"team name\": \"BYD Racing\",\n    \"nationality\": \"Chinese\",\n    \"team reference\": \"byd\"\n  },\n  {\n    \"team name\": \"NIO Formula\",\n    \"nationality\": \"Chinese\",\n    \"team reference\": \"nio\"\n  },\n  {\n    \"team name\": \"Xpeng Motorsport\",\n    \"nationality\": \"Chinese\",\n    \"team reference\": \"xpeng\"\n  },\n  {\n    \"team name\": \"Mahindra Racing\",\n    \"nationality\": \"Indian\",\n    \"team reference\": \"mahindra\"\n  },\n  {\n    \"team name\": \"Tata Motors F1\",\n    \"nationality\": \"Indian\",\n    \"team reference\": \"tata\"\n  },\n  {\n    \"team name\": \"Toyota Gazoo Racing\",\n    \"nationality\": \"Japanese\",\n    \"team reference\": \"toyota_gazoo\"\n  },\n  {\n    \"team name\": \"Nissan Nismo\",\n    \"nationality\": \"Japanese\",\n    \"team reference\": \"nissan_nismo\"\n  },\n  {\n    \"team name\": \"Subaru Tecnica\",\n    \"nationality\": \"Japanese\",\n    \"team reference\": \"subaru_tecnica\"\n  },\n  {\n    \"team name\": \"Mazda Motorsports\",\n    \"nationality\": \"Japanese\",\n    \"team reference\": \"mazda\"\n  },\n  {\n    \"team name\": \"Volvo Polestar\",\n    \"nationality\": \"Swedish\",\n    \"team reference\": \"volvo_polestar\"\n  },\n  {\n    \"team name\": \"Saab Racing\",\n    \"nationality\": \"Swedish\",\n    \"team reference\": \"saab\"\n  },\n  {\n    \"team name\": \"Lotus F1 Revival\",\n    \"nationality\": \"British\",\n    \"team reference\": \"lotus_revival\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "constructors": {
+        "gold": [
+          "constructorref",
+          "name",
+          "nationality"
+        ],
+        "predicted": [
+          "constructorref",
+          "name",
+          "nationality",
+          "url"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "url"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "db_id": "formula_1",
+    "user_request": "Add the following race finish status codes:\n\n```csv\nstatus description\nBattery\nHybrid System\nPower Unit\nERS\nMGU-K\nMGU-H\nTurbo\nFuel Pressure\nDRS\nFloor Damage\nSuspension\nBrakes\nClutch\nDifferential\nWheel Bearing\nFuel System\nOil Pressure\nWater Pressure\nElectrical\nElectronics\nSensor\nTelemetry\nRadio\nSafety Car\nRed Flag\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "status": {
+        "gold": [
+          "status"
+        ],
+        "predicted": [
+          "status",
+          "statusid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "statusid"
+        ],
+        "table_status": "ok"
+      }
+    }
+  }
+]

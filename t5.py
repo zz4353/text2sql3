@@ -38,10 +38,10 @@ def is_correct(gold: dict[str, set[str]], predicted: dict[str, set[str]]) -> boo
 
 
 def main():
-    with open("mntestok.json", encoding="utf-8") as f:
+    with open("sstestok.json", encoding="utf-8") as f:
         test_data = {s["id"]: s for s in json.load(f)}
 
-    with open("results_pipeline1_select_columns_by_id_mntestok.json", encoding="utf-8") as f:
+    with open("results_pipeline1_select_columns_by_id_sstestok.json", encoding="utf-8") as f:
         results = json.load(f)
 
     correct_samples = []
@@ -95,8 +95,8 @@ def main():
                 "diff": table_diff,
             })
 
-    correct_path = "results_pipeline1_select_columns_correct_mntestok.json"
-    wrong_path = "results_pipeline1_select_columns_wrong_mntestok.json"
+    correct_path = "results_pipeline1_select_columns_correct_sstestok.json"
+    wrong_path = "results_pipeline1_select_columns_wrong_sstestok.json"
 
     with open(correct_path, "w", encoding="utf-8") as f:
         json.dump(correct_samples, f, ensure_ascii=False, indent=2)

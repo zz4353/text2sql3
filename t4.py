@@ -3,7 +3,7 @@ from llm_client import OpenAIClient
 from pipeline1.select_columns import select_columns
 from db_client import get_llm_table_schema_context, DB_ID
 
-with open("mntestok.json", encoding="utf-8") as f:
+with open("sstestok.json", encoding="utf-8") as f:
     test = json.load(f)
 
 llm = OpenAIClient()
@@ -20,7 +20,7 @@ for sample in test:
         results.append({"id": item_id, "db_id": sample["db_id"], "error": str(e)})
         print(f"[{item_id}/{len(test)}] ERROR: {e}")
 
-output_path = "results_pipeline1_select_columns_by_id_mntestok.json"
+output_path = "results_pipeline1_select_columns_by_id_sstestok.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
