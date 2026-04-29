@@ -1,0 +1,2433 @@
+[
+  {
+    "id": 5,
+    "db_id": "california_schools",
+    "user_request": "Register these new schools and record their initial meal program enrollment:\n\n```json\n[\n  {\n    \"institution id\": \"99600060000006\",\n    \"county\": \"Alameda\",\n    \"district\": \"East Bay Unified\",\n    \"school name\": \"Oakland Innovation Elementary\",\n    \"grades\": \"K-6\",\n    \"opening\": \"2024-08-12\",\n    \"meal program\": {\n      \"year\": \"2024-2025\",\n      \"enrollment\": 450.0,\n      \"frpm eligible\": 315.0,\n      \"frpm rate\": 0.7\n    }\n  },\n  {\n    \"institution id\": \"99700070000007\",\n    \"county\": \"Fresno\",\n    \"district\": \"Central Valley Schools\",\n    \"school name\": \"Valley View High School\",\n    \"grades\": \"9-12\",\n    \"opening\": \"2024-08-15\",\n    \"meal program\": {\n      \"year\": \"2024-2025\",\n      \"enrollment\": 1200.0,\n      \"frpm eligible\": 720.0,\n      \"frpm rate\": 0.6\n    }\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "frpm": {
+        "gold": [
+          "academic year",
+          "cdscode",
+          "charter school (y/n",
+          "county name",
+          "district name",
+          "district type",
+          "school name",
+          "school type"
+        ],
+        "predicted": [
+          "academic year",
+          "cdscode",
+          "county code",
+          "district name",
+          "enrollment (k-12)",
+          "high grade",
+          "low grade",
+          "school name"
+        ],
+        "missing_cols": [
+          "charter school (y/n",
+          "county name",
+          "district type",
+          "school type"
+        ],
+        "extra_cols": [
+          "county code",
+          "enrollment (k-12)",
+          "high grade",
+          "low grade"
+        ],
+        "table_status": "ok"
+      },
+      "schools": {
+        "gold": [
+          "cdscode",
+          "charter",
+          "charternum",
+          "city",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "fundingtype",
+          "gsoffered",
+          "lastupdate",
+          "opendate",
+          "phone",
+          "school",
+          "soc",
+          "soctype",
+          "state",
+          "statustype",
+          "street",
+          "zip"
+        ],
+        "predicted": [
+          "cdscode",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "gsoffered",
+          "lastupdate",
+          "opendate",
+          "school",
+          "statustype"
+        ],
+        "missing_cols": [
+          "charter",
+          "charternum",
+          "city",
+          "fundingtype",
+          "phone",
+          "soc",
+          "soctype",
+          "state",
+          "street",
+          "zip"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "db_id": "california_schools",
+    "user_request": "Add the following new elementary schools with their meal program enrollment:\n\n```json\n[\n  {\n    \"school code\": \"99401040000013\",\n    \"county\": \"Kern\",\n    \"district\": \"Bakersfield City School District\",\n    \"school name\": \"Central Valley Elementary\",\n    \"city\": \"Bakersfield\",\n    \"open date\": \"2024-08-15\",\n    \"grade span\": \"K-5\",\n    \"meal program\": {\n      \"academic year\": \"2024-2025\",\n      \"enrollment k12\": 485.0,\n      \"free meal count k12\": 340.0,\n      \"frpm count k12\": 388.0\n    }\n  },\n  {\n    \"school code\": \"99501050000014\",\n    \"county\": \"Ventura\",\n    \"district\": \"Ventura Unified\",\n    \"school name\": \"Coastal Breeze Elementary\",\n    \"city\": \"Ventura\",\n    \"open date\": \"2024-08-20\",\n    \"grade span\": \"K-6\",\n    \"meal program\": {\n      \"academic year\": \"2024-2025\",\n      \"enrollment k12\": 520.0,\n      \"free meal count k12\": 208.0,\n      \"frpm count k12\": 260.0\n    }\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "frpm": {
+        "gold": [
+          "academic year",
+          "cdscode",
+          "charter school (y/n",
+          "county name",
+          "district name",
+          "school name"
+        ],
+        "predicted": [
+          "academic year",
+          "cdscode",
+          "county name",
+          "district name",
+          "enrollment (k-12)",
+          "school name"
+        ],
+        "missing_cols": [
+          "charter school (y/n"
+        ],
+        "extra_cols": [
+          "enrollment (k-12)"
+        ],
+        "table_status": "ok"
+      },
+      "schools": {
+        "gold": [
+          "cdscode",
+          "charter",
+          "charternum",
+          "city",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "fundingtype",
+          "gsoffered",
+          "lastupdate",
+          "latitude",
+          "longitude",
+          "opendate",
+          "phone",
+          "school",
+          "state",
+          "statustype",
+          "street",
+          "website",
+          "zip"
+        ],
+        "predicted": [
+          "cdscode",
+          "city",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "gsoffered",
+          "lastupdate",
+          "opendate",
+          "school",
+          "statustype"
+        ],
+        "missing_cols": [
+          "charter",
+          "charternum",
+          "fundingtype",
+          "latitude",
+          "longitude",
+          "phone",
+          "state",
+          "street",
+          "website",
+          "zip"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "db_id": "california_schools",
+    "user_request": "Add the following charter schools serving high-need communities with their meal program data:\n\n```json\n[\n  {\n    \"school code\": \"99901090000018\",\n    \"county\": \"Stanislaus\",\n    \"school name\": \"Valley Charter Academy\",\n    \"city\": \"Modesto\",\n    \"charter number\": \"1856\",\n    \"grade span\": \"K-8\",\n    \"meal program\": {\n      \"academic year\": \"2024-2025\",\n      \"enrollment k12\": 650.0,\n      \"free meal eligible pct\": 0.8,\n      \"frpm eligible pct\": 0.9\n    }\n  },\n  {\n    \"school code\": \"99102010000019\",\n    \"county\": \"Merced\",\n    \"school name\": \"Central Valley Charter High\",\n    \"city\": \"Merced\",\n    \"charter number\": \"1857\",\n    \"grade span\": \"9-12\",\n    \"meal program\": {\n      \"academic year\": \"2024-2025\",\n      \"enrollment k12\": 880.0,\n      \"free meal eligible pct\": 0.75,\n      \"frpm eligible pct\": 0.85\n    }\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "frpm": {
+        "gold": [
+          "academic year",
+          "cdscode",
+          "charter school (y/n",
+          "county name",
+          "district name",
+          "school name"
+        ],
+        "predicted": [
+          "academic year",
+          "cdscode",
+          "charter school (y/n)",
+          "county code",
+          "school name"
+        ],
+        "missing_cols": [
+          "charter school (y/n",
+          "county name",
+          "district name"
+        ],
+        "extra_cols": [
+          "charter school (y/n)",
+          "county code"
+        ],
+        "table_status": "ok"
+      },
+      "schools": {
+        "gold": [
+          "cdscode",
+          "charter",
+          "charternum",
+          "city",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "fundingtype",
+          "gsoffered",
+          "lastupdate",
+          "latitude",
+          "longitude",
+          "opendate",
+          "phone",
+          "school",
+          "state",
+          "statustype",
+          "street",
+          "website",
+          "zip"
+        ],
+        "predicted": [
+          "cdscode",
+          "charter",
+          "charternum",
+          "city",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "gsoffered",
+          "lastupdate",
+          "school",
+          "statustype"
+        ],
+        "missing_cols": [
+          "fundingtype",
+          "latitude",
+          "longitude",
+          "opendate",
+          "phone",
+          "state",
+          "street",
+          "website",
+          "zip"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "db_id": "financial",
+    "user_request": "Issue the following credit cards to account holders:\n\n```json\n[\n  {\n    \"card number\": 1500,\n    \"account holder\": 10,\n    \"card class\": \"classic\",\n    \"issue date\": \"1998-01-10\"\n  },\n  {\n    \"card number\": 1501,\n    \"account holder\": 15,\n    \"card class\": \"gold\",\n    \"issue date\": \"1998-02-15\"\n  },\n  {\n    \"card number\": 1502,\n    \"account holder\": 20,\n    \"card class\": \"junior\",\n    \"issue date\": \"1998-03-20\"\n  },\n  {\n    \"card number\": 1503,\n    \"account holder\": 25,\n    \"card class\": \"classic\",\n    \"issue date\": \"1998-04-25\"\n  },\n  {\n    \"card number\": 1504,\n    \"account holder\": 30,\n    \"card class\": \"gold\",\n    \"issue date\": \"1998-05-30\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "account",
+      "client",
+      "disp"
+    ],
+    "diff": {
+      "account": {
+        "gold": [],
+        "predicted": [
+          "account_id",
+          "date",
+          "district_id",
+          "frequency"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "account_id",
+          "date",
+          "district_id",
+          "frequency"
+        ],
+        "table_status": "extra_table"
+      },
+      "card": {
+        "gold": [
+          "card_id",
+          "disp_id",
+          "issued",
+          "type"
+        ],
+        "predicted": [
+          "card_id",
+          "disp_id",
+          "issued",
+          "type"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "client": {
+        "gold": [],
+        "predicted": [
+          "birth_date",
+          "client_id",
+          "district_id",
+          "gender"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "birth_date",
+          "client_id",
+          "district_id",
+          "gender"
+        ],
+        "table_status": "extra_table"
+      },
+      "disp": {
+        "gold": [],
+        "predicted": [
+          "account_id",
+          "client_id",
+          "disp_id",
+          "type"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "account_id",
+          "client_id",
+          "disp_id",
+          "type"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "db_id": "financial",
+    "user_request": "Add the following district demographic and economic data:\n\n```json\n[\n  {\n    \"district number\": 80,\n    \"district name\": \"Nový Jičín\",\n    \"region\": \"North Moravia\",\n    \"population\": \"152000\",\n    \"municipalities with under 500\": \"35\",\n    \"municipalities 500-1999\": \"28\",\n    \"municipalities 2000-9999\": \"12\",\n    \"cities over 10000\": 2,\n    \"not used\": 3,\n    \"urban ratio\": 65.5,\n    \"average salary\": 10200,\n    \"unemployment 1995\": 4.5,\n    \"unemployment 1996\": 4.8,\n    \"entrepreneurs per 1000\": 105,\n    \"crimes 1995\": 2850,\n    \"crimes 1996\": 3020\n  },\n  {\n    \"district number\": 81,\n    \"district name\": \"Třebíč\",\n    \"region\": \"South Moravia\",\n    \"population\": \"118000\",\n    \"municipalities with under 500\": \"42\",\n    \"municipalities 500-1999\": \"31\",\n    \"municipalities 2000-9999\": \"8\",\n    \"cities over 10000\": 1,\n    \"not used\": 2,\n    \"urban ratio\": 52.3,\n    \"average salary\": 9500,\n    \"unemployment 1995\": 5.2,\n    \"unemployment 1996\": 5.6,\n    \"entrepreneurs per 1000\": 92,\n    \"crimes 1995\": 1680,\n    \"crimes 1996\": 1790\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "district": {
+        "gold": [
+          "a10",
+          "a11",
+          "a12",
+          "a13",
+          "a14",
+          "a15",
+          "a16",
+          "a2",
+          "a3",
+          "a4",
+          "a5",
+          "a6",
+          "a7",
+          "a8",
+          "a9",
+          "district_id"
+        ],
+        "predicted": [
+          "a10",
+          "a11",
+          "a13",
+          "a14",
+          "a16",
+          "a2",
+          "a3",
+          "a4",
+          "a5",
+          "a6",
+          "a7",
+          "a8",
+          "a9",
+          "district_id"
+        ],
+        "missing_cols": [
+          "a12",
+          "a15"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "db_id": "financial",
+    "user_request": "Add the following district records:\n\n```json\n[\n  {\n    \"district id\": 82,\n    \"name\": \"Karlovy Vary\",\n    \"region\": \"West Bohemia\",\n    \"population\": \"125000\",\n    \"municipalities under 500\": \"30\",\n    \"municipalities 500-1999\": \"25\",\n    \"municipalities 2000-9999\": \"10\",\n    \"cities over 10000\": 2,\n    \"unused\": 3,\n    \"urban percentage\": 58.7,\n    \"average salary\": 9800,\n    \"unemployment 1995\": 6.2,\n    \"unemployment 1996\": 6.8,\n    \"entrepreneurs per 1000\": 88,\n    \"crimes 1995\": 2100,\n    \"crimes 1996\": 2250\n  },\n  {\n    \"district id\": 83,\n    \"name\": \"Jihlava\",\n    \"region\": \"South Moravia\",\n    \"population\": \"108000\",\n    \"municipalities under 500\": \"38\",\n    \"municipalities 500-1999\": \"29\",\n    \"municipalities 2000-9999\": \"7\",\n    \"cities over 10000\": 1,\n    \"unused\": 2,\n    \"urban percentage\": 48.5,\n    \"average salary\": 9200,\n    \"unemployment 1995\": 5.8,\n    \"unemployment 1996\": 6.3,\n    \"entrepreneurs per 1000\": 95,\n    \"crimes 1995\": 1520,\n    \"crimes 1996\": 1640\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "district": {
+        "gold": [
+          "a10",
+          "a11",
+          "a12",
+          "a13",
+          "a14",
+          "a15",
+          "a16",
+          "a2",
+          "a3",
+          "a4",
+          "a5",
+          "a6",
+          "a7",
+          "a8",
+          "a9",
+          "district_id"
+        ],
+        "predicted": [
+          "a10",
+          "a11",
+          "a13",
+          "a14",
+          "a16",
+          "a2",
+          "a3",
+          "a4",
+          "a5",
+          "a6",
+          "a7",
+          "a8",
+          "a9",
+          "district_id"
+        ],
+        "missing_cols": [
+          "a12",
+          "a15"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "db_id": "financial",
+    "user_request": "Issue the following junior credit cards:\n\n```json\n[\n  {\n    \"card number\": 1600,\n    \"account holder\": 50,\n    \"card class\": \"junior\",\n    \"issue date\": \"1998-06-15\"\n  },\n  {\n    \"card number\": 1601,\n    \"account holder\": 55,\n    \"card class\": \"junior\",\n    \"issue date\": \"1998-07-20\"\n  },\n  {\n    \"card number\": 1602,\n    \"account holder\": 60,\n    \"card class\": \"junior\",\n    \"issue date\": \"1998-08-25\"\n  },\n  {\n    \"card number\": 1603,\n    \"account holder\": 65,\n    \"card class\": \"junior\",\n    \"issue date\": \"1998-09-30\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "disp"
+    ],
+    "diff": {
+      "card": {
+        "gold": [
+          "card_id",
+          "disp_id",
+          "issued",
+          "type"
+        ],
+        "predicted": [
+          "card_id",
+          "disp_id",
+          "issued",
+          "type"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "disp": {
+        "gold": [],
+        "predicted": [
+          "account_id",
+          "client_id",
+          "disp_id",
+          "type"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "account_id",
+          "client_id",
+          "disp_id",
+          "type"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "db_id": "financial",
+    "user_request": "Process the following outgoing payment transactions:\n\n```json\n[\n  {\n    \"transaction number\": 3750010,\n    \"account\": 5,\n    \"transaction date\": \"1998-10-10\",\n    \"direction\": \"VYDAJ\",\n    \"method\": \"PREVOD NA UCET\",\n    \"amount\": 2500,\n    \"new balance\": 5500,\n    \"purpose\": \"SIPO\",\n    \"partner bank\": \"WX\",\n    \"partner account\": 32345678\n  },\n  {\n    \"transaction number\": 3750011,\n    \"account\": 8,\n    \"transaction date\": \"1998-10-11\",\n    \"direction\": \"VYDAJ\",\n    \"method\": \"PREVOD NA UCET\",\n    \"amount\": 3200,\n    \"new balance\": 8800,\n    \"purpose\": \"POJISTNE\",\n    \"partner bank\": \"YZ\",\n    \"partner account\": 43456789\n  },\n  {\n    \"transaction number\": 3750012,\n    \"account\": 10,\n    \"transaction date\": \"1998-10-12\",\n    \"direction\": \"VYDAJ\",\n    \"method\": \"PREVOD NA UCET\",\n    \"amount\": 1800,\n    \"new balance\": 4700,\n    \"purpose\": \"UVER\",\n    \"partner bank\": \"AB\",\n    \"partner account\": 54567890\n  },\n  {\n    \"transaction number\": 3750013,\n    \"account\": 15,\n    \"transaction date\": \"1998-10-13\",\n    \"direction\": \"VYDAJ\",\n    \"method\": \"PREVOD NA UCET\",\n    \"amount\": 4000,\n    \"new balance\": 5500,\n    \"purpose\": \"LEASING\",\n    \"partner bank\": \"CD\",\n    \"partner account\": 65678901\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "order"
+    ],
+    "diff": {
+      "order": {
+        "gold": [],
+        "predicted": [
+          "account_id",
+          "account_to",
+          "amount",
+          "bank_to",
+          "k_symbol",
+          "order_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "account_id",
+          "account_to",
+          "amount",
+          "bank_to",
+          "k_symbol",
+          "order_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "trans": {
+        "gold": [
+          "account",
+          "account_id",
+          "amount",
+          "balance",
+          "bank",
+          "date",
+          "k_symbol",
+          "operation",
+          "trans_id",
+          "type"
+        ],
+        "predicted": [
+          "account",
+          "account_id",
+          "amount",
+          "balance",
+          "bank",
+          "date",
+          "k_symbol",
+          "operation",
+          "trans_id",
+          "type"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "db_id": "student_club",
+    "user_request": "Register the following new club members:\n\n```json\n[\n  {\n    \"member id\": \"recA1B2C3D4E5F6G7\",\n    \"first name\": \"Emma\",\n    \"last name\": \"Johnson\",\n    \"email\": \"emma.johnson@lpu.edu\",\n    \"role\": \"Member\",\n    \"shirt size\": \"Medium\",\n    \"phone\": \"(555) 123-4567\",\n    \"zip code\": 84321,\n    \"major\": \"rec06DF6vZ1CyPKpc\"\n  },\n  {\n    \"member id\": \"recH8I9J0K1L2M3N4\",\n    \"first name\": \"Michael\",\n    \"last name\": \"Chen\",\n    \"email\": \"michael.chen@lpu.edu\",\n    \"role\": \"Member\",\n    \"shirt size\": \"Large\",\n    \"phone\": \"(555) 234-5678\",\n    \"zip code\": 84322,\n    \"major\": \"rec09LedkREyskCNv\"\n  },\n  {\n    \"member id\": \"recO5P6Q7R8S9T0U1\",\n    \"first name\": \"Sophia\",\n    \"last name\": \"Martinez\",\n    \"email\": \"sophia.martinez@lpu.edu\",\n    \"role\": \"Vice President\",\n    \"shirt size\": \"Small\",\n    \"phone\": \"(555) 345-6789\",\n    \"zip code\": 84341,\n    \"major\": \"rec0Eanv576RhQllI\"\n  },\n  {\n    \"member id\": \"recV2W3X4Y5Z6A7B8\",\n    \"first name\": \"James\",\n    \"last name\": \"Williams\",\n    \"email\": \"james.williams@lpu.edu\",\n    \"role\": \"Treasurer\",\n    \"shirt size\": \"X-Large\",\n    \"phone\": \"(555) 456-7890\",\n    \"zip code\": 84401,\n    \"major\": \"rec0xRZtkzxrg8kj2\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "db_id": "student_club",
+    "user_request": "Update the following members to inactive status:\n\n```json\n[\n  {\n    \"member id\": \"recF2G3H4I5J6K7L8\",\n    \"first name\": \"David\",\n    \"last name\": \"Brown\",\n    \"email\": \"david.brown@lpu.edu\",\n    \"role\": \"Inactive\",\n    \"shirt size\": \"Large\",\n    \"phone\": \"(555) 567-8901\",\n    \"zip code\": 84601,\n    \"major\": \"rec1N0upiVLy5esTO\"\n  },\n  {\n    \"member id\": \"recM9N0O1P2Q3R4S5\",\n    \"first name\": \"Jessica\",\n    \"last name\": \"Taylor\",\n    \"email\": \"jessica.taylor@lpu.edu\",\n    \"role\": \"Inactive\",\n    \"shirt size\": \"Medium\",\n    \"phone\": \"(555) 678-9012\",\n    \"zip code\": 84602,\n    \"major\": \"rec06DF6vZ1CyPKpc\"\n  },\n  {\n    \"member id\": \"recT6U7V8W9X0Y1Z2\",\n    \"first name\": \"Ryan\",\n    \"last name\": \"Anderson\",\n    \"email\": \"ryan.anderson@lpu.edu\",\n    \"role\": \"Inactive\",\n    \"shirt size\": \"X-Large\",\n    \"phone\": \"(555) 789-0123\",\n    \"zip code\": 84604,\n    \"major\": \"rec0xRZtkzxrg8kj2\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 92,
+    "db_id": "debit_card_specializing",
+    "user_request": "Add the following new gas station locations:\n\n```json\n[\n  {\n    \"gas station id\": 6000,\n    \"chain id\": 25,\n    \"country\": \"CZE\",\n    \"chain segment\": \"Premium\"\n  },\n  {\n    \"gas station id\": 6001,\n    \"chain id\": 25,\n    \"country\": \"CZE\",\n    \"chain segment\": \"Value for money\"\n  },\n  {\n    \"gas station id\": 6002,\n    \"chain id\": 48,\n    \"country\": \"SVK\",\n    \"chain segment\": \"Discount\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "gasstations": {
+        "gold": [
+          "chainid",
+          "country",
+          "gasstationid",
+          "segment"
+        ],
+        "predicted": [
+          "chainid",
+          "country",
+          "gasstationid"
+        ],
+        "missing_cols": [
+          "segment"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "db_id": "debit_card_specializing",
+    "user_request": "Record the following fuel purchases:\n\n```json\n[\n  {\n    \"transaction id\": 1001,\n    \"date\": \"2012-09-15\",\n    \"time\": \"08:30:00\",\n    \"customer id\": 31543,\n    \"card id\": 500000,\n    \"gas station id\": 3704,\n    \"product id\": 2,\n    \"amount\": 45,\n    \"price\": 1080.9\n  },\n  {\n    \"transaction id\": 1002,\n    \"date\": \"2012-09-15\",\n    \"time\": \"10:15:00\",\n    \"customer id\": 15234,\n    \"card id\": 500001,\n    \"gas station id\": 1250,\n    \"product id\": 5,\n    \"amount\": 60,\n    \"price\": 1440.0\n  },\n  {\n    \"transaction id\": 1003,\n    \"date\": \"2012-09-16\",\n    \"time\": \"14:20:00\",\n    \"customer id\": 28901,\n    \"card id\": 500002,\n    \"gas station id\": 2100,\n    \"product id\": 3,\n    \"amount\": 38,\n    \"price\": 912.4\n  },\n  {\n    \"transaction id\": 1004,\n    \"date\": \"2012-09-16\",\n    \"time\": \"16:45:00\",\n    \"customer id\": 42567,\n    \"card id\": 500003,\n    \"gas station id\": 4500,\n    \"product id\": 2,\n    \"amount\": 52,\n    \"price\": 1248.0\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "customers",
+      "gasstations",
+      "products"
+    ],
+    "diff": {
+      "customers": {
+        "gold": [],
+        "predicted": [
+          "customerid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "customerid"
+        ],
+        "table_status": "extra_table"
+      },
+      "gasstations": {
+        "gold": [],
+        "predicted": [
+          "gasstationid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gasstationid"
+        ],
+        "table_status": "extra_table"
+      },
+      "products": {
+        "gold": [],
+        "predicted": [
+          "productid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "productid"
+        ],
+        "table_status": "extra_table"
+      },
+      "transactions_1k": {
+        "gold": [
+          "amount",
+          "cardid",
+          "customerid",
+          "date",
+          "gasstationid",
+          "price",
+          "productid",
+          "time",
+          "transactionid"
+        ],
+        "predicted": [
+          "amount",
+          "cardid",
+          "customerid",
+          "date",
+          "gasstationid",
+          "price",
+          "productid",
+          "time",
+          "transactionid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "db_id": "debit_card_specializing",
+    "user_request": "Register the following discount stations in Slovakia:\n\n```json\n[\n  {\n    \"gas station id\": 6100,\n    \"chain id\": 75,\n    \"country\": \"SVK\",\n    \"chain segment\": \"Discount\"\n  },\n  {\n    \"gas station id\": 6101,\n    \"chain id\": 75,\n    \"country\": \"SVK\",\n    \"chain segment\": \"Discount\"\n  },\n  {\n    \"gas station id\": 6102,\n    \"chain id\": 75,\n    \"country\": \"SVK\",\n    \"chain segment\": \"Discount\"\n  },\n  {\n    \"gas station id\": 6103,\n    \"chain id\": 88,\n    \"country\": \"SVK\",\n    \"chain segment\": \"Noname\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "gasstations": {
+        "gold": [
+          "chainid",
+          "country",
+          "gasstationid",
+          "segment"
+        ],
+        "predicted": [
+          "chainid",
+          "country",
+          "gasstationid"
+        ],
+        "missing_cols": [
+          "segment"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 98,
+    "db_id": "debit_card_specializing",
+    "user_request": "Log the following morning commute fuel purchases:\n\n```json\n[\n  {\n    \"transaction id\": 1010,\n    \"date\": \"2012-10-01\",\n    \"time\": \"06:15:00\",\n    \"customer id\": 12000,\n    \"card id\": 600000,\n    \"gas station id\": 500,\n    \"product id\": 2,\n    \"amount\": 40,\n    \"price\": 960.0\n  },\n  {\n    \"transaction id\": 1011,\n    \"date\": \"2012-10-01\",\n    \"time\": \"06:30:00\",\n    \"customer id\": 13500,\n    \"card id\": 600001,\n    \"gas station id\": 500,\n    \"product id\": 2,\n    \"amount\": 35,\n    \"price\": 840.0\n  },\n  {\n    \"transaction id\": 1012,\n    \"date\": \"2012-10-01\",\n    \"time\": \"06:45:00\",\n    \"customer id\": 14200,\n    \"card id\": 600002,\n    \"gas station id\": 501,\n    \"product id\": 5,\n    \"amount\": 50,\n    \"price\": 1200.0\n  },\n  {\n    \"transaction id\": 1013,\n    \"date\": \"2012-10-01\",\n    \"time\": \"07:00:00\",\n    \"customer id\": 15800,\n    \"card id\": 600003,\n    \"gas station id\": 501,\n    \"product id\": 3,\n    \"amount\": 42,\n    \"price\": 1008.0\n  },\n  {\n    \"transaction id\": 1014,\n    \"date\": \"2012-10-01\",\n    \"time\": \"07:15:00\",\n    \"customer id\": 16900,\n    \"card id\": 600004,\n    \"gas station id\": 502,\n    \"product id\": 2,\n    \"amount\": 55,\n    \"price\": 1320.0\n  },\n  {\n    \"transaction id\": 1015,\n    \"date\": \"2012-10-01\",\n    \"time\": \"07:30:00\",\n    \"customer id\": 18200,\n    \"card id\": 600005,\n    \"gas station id\": 502,\n    \"product id\": 4,\n    \"amount\": 48,\n    \"price\": 1152.0\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "customers",
+      "gasstations",
+      "products"
+    ],
+    "diff": {
+      "customers": {
+        "gold": [],
+        "predicted": [
+          "customerid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "customerid"
+        ],
+        "table_status": "extra_table"
+      },
+      "gasstations": {
+        "gold": [],
+        "predicted": [
+          "gasstationid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gasstationid"
+        ],
+        "table_status": "extra_table"
+      },
+      "products": {
+        "gold": [],
+        "predicted": [
+          "productid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "productid"
+        ],
+        "table_status": "extra_table"
+      },
+      "transactions_1k": {
+        "gold": [
+          "amount",
+          "cardid",
+          "customerid",
+          "date",
+          "gasstationid",
+          "price",
+          "productid",
+          "time",
+          "transactionid"
+        ],
+        "predicted": [
+          "amount",
+          "cardid",
+          "customerid",
+          "date",
+          "gasstationid",
+          "price",
+          "productid",
+          "time",
+          "transactionid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 140,
+    "db_id": "card_games",
+    "user_request": "Add the following enchantment cards:\n\n```json\n[\n  {\n    \"enchantment name\": \"Rhystic Study\",\n    \"card type\": \"Enchantment\",\n    \"mana cost\": \"{2}{U}\",\n    \"card text\": \"Whenever an opponent casts a spell, you may draw a card.\",\n    \"rarity\": \"common\"\n  },\n  {\n    \"enchantment name\": \"Smothering Tithe\",\n    \"card type\": \"Enchantment\",\n    \"mana cost\": \"{3}{W}\",\n    \"card text\": \"Whenever an opponent draws a card, create a Treasure token.\",\n    \"rarity\": \"rare\"\n  },\n  {\n    \"enchantment name\": \"Doubling Season\",\n    \"card type\": \"Enchantment\",\n    \"mana cost\": \"{4}{G}\",\n    \"card text\": \"If an effect would create tokens, it creates twice that many.\",\n    \"rarity\": \"mythic\"\n  },\n  {\n    \"enchantment name\": \"Phyrexian Arena\",\n    \"card type\": \"Enchantment\",\n    \"mana cost\": \"{1}{B}{B}\",\n    \"card text\": \"At the beginning of your upkeep, draw a card and lose 1 life.\",\n    \"rarity\": \"rare\"\n  },\n  {\n    \"enchantment name\": \"Sulfuric Vortex\",\n    \"card type\": \"Enchantment\",\n    \"mana cost\": \"{1}{R}{R}\",\n    \"card text\": \"At the beginning of each player's upkeep, deal 2 damage.\",\n    \"rarity\": \"uncommon\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "cards": {
+        "gold": [
+          "hasalternativedecklimit",
+          "hascontentwarning",
+          "hasfoil",
+          "hasnonfoil",
+          "id",
+          "isalternative",
+          "isfullart",
+          "isonlineonly",
+          "isoversized",
+          "ispromo",
+          "isreprint",
+          "isreserved",
+          "isstarter",
+          "isstoryspotlight",
+          "istextless",
+          "istimeshifted",
+          "manacost",
+          "name",
+          "rarity",
+          "text",
+          "type",
+          "uuid"
+        ],
+        "predicted": [
+          "hasalternativedecklimit",
+          "hascontentwarning",
+          "hasfoil",
+          "hasnonfoil",
+          "id",
+          "isalternative",
+          "isfullart",
+          "isonlineonly",
+          "isoversized",
+          "ispromo",
+          "isreprint",
+          "isreserved",
+          "isstarter",
+          "isstoryspotlight",
+          "istextless",
+          "istimeshifted",
+          "manacost",
+          "name",
+          "rarity",
+          "text",
+          "type",
+          "types",
+          "uuid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "types"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 162,
+    "db_id": "superhero",
+    "user_request": "Add the following villains to the database:\n\n```json\n[\n  {\n    \"villain id\": 767,\n    \"villain name\": \"Dark Reaper\",\n    \"real identity\": \"Victor Kane\",\n    \"alignment\": 2,\n    \"publisher\": 13\n  },\n  {\n    \"villain id\": 768,\n    \"villain name\": \"Venom Strike\",\n    \"real identity\": \"Elena Volkov\",\n    \"alignment\": 2,\n    \"publisher\": 13\n  },\n  {\n    \"villain id\": 769,\n    \"villain name\": \"Chaos Lord\",\n    \"real identity\": \"Marcus Doom\",\n    \"alignment\": 2,\n    \"publisher\": 4\n  },\n  {\n    \"villain id\": 770,\n    \"villain name\": \"Shadow Master\",\n    \"real identity\": \"Richard Black\",\n    \"alignment\": 2,\n    \"publisher\": 4\n  },\n  {\n    \"villain id\": 771,\n    \"villain name\": \"Frost Queen\",\n    \"real identity\": \"Isabella Frost\",\n    \"alignment\": 2,\n    \"publisher\": 13\n  },\n  {\n    \"villain id\": 772,\n    \"villain name\": \"Crimson Skull\",\n    \"real identity\": \"Johann Schmidt\",\n    \"alignment\": 2,\n    \"publisher\": 13\n  },\n  {\n    \"villain id\": 773,\n    \"villain name\": \"Viper King\",\n    \"real identity\": \"Damien Cross\",\n    \"alignment\": 2,\n    \"publisher\": 4\n  },\n  {\n    \"villain id\": 774,\n    \"villain name\": \"Night Terror\",\n    \"real identity\": \"Adrian Crane\",\n    \"alignment\": 2,\n    \"publisher\": 4\n  },\n  {\n    \"villain id\": 775,\n    \"villain name\": \"Toxic Venom\",\n    \"real identity\": \"Dr. Otto Brock\",\n    \"alignment\": 2,\n    \"publisher\": 13\n  },\n  {\n    \"villain id\": 776,\n    \"villain name\": \"Iron Tyrant\",\n    \"real identity\": \"Obadiah Stone\",\n    \"alignment\": 2,\n    \"publisher\": 13\n  },\n  {\n    \"villain id\": 777,\n    \"villain name\": \"Phantom Blade\",\n    \"real identity\": \"Talia Ghul\",\n    \"alignment\": 2,\n    \"publisher\": 4\n  },\n  {\n    \"villain id\": 778,\n    \"villain name\": \"Storm Fury\",\n    \"real identity\": \"Maxwell Dillon\",\n    \"alignment\": 2,\n    \"publisher\": 13\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment",
+      "publisher"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "alignment",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "alignment",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "publisher": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "publisher_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "publisher_name"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "full_name",
+          "id",
+          "publisher_id",
+          "superhero_name"
+        ],
+        "predicted": [
+          "alignment_id",
+          "full_name",
+          "id",
+          "publisher_id",
+          "superhero_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 166,
+    "db_id": "superhero",
+    "user_request": "Register the following alien superheroes:\n\n```json\n[\n  {\n    \"hero id\": 779,\n    \"hero name\": \"Zor-El\",\n    \"race\": 2,\n    \"eye color\": 7,\n    \"hair color\": 4,\n    \"height\": 195,\n    \"weight\": 105,\n    \"alignment\": 1\n  },\n  {\n    \"hero id\": 780,\n    \"hero name\": \"Thanos Prime\",\n    \"race\": 2,\n    \"eye color\": 14,\n    \"hair color\": 1,\n    \"height\": 210,\n    \"weight\": 150,\n    \"alignment\": 2\n  },\n  {\n    \"hero id\": 781,\n    \"hero name\": \"Star Warrior\",\n    \"race\": 2,\n    \"eye color\": 9,\n    \"hair color\": 3,\n    \"height\": 188,\n    \"weight\": 95,\n    \"alignment\": 1\n  },\n  {\n    \"hero id\": 782,\n    \"hero name\": \"Nebula Knight\",\n    \"race\": 2,\n    \"eye color\": 7,\n    \"hair color\": 17,\n    \"height\": 175,\n    \"weight\": 70,\n    \"alignment\": 3\n  },\n  {\n    \"hero id\": 783,\n    \"hero name\": \"Cosmic Guardian\",\n    \"race\": 2,\n    \"eye color\": 14,\n    \"hair color\": 1,\n    \"height\": 200,\n    \"weight\": 120,\n    \"alignment\": 1\n  },\n  {\n    \"hero id\": 784,\n    \"hero name\": \"Void Walker\",\n    \"race\": 2,\n    \"eye color\": 9,\n    \"hair color\": 4,\n    \"height\": 192,\n    \"weight\": 98,\n    \"alignment\": 3\n  },\n  {\n    \"hero id\": 785,\n    \"hero name\": \"Galaxy Sentinel\",\n    \"race\": 2,\n    \"eye color\": 7,\n    \"hair color\": 13,\n    \"height\": 198,\n    \"weight\": 110,\n    \"alignment\": 1\n  },\n  {\n    \"hero id\": 786,\n    \"hero name\": \"Stellar Phantom\",\n    \"race\": 2,\n    \"eye color\": 14,\n    \"hair color\": 1,\n    \"height\": 180,\n    \"weight\": 85,\n    \"alignment\": 3\n  },\n  {\n    \"hero id\": 787,\n    \"hero name\": \"Andromeda\",\n    \"race\": 2,\n    \"eye color\": 9,\n    \"hair color\": 3,\n    \"height\": 170,\n    \"weight\": 65,\n    \"alignment\": 1\n  },\n  {\n    \"hero id\": 788,\n    \"hero name\": \"Orion Hunter\",\n    \"race\": 2,\n    \"eye color\": 7,\n    \"hair color\": 4,\n    \"height\": 190,\n    \"weight\": 100,\n    \"alignment\": 1\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment",
+      "colour",
+      "race"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "colour": {
+        "gold": [],
+        "predicted": [
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "race": {
+        "gold": [],
+        "predicted": [
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "eye_colour_id",
+          "hair_colour_id",
+          "height_cm",
+          "id",
+          "race_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "predicted": [
+          "alignment_id",
+          "eye_colour_id",
+          "hair_colour_id",
+          "height_cm",
+          "id",
+          "race_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 167,
+    "db_id": "superhero",
+    "user_request": "Add the following mutant characters:\n\n```json\n[\n  {\n    \"mutant id\": 789,\n    \"code name\": \"Frost Blade\",\n    \"full identity\": \"Bobby Drake Jr\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 790,\n    \"code name\": \"Psyche\",\n    \"full identity\": \"Jean Grey II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 791,\n    \"code name\": \"Velocity\",\n    \"full identity\": \"Pietro Maximoff Jr\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 792,\n    \"code name\": \"Hex\",\n    \"full identity\": \"Wanda Maximoff II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 3\n  },\n  {\n    \"mutant id\": 793,\n    \"code name\": \"Cyclone\",\n    \"full identity\": \"Ororo Munroe II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 794,\n    \"code name\": \"Nightcrawler X\",\n    \"full identity\": \"Kurt Wagner II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 795,\n    \"code name\": \"Rogue Shadow\",\n    \"full identity\": \"Anna Marie\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 3\n  },\n  {\n    \"mutant id\": 796,\n    \"code name\": \"Gambit King\",\n    \"full identity\": \"Remy LeBeau II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 3\n  },\n  {\n    \"mutant id\": 797,\n    \"code name\": \"Colossus Prime\",\n    \"full identity\": \"Piotr Rasputin II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 798,\n    \"code name\": \"Shadowcat\",\n    \"full identity\": \"Kitty Pryde II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 799,\n    \"code name\": \"Beast Mode\",\n    \"full identity\": \"Hank McCoy II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 1\n  },\n  {\n    \"mutant id\": 800,\n    \"code name\": \"Magneto X\",\n    \"full identity\": \"Erik Lehnsherr II\",\n    \"race\": 23,\n    \"publisher\": 13,\n    \"alignment\": 2\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment",
+      "publisher",
+      "race"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "alignment",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "alignment",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "publisher": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "publisher_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "publisher_name"
+        ],
+        "table_status": "extra_table"
+      },
+      "race": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "race"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "race"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "full_name",
+          "id",
+          "publisher_id",
+          "race_id",
+          "superhero_name"
+        ],
+        "predicted": [
+          "alignment_id",
+          "full_name",
+          "id",
+          "publisher_id",
+          "race_id",
+          "superhero_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 181,
+    "db_id": "student_club",
+    "user_request": "Register the following new club members:\n\n```json\n[\n  {\n    \"member id\": \"rec9kBnB55jCv5JcY2P\",\n    \"first name\": \"Maya\",\n    \"last name\": \"Chen\",\n    \"email\": \"maya.chen@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"555-123-4567\",\n    \"zip code\": 94102,\n    \"major link\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recJKRVFhRkhTznV1Ag\",\n    \"first name\": \"Tyler\",\n    \"last name\": \"Martinez\",\n    \"email\": \"tyler.martinez@lpu.edu\",\n    \"position\": \"Vice President\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"(408) 555-7890\",\n    \"zip code\": 95112,\n    \"major link\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"recXbdkAIISA68Zfcwu\",\n    \"first name\": \"Emma\",\n    \"last name\": \"Johnson\",\n    \"email\": \"emma.johnson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"650-555-2341\",\n    \"zip code\": 94301,\n    \"major link\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"recQrpx38R7j1v9hacE\",\n    \"first name\": \"Jackson\",\n    \"last name\": \"Williams\",\n    \"email\": \"jackson.williams@lpu.edu\",\n    \"position\": \"Treasurer\",\n    \"t-shirt size\": \"X-Large\",\n    \"phone\": \"(510) 555-8765\",\n    \"zip code\": 94607,\n    \"major link\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"recZhV8Rg0fJrfRjS3F\",\n    \"first name\": \"Sophia\",\n    \"last name\": \"Brown\",\n    \"email\": \"sophia.brown@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"415-555-3456\",\n    \"zip code\": 94110,\n    \"major link\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"rec3pTKGTUPVYXDpa07\",\n    \"first name\": \"Ethan\",\n    \"last name\": \"Davis\",\n    \"email\": \"ethan.davis@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"(925) 555-6789\",\n    \"zip code\": 94583,\n    \"major link\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"rec8QELN55OalqHThuc\",\n    \"first name\": \"Olivia\",\n    \"last name\": \"Garcia\",\n    \"email\": \"olivia.garcia@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"408-555-9012\",\n    \"zip code\": 95123,\n    \"major link\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"recLSyEaDHYLC2tZxlO\",\n    \"first name\": \"Liam\",\n    \"last name\": \"Rodriguez\",\n    \"email\": \"liam.rodriguez@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(650) 555-3456\",\n    \"zip code\": 94025,\n    \"major link\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"recGCuGUCIaNzDDbdAf\",\n    \"first name\": \"Ava\",\n    \"last name\": \"Wilson\",\n    \"email\": \"ava.wilson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"510-555-7890\",\n    \"zip code\": 94501,\n    \"major link\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"recgHuFhAfq0habH7gK\",\n    \"first name\": \"Noah\",\n    \"last name\": \"Anderson\",\n    \"email\": \"noah.anderson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"X-Large\",\n    \"phone\": \"(415) 555-2345\",\n    \"zip code\": 94103,\n    \"major link\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"rec7pVbJ2yCpUcZ90sN\",\n    \"first name\": \"Isabella\",\n    \"last name\": \"Thomas\",\n    \"email\": \"isabella.thomas@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"925-555-6789\",\n    \"zip code\": 94506,\n    \"major link\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recdRuXfi0PtXFIqBOy\",\n    \"first name\": \"Mason\",\n    \"last name\": \"Taylor\",\n    \"email\": \"mason.taylor@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(408) 555-0123\",\n    \"zip code\": 95131,\n    \"major link\": \"recxK3MHQFbR9J5uO\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 184,
+    "db_id": "student_club",
+    "user_request": "Add the following budget allocations for upcoming events:\n\n| budget id | category | budgeted amount | spent | remaining | event status | event link |\n| --- | --- | --- | --- | --- | --- | --- |\n| recRjs7zwwB0sib0g6l | Food | 250 | 235.5 | 14.5 | Closed | recI43CzsZ0Q625ma |\n| reckv5devHbKmEHGp2m | Advertisement | 100 | 87.25 | 12.75 | Closed | recI43CzsZ0Q625ma |\n| recmpsXNI7dmtHu9y2g | Food | 300 | 0.0 | 300.0 | Planning | recggMW2eyCYceNcy |\n| recC1G92CnUcIu2gTma | Parking | 50 | 0.0 | 50.0 | Planning | recggMW2eyCYceNcy |\n| reccRrQes0x6mdDmHsg | Speaker Gifts | 75 | 68.4 | 6.6 | Open | recJ4Witp9tpjaugn |\n| reclpXDCTe1hr8ykLrQ | Food | 150 | 142.8 | 7.2 | Open | recJ4Witp9tpjaugn |\n| recBFz3uTCs1oY7kAUQ | Club T-Shirts | 500 | 487.5 | 12.5 | Closed | recHaMmaKyfktt5fW |\n| recVCgF912SyoTETcQk | Food | 200 | 215.3 | -15.3 | Closed | recs4x1BYWAsU2SKg |\n| recEpVPN5sigtDRLY1R | Advertisement | 80 | 92.15 | -12.15 | Closed | recs4x1BYWAsU2SKg |\n| recL3XVGmn70Y3I3jj1 | Parking | 40 | 35.0 | 5.0 | Open | rec0Si5cQ4rJRVzd6 |\n| recK7OMw18plU8REAZz | Food | 180 | 0.0 | 180.0 | Planning | rec0akZnLLpGUloLH |\n| recDy7qpcKyyUPyjroy | Advertisement | 60 | 0.0 | 60.0 | Planning | rec0akZnLLpGUloLH |\n| recCwQQHb0dKP1kpbDn | Speaker Gifts | 100 | 95.75 | 4.25 | Closed | rec180D2MI4EpckHy |\n| recEWcOEnWtksn1BQyF | Food | 120 | 118.6 | 1.4 | Closed | rec180D2MI4EpckHy |",
+    "tables_missing": [],
+    "tables_extra": [
+      "event"
+    ],
+    "diff": {
+      "budget": {
+        "gold": [
+          "amount",
+          "budget_id",
+          "category",
+          "event_status",
+          "link_to_event",
+          "remaining",
+          "spent"
+        ],
+        "predicted": [
+          "amount",
+          "budget_id",
+          "category",
+          "event_status",
+          "link_to_event",
+          "remaining",
+          "spent"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "event": {
+        "gold": [],
+        "predicted": [
+          "event_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "event_id"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 192,
+    "db_id": "superhero",
+    "user_request": "Register the following superheroes with their physical characteristics:\n\n```csv\nhero id,superhero name,full name,height cm,weight kg,race\n770,Steel Guardian,Alex Morgan,185,95,1\n771,Velocity,Maya Santos,168,58,2\n772,Cosmic Ray,-,195,110,7\n773,Blade Master,Kenji Yamamoto,178,82,1\n774,Electra Prime,Unit-E74,180,150,8\n775,Storm Breaker,Thor Jensen,198,118,1\n776,Shadow Cat,Selina Cross,165,54,2\n777,Titan Force,Marcus Stone,210,145,1\n778,Nebula,-,172,65,7\n779,Iron Wolf,Logan Pierce,183,98,2\n780,Cyber Knight,Unit-CK9,188,165,8\n781,Blaze Runner,Carlos Diaz,175,78,1\n782,Psyche,Emma Frost,170,60,2\n783,Star Lord,Peter Quill,188,92,1\n784,Quantum Leap,-,0,0,7\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "race"
+    ],
+    "diff": {
+      "race": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "race"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "race"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "full_name",
+          "height_cm",
+          "id",
+          "race_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "predicted": [
+          "full_name",
+          "height_cm",
+          "id",
+          "race_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 204,
+    "db_id": "california_schools",
+    "user_request": "Register the following charter schools:\n\n| school code | status | county | district | county office | district type | last update | school name | charter number | funding type |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 99100220000001 | Active | Fictional | Charter Network A | Fictional County Office of Education | Unified School District | 2024-02-01 | Innovation Charter Academy | 1001 | Directly funded |\n| 99100220000002 | Active | Fictional | Charter Network A | Fictional County Office of Education | Unified School District | 2024-02-01 | Discovery Charter School | 1002 | Directly funded |\n| 99200230000001 | Active | Fictional | Charter Network B | Fictional County Office of Education | Unified School District | 2024-02-02 | Excellence Charter High | 1003 | Locally funded |\n| 99200230000002 | Active | Fictional | Charter Network B | Fictional County Office of Education | Unified School District | 2024-02-02 | Achievement Charter Middle | 1004 | Locally funded |\n| 99300240000001 | Active | Fictional | Charter Network C | Fictional County Office of Education | Unified School District | 2024-02-03 | Horizon Charter Academy | 1005 | Directly funded |\n| 99300240000002 | Active | Fictional | Charter Network C | Fictional County Office of Education | Unified School District | 2024-02-03 | Summit Charter School | 1006 | Directly funded |\n| 99400250000001 | Active | Fictional | Charter Network D | Fictional County Office of Education | Unified School District | 2024-02-04 | Aspire Charter Elementary | 1007 | Locally funded |\n| 99400250000002 | Active | Fictional | Charter Network D | Fictional County Office of Education | Unified School District | 2024-02-04 | Inspire Charter Academy | 1008 | Locally funded |\n| 99500260000001 | Active | Fictional | Charter Network E | Fictional County Office of Education | Unified School District | 2024-02-05 | Pathway Charter High | 1009 | Directly funded |\n| 99500260000002 | Active | Fictional | Charter Network E | Fictional County Office of Education | Unified School District | 2024-02-05 | Gateway Charter School | 1010 | Directly funded |",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "schools": {
+        "gold": [
+          "cdscode",
+          "charternum",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "fundingtype",
+          "lastupdate",
+          "school",
+          "statustype"
+        ],
+        "predicted": [
+          "cdscode",
+          "charter",
+          "charternum",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "fundingtype",
+          "lastupdate",
+          "school",
+          "statustype"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "charter"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 221,
+    "db_id": "student_club",
+    "user_request": "Register the following new club members:\n\n```json\n[\n  {\n    \"member id\": \"recAB6aPJpYVExtQi3u\",\n    \"first name\": \"Maya\",\n    \"last name\": \"Chen\",\n    \"email\": \"maya.chen@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(408) 555-1234\",\n    \"zip code\": 55108,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"recwCjk1aQRjFt8qp0U\",\n    \"first name\": \"Tyler\",\n    \"last name\": \"Martinez\",\n    \"email\": \"tyler.martinez@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"415-555-2345\",\n    \"zip code\": 1020,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recM2vZVw7FBFEY6G2n\",\n    \"first name\": \"Emma\",\n    \"last name\": \"Johnson\",\n    \"email\": \"emma.johnson@lpu.edu\",\n    \"position\": \"Vice President\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(510) 555-3456\",\n    \"zip code\": 98290,\n    \"major\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"recqRNUD8EQZ1EGSbIY\",\n    \"first name\": \"Jackson\",\n    \"last name\": \"Williams\",\n    \"email\": \"jackson.williams@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"X-Large\",\n    \"phone\": \"650-555-4567\",\n    \"zip code\": 55108,\n    \"major\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"recOQjF2IstJ3Wo4E3S\",\n    \"first name\": \"Sophia\",\n    \"last name\": \"Brown\",\n    \"email\": \"sophia.brown@lpu.edu\",\n    \"position\": \"Treasurer\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"(925) 555-5678\",\n    \"zip code\": 1020,\n    \"major\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"recsJR5CZ4h01pmga0k\",\n    \"first name\": \"Ethan\",\n    \"last name\": \"Davis\",\n    \"email\": \"ethan.davis@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"831-555-6789\",\n    \"zip code\": 98290,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"recNNQYAdth5BO5GLRh\",\n    \"first name\": \"Olivia\",\n    \"last name\": \"Garcia\",\n    \"email\": \"olivia.garcia@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(707) 555-7890\",\n    \"zip code\": 55108,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  },\n  {\n    \"member id\": \"recgIztLmyhOk6jtTpT\",\n    \"first name\": \"Liam\",\n    \"last name\": \"Rodriguez\",\n    \"email\": \"liam.rodriguez@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"916-555-8901\",\n    \"zip code\": 1020,\n    \"major\": \"recdIBgeU38UbV2sy\"\n  },\n  {\n    \"member id\": \"recjsAjWzIWG0BqJdHN\",\n    \"first name\": \"Ava\",\n    \"last name\": \"Wilson\",\n    \"email\": \"ava.wilson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Large\",\n    \"phone\": \"(805) 555-9012\",\n    \"zip code\": 98290,\n    \"major\": \"recaJdSK83k6ekRJL\"\n  },\n  {\n    \"member id\": \"rechDv6UNQ3sHcBposm\",\n    \"first name\": \"Noah\",\n    \"last name\": \"Anderson\",\n    \"email\": \"noah.anderson@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"X-Large\",\n    \"phone\": \"760-555-0123\",\n    \"zip code\": 55108,\n    \"major\": \"recCk8lCDOTRp6rKN\"\n  },\n  {\n    \"member id\": \"recyrJXuVAYnTQhXEe8\",\n    \"first name\": \"Isabella\",\n    \"last name\": \"Taylor\",\n    \"email\": \"isabella.taylor@lpu.edu\",\n    \"position\": \"Inactive\",\n    \"t-shirt size\": \"Small\",\n    \"phone\": \"(858) 555-1235\",\n    \"zip code\": 1020,\n    \"major\": \"recxK3MHQFbR9J5uO\"\n  },\n  {\n    \"member id\": \"recupIMFiqLHDNZ6p4D\",\n    \"first name\": \"Lucas\",\n    \"last name\": \"Thomas\",\n    \"email\": \"lucas.thomas@lpu.edu\",\n    \"position\": \"Member\",\n    \"t-shirt size\": \"Medium\",\n    \"phone\": \"619-555-2346\",\n    \"zip code\": 98290,\n    \"major\": \"rec7BxKpjJ7bNph3O\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 230,
+    "db_id": "student_club",
+    "user_request": "Register the following additional club members:\n\n```csv\nmember id,first name,last name,email,position,t-shirt size,phone,zip code,major\nrecypReax3DiRkLz3k6,Aiden,Murphy,aiden.murphy@lpu.edu,Member,Large,(714) 555-3456,94102,recxK3MHQFbR9J5uO\nrecIlmhlONK1ATYMJCw,Mia,Lee,mia.lee@lpu.edu,Member,Small,626-555-4567,90210,rec7BxKpjJ7bNph3O\nrec3W98Bmk4rS36QqVp,Elijah,Harris,elijah.harris@lpu.edu,Member,Medium,(562) 555-5678,10001,recdIBgeU38UbV2sy\nrecAcMoybFPiWxF3Nlr,Charlotte,Clark,charlotte.clark@lpu.edu,Member,Medium,909-555-6789,60601,recaJdSK83k6ekRJL\nrecHYFdE7cArbwmCgNJ,James,Lewis,james.lewis@lpu.edu,Member,X-Large,(951) 555-7890,75201,recCk8lCDOTRp6rKN\nreccj9CzmtBn0d7di8o,Amelia,Walker,amelia.walker@lpu.edu,Member,Small,818-555-8901,33101,recxK3MHQFbR9J5uO\nrecImXxAqipKl6Nc85t,Benjamin,Hall,benjamin.hall@lpu.edu,Member,Large,(949) 555-9012,98101,rec7BxKpjJ7bNph3O\nrecdOI4nG710a7O7ZF8,Harper,Allen,harper.allen@lpu.edu,Member,Medium,323-555-0123,80201,recdIBgeU38UbV2sy\nrecblAMYIdt2QlWEjJH,Logan,Young,logan.young@lpu.edu,Member,Large,(213) 555-1236,85001,recaJdSK83k6ekRJL\nrecOaV3YFVPqMgEEea0,Evelyn,King,evelyn.king@lpu.edu,Member,Small,310-555-2347,97201,recCk8lCDOTRp6rKN\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 232,
+    "db_id": "superhero",
+    "user_request": "Add the following superheroes with their physical characteristics:\n\n```csv\nsuperhero name,full name,height cm,weight kg,eye colour id,hair colour id\nTitan Force,Alex Turner,198,110,9,4\nSilver Fox,Jessica White,170,62,7,21\nBlaze Runner,Carlos Ramirez,183,85,4,4\nIce Queen,Natasha Frost,175,58,9,3\nStone Crusher,Marcus Stone,210,145,8,1\nEmerald Archer,Oliver Green,180,78,7,5\nScarlet Witch II,Wanda Maximoff Jr,168,55,7,5\nNight Hawk,Derek Knight,188,92,9,4\nGolden Eagle,Sophia Gold,172,60,9,3\nCrimson Fury,Rachel Red,165,56,7,5\nIron Wolf,Logan Steel,193,105,9,4\nAzure Dragon,Li Wei,178,75,4,4\nViolet Storm,Iris Purple,170,58,15,16\nBronze Titan,Thomas Bronze,205,130,8,5\nJade Serpent,Mei Lin,163,52,7,4\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "colour",
+      "gender"
+    ],
+    "diff": {
+      "colour": {
+        "gold": [],
+        "predicted": [
+          "colour",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "colour",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "gender": {
+        "gold": [],
+        "predicted": [
+          "gender",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gender",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "eye_colour_id",
+          "full_name",
+          "hair_colour_id",
+          "height_cm",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "predicted": [
+          "eye_colour_id",
+          "full_name",
+          "hair_colour_id",
+          "height_cm",
+          "id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 233,
+    "db_id": "superhero",
+    "user_request": "Add the following superheroes with complete profiles:\n\n| superhero name | full name | gender id | race id | publisher id | alignment id | height cm | weight kg |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Cosmic Guardian | Zara Starborn | 2 | 2 | 13 | 1 | 185 | 70 |\n| Cyber Ninja | Kenji Tanaka | 1 | 5 | 4 | 1 | 175 | 80 |\n| Demon Hunter | Gabriel Cross | 1 | 1 | 3 | 1 | 190 | 95 |\n| Atlantean Warrior | Thalassa | 2 | 4 | 4 | 1 | 178 | 68 |\n| Mutant Fury | Rex Savage | 1 | 23 | 13 | 3 | 195 | 115 |\n| Android Prime | - | 3 | 5 | 4 | 1 | 200 | 150 |\n| Vampire Lord | Dracula II | 1 | 58 | 13 | 2 | 188 | 85 |\n| Goddess of War | Athena Reborn | 2 | 15 | 4 | 1 | 182 | 72 |\n| Symbiote Slayer | Eddie Brock Jr | 1 | 52 | 13 | 3 | 193 | 108 |\n| Eternal Sentinel | Ikaris II | 1 | 15 | 13 | 1 | 196 | 102 |",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment",
+      "gender",
+      "publisher",
+      "race"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "alignment",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "alignment",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "gender": {
+        "gold": [],
+        "predicted": [
+          "gender",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gender",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "publisher": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "publisher_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "publisher_name"
+        ],
+        "table_status": "extra_table"
+      },
+      "race": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "race"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "race"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "full_name",
+          "gender_id",
+          "height_cm",
+          "publisher_id",
+          "race_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "predicted": [
+          "alignment_id",
+          "full_name",
+          "gender_id",
+          "height_cm",
+          "publisher_id",
+          "race_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 234,
+    "db_id": "superhero",
+    "user_request": "Register the following new superpowers:\n\n```json\n[\n  {\n    \"power name\": \"Gravity Manipulation\"\n  },\n  {\n    \"power name\": \"Sound Wave Generation\"\n  },\n  {\n    \"power name\": \"Probability Alteration\"\n  },\n  {\n    \"power name\": \"Memory Manipulation\"\n  },\n  {\n    \"power name\": \"Emotion Control\"\n  },\n  {\n    \"power name\": \"Dream Walking\"\n  },\n  {\n    \"power name\": \"Soul Absorption\"\n  },\n  {\n    \"power name\": \"Quantum Phasing\"\n  },\n  {\n    \"power name\": \"Bio-Electric Generation\"\n  },\n  {\n    \"power name\": \"Crystallization\"\n  },\n  {\n    \"power name\": \"Density Control\"\n  },\n  {\n    \"power name\": \"Astral Projection\"\n  },\n  {\n    \"power name\": \"Technopathy\"\n  },\n  {\n    \"power name\": \"Pheromone Control\"\n  },\n  {\n    \"power name\": \"Seismic Sense\"\n  },\n  {\n    \"power name\": \"Blood Manipulation\"\n  },\n  {\n    \"power name\": \"Shadow Possession\"\n  },\n  {\n    \"power name\": \"Light Absorption\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "superpower": {
+        "gold": [
+          "power_name"
+        ],
+        "predicted": [
+          "id",
+          "power_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 237,
+    "db_id": "superhero",
+    "user_request": "Add the following comic book publishers:\n\n```json\n[\n  {\n    \"publisher name\": \"Valiant Comics\"\n  },\n  {\n    \"publisher name\": \"Boom! Studios\"\n  },\n  {\n    \"publisher name\": \"Dynamite Entertainment\"\n  },\n  {\n    \"publisher name\": \"Titan Comics\"\n  },\n  {\n    \"publisher name\": \"Aftershock Comics\"\n  },\n  {\n    \"publisher name\": \"Vault Comics\"\n  },\n  {\n    \"publisher name\": \"Black Mask Studios\"\n  },\n  {\n    \"publisher name\": \"Scout Comics\"\n  },\n  {\n    \"publisher name\": \"AWA Studios\"\n  },\n  {\n    \"publisher name\": \"TKO Studios\"\n  },\n  {\n    \"publisher name\": \"Humanoids\"\n  },\n  {\n    \"publisher name\": \"Zenescope Entertainment\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "publisher": {
+        "gold": [
+          "publisher_name"
+        ],
+        "predicted": [
+          "id",
+          "publisher_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 238,
+    "db_id": "superhero",
+    "user_request": "Register the following new superhero races:\n\n```csv\nrace\nCelestial\nElemental\nTechno-Organic\nDimensional Being\nEnergy Entity\nCosmic Entity\nTime Lord\nShapeshifter\nPsychic\nNano-Enhanced\nBio-Engineered\nQuantum Being\nDark Matter Entity\nPhotonic Being\nChrono-Mutant\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "race": {
+        "gold": [
+          "race"
+        ],
+        "predicted": [
+          "id",
+          "race"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 239,
+    "db_id": "superhero",
+    "user_request": "Add the following colors for character appearance:\n\n```json\n[\n  {\n    \"colour\": \"Crimson\"\n  },\n  {\n    \"colour\": \"Turquoise\"\n  },\n  {\n    \"colour\": \"Magenta\"\n  },\n  {\n    \"colour\": \"Emerald\"\n  },\n  {\n    \"colour\": \"Sapphire\"\n  },\n  {\n    \"colour\": \"Ruby\"\n  },\n  {\n    \"colour\": \"Onyx\"\n  },\n  {\n    \"colour\": \"Pearl\"\n  },\n  {\n    \"colour\": \"Copper\"\n  },\n  {\n    \"colour\": \"Bronze\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "colour": {
+        "gold": [
+          "colour"
+        ],
+        "predicted": [
+          "colour",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 240,
+    "db_id": "superhero",
+    "user_request": "Please register these villains with their complete profiles. All of them are antagonists with various powers and origins from different publishers.",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment",
+      "attribute",
+      "colour",
+      "gender",
+      "hero_attribute",
+      "hero_power",
+      "publisher",
+      "race",
+      "superpower"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "alignment",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "alignment",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "attribute": {
+        "gold": [],
+        "predicted": [
+          "attribute_name",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "attribute_name",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "colour": {
+        "gold": [],
+        "predicted": [
+          "colour",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "colour",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "gender": {
+        "gold": [],
+        "predicted": [
+          "gender",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gender",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "hero_attribute": {
+        "gold": [],
+        "predicted": [
+          "attribute_id",
+          "attribute_value",
+          "hero_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "attribute_id",
+          "attribute_value",
+          "hero_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "hero_power": {
+        "gold": [],
+        "predicted": [
+          "hero_id",
+          "power_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "hero_id",
+          "power_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "publisher": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "publisher_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "publisher_name"
+        ],
+        "table_status": "extra_table"
+      },
+      "race": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "race"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "race"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "full_name",
+          "gender_id",
+          "height_cm",
+          "publisher_id",
+          "race_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "predicted": [
+          "alignment_id",
+          "eye_colour_id",
+          "full_name",
+          "gender_id",
+          "hair_colour_id",
+          "height_cm",
+          "id",
+          "publisher_id",
+          "race_id",
+          "skin_colour_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "eye_colour_id",
+          "hair_colour_id",
+          "id",
+          "skin_colour_id"
+        ],
+        "table_status": "ok"
+      },
+      "superpower": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "power_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "power_name"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 262,
+    "db_id": "student_club",
+    "user_request": "Register the following new members:\n\n```csv\nmember id,first name,last name,email,position,t-shirt size,phone,zip code,major\nrecDbhnKWkk2P3QxZZy,Daniel,Kim,daniel.kim@lpu.edu,Member,Large,(510) 555-2001,55108,recxK3MHQFbR9J5uO\nrecbcTZwmX6PNvu8MJf,Grace,Nguyen,grace.nguyen@lpu.edu,Member,Small,408-555-2002,1020,rec7BxKpjJ7bNph3O\nrecfEJVnCZprmFGFQwD,Ryan,Patel,ryan.patel@lpu.edu,Member,Medium,(650) 555-2003,98290,recdIBgeU38UbV2sy\nrecs0JEKenoM2VR8Axb,Chloe,Smith,chloe.smith@lpu.edu,Member,Medium,925-555-2004,94102,recaJdSK83k6ekRJL\nrecvbDBeQ0vVIoL4z8L,Kevin,Lopez,kevin.lopez@lpu.edu,Member,X-Large,(831) 555-2005,90210,recCk8lCDOTRp6rKN\nrecvnzw9MKTUnCluhpC,Rachel,White,rachel.white@lpu.edu,Member,Small,707-555-2006,55108,recxK3MHQFbR9J5uO\nrecRvd81zEUyh9v4yja,Brandon,Scott,brandon.scott@lpu.edu,Member,Large,(916) 555-2007,1020,rec7BxKpjJ7bNph3O\nrecNjNjD9F3UHNgsfM7,Ashley,Green,ashley.green@lpu.edu,Member,Medium,805-555-2008,98290,recdIBgeU38UbV2sy\nrec7YOtptdV8DglM98s,Justin,Adams,justin.adams@lpu.edu,Member,Large,(760) 555-2009,94102,recaJdSK83k6ekRJL\nrecWyNAnnVdPD4C8Z5K,Nicole,Baker,nicole.baker@lpu.edu,Member,Small,858-555-2010,90210,recCk8lCDOTRp6rKN\nrecLK9suWSEOmG1T09J,Andrew,Nelson,andrew.nelson@lpu.edu,Member,Medium,(619) 555-2011,55108,recxK3MHQFbR9J5uO\nrec7EhmpuJOUSWXiMCg,Samantha,Carter,samantha.carter@lpu.edu,Member,Small,714-555-2012,1020,rec7BxKpjJ7bNph3O\nreclYRAnDGvuP39CzPc,Matthew,Mitchell,matthew.mitchell@lpu.edu,Member,X-Large,(626) 555-2013,98290,recdIBgeU38UbV2sy\nrecj3hfilZWTiZDxqZt,Lauren,Perez,lauren.perez@lpu.edu,Member,Medium,562-555-2014,94102,recaJdSK83k6ekRJL\nrecWtNgskEDOEPpVSzy,Joshua,Roberts,joshua.roberts@lpu.edu,Member,Large,(909) 555-2015,90210,recCk8lCDOTRp6rKN\nrecUP07kfTjtJPZWUT3,Amanda,Turner,amanda.turner@lpu.edu,Member,Small,951-555-2016,55108,recxK3MHQFbR9J5uO\nrecg3jxYStBEyy7ELXa,Christopher,Phillips,christopher.phillips@lpu.edu,Member,Large,(818) 555-2017,1020,rec7BxKpjJ7bNph3O\nrecGJr7ZJ8yW5qKNNnV,Stephanie,Campbell,stephanie.campbell@lpu.edu,Member,Medium,949-555-2018,98290,recdIBgeU38UbV2sy\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "major",
+      "zip_code"
+    ],
+    "diff": {
+      "major": {
+        "gold": [],
+        "predicted": [
+          "major_id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "major_id"
+        ],
+        "table_status": "extra_table"
+      },
+      "member": {
+        "gold": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "predicted": [
+          "email",
+          "first_name",
+          "last_name",
+          "link_to_major",
+          "member_id",
+          "phone",
+          "position",
+          "t_shirt_size",
+          "zip"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      },
+      "zip_code": {
+        "gold": [],
+        "predicted": [
+          "zip_code"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "zip_code"
+        ],
+        "table_status": "extra_table"
+      }
+    }
+  },
+  {
+    "id": 271,
+    "db_id": "superhero",
+    "user_request": "Add the following superheroes to the database:\n\n```json\n[\n  {\n    \"hero name\": \"Crimson Bolt\",\n    \"real name\": \"Frank Darbo\",\n    \"gender\": 1,\n    \"publisher\": 1,\n    \"alignment\": 1,\n    \"id\": 757\n  },\n  {\n    \"hero name\": \"Night Hawk\",\n    \"real name\": \"Marcus Knight\",\n    \"gender\": 1,\n    \"publisher\": 13,\n    \"alignment\": 1,\n    \"id\": 758\n  },\n  {\n    \"hero name\": \"Silver Phantom\",\n    \"real name\": \"Elena Vasquez\",\n    \"gender\": 2,\n    \"publisher\": 4,\n    \"alignment\": 1,\n    \"id\": 759\n  },\n  {\n    \"hero name\": \"Thunder Strike\",\n    \"real name\": \"James Morrison\",\n    \"gender\": 1,\n    \"publisher\": 13,\n    \"alignment\": 1,\n    \"id\": 760\n  },\n  {\n    \"hero name\": \"Shadow Weaver\",\n    \"real name\": \"Yuki Tanaka\",\n    \"gender\": 2,\n    \"publisher\": 4,\n    \"alignment\": 3,\n    \"id\": 761\n  },\n  {\n    \"hero name\": \"Iron Fist\",\n    \"real name\": \"Chen Wei\",\n    \"gender\": 1,\n    \"publisher\": 13,\n    \"alignment\": 1,\n    \"id\": 762\n  },\n  {\n    \"hero name\": \"Venom Queen\",\n    \"real name\": \"Victoria Black\",\n    \"gender\": 2,\n    \"publisher\": 13,\n    \"alignment\": 2,\n    \"id\": 763\n  },\n  {\n    \"hero name\": \"Frost Giant\",\n    \"real name\": \"Lars Erikson\",\n    \"gender\": 1,\n    \"publisher\": 4,\n    \"alignment\": 2,\n    \"id\": 764\n  },\n  {\n    \"hero name\": \"Phoenix Flame\",\n    \"real name\": \"Sarah Chen\",\n    \"gender\": 2,\n    \"publisher\": 13,\n    \"alignment\": 1,\n    \"id\": 765\n  },\n  {\n    \"hero name\": \"Dark Sentinel\",\n    \"real name\": \"Unknown\",\n    \"gender\": 1,\n    \"publisher\": 3,\n    \"alignment\": 3,\n    \"id\": 766\n  },\n  {\n    \"hero name\": \"Star Breaker\",\n    \"real name\": \"Zara Kell\",\n    \"gender\": 2,\n    \"publisher\": 4,\n    \"alignment\": 2,\n    \"id\": 767\n  },\n  {\n    \"hero name\": \"Quantum Leap\",\n    \"real name\": \"David Park\",\n    \"gender\": 1,\n    \"publisher\": 13,\n    \"alignment\": 1,\n    \"id\": 768\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment",
+      "gender",
+      "publisher"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "alignment",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "alignment",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "gender": {
+        "gold": [],
+        "predicted": [
+          "gender",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gender",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "publisher": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "publisher_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "publisher_name"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "full_name",
+          "gender_id",
+          "id",
+          "publisher_id",
+          "superhero_name"
+        ],
+        "predicted": [
+          "alignment_id",
+          "full_name",
+          "gender_id",
+          "id",
+          "publisher_id",
+          "superhero_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 272,
+    "db_id": "superhero",
+    "user_request": "Add the following superheroes with their physical characteristics:\n\n```csv\nid,hero name,height,weight,eye color,hair color,skin color\n769,Steel Titan,210,150,9,4,1\n770,Velocity,175,68,3,7,1\n771,Emerald Knight,188,95,11,4,1\n772,Scarlet Witch,165,58,11,5,1\n773,Granite,230,200,15,1,15\n774,Blaze Runner,180,75,25,5,1\n775,Ice Maiden,170,60,3,32,3\n776,Thunder God,198,110,3,7,1\n777,Shadow Cat,163,52,11,4,1\n778,Crimson Fury,185,88,25,4,1\n779,Silver Surfer,193,102,28,28,28\n780,Jade Dragon,178,72,11,4,1\n781,Obsidian,195,105,4,4,4\n782,Golden Eagle,183,80,12,7,1\n783,Violet Storm,168,62,30,30,1\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "colour",
+      "gender"
+    ],
+    "diff": {
+      "colour": {
+        "gold": [],
+        "predicted": [
+          "colour",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "colour",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "gender": {
+        "gold": [],
+        "predicted": [
+          "gender",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gender",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "eye_colour_id",
+          "hair_colour_id",
+          "height_cm",
+          "id",
+          "skin_colour_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "predicted": [
+          "eye_colour_id",
+          "hair_colour_id",
+          "height_cm",
+          "id",
+          "skin_colour_id",
+          "superhero_name",
+          "weight_kg"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 273,
+    "db_id": "superhero",
+    "user_request": "Register the following superheroes:\n\n```json\n[\n  {\n    \"id\": 784,\n    \"hero name\": \"Cyber Ninja\",\n    \"real name\": \"Kenji Yamamoto\",\n    \"race\": 5,\n    \"gender\": 1,\n    \"alignment\": 1,\n    \"publisher\": 13\n  },\n  {\n    \"id\": 785,\n    \"hero name\": \"Mystic Oracle\",\n    \"real name\": \"Aria Moonstone\",\n    \"race\": 1,\n    \"gender\": 2,\n    \"alignment\": 1,\n    \"publisher\": 4\n  },\n  {\n    \"id\": 786,\n    \"hero name\": \"Plasma Bolt\",\n    \"real name\": \"Unknown\",\n    \"race\": 2,\n    \"gender\": 1,\n    \"alignment\": 3,\n    \"publisher\": 3\n  },\n  {\n    \"id\": 787,\n    \"hero name\": \"Terra Force\",\n    \"real name\": \"Gaia Stone\",\n    \"race\": 1,\n    \"gender\": 2,\n    \"alignment\": 1,\n    \"publisher\": 4\n  },\n  {\n    \"id\": 788,\n    \"hero name\": \"Void Walker\",\n    \"real name\": \"Marcus Void\",\n    \"race\": 14,\n    \"gender\": 1,\n    \"alignment\": 2,\n    \"publisher\": 13\n  },\n  {\n    \"id\": 789,\n    \"hero name\": \"Crystal Guardian\",\n    \"real name\": \"Amara Crystal\",\n    \"race\": 1,\n    \"gender\": 2,\n    \"alignment\": 1,\n    \"publisher\": 13\n  },\n  {\n    \"id\": 790,\n    \"hero name\": \"Storm Bringer\",\n    \"real name\": \"Thor Stormson\",\n    \"race\": 23,\n    \"gender\": 1,\n    \"alignment\": 1,\n    \"publisher\": 13\n  },\n  {\n    \"id\": 791,\n    \"hero name\": \"Night Shade\",\n    \"real name\": \"Selene Dark\",\n    \"race\": 1,\n    \"gender\": 2,\n    \"alignment\": 3,\n    \"publisher\": 4\n  },\n  {\n    \"id\": 792,\n    \"hero name\": \"Iron Colossus\",\n    \"real name\": \"Dmitri Volkov\",\n    \"race\": 5,\n    \"gender\": 1,\n    \"alignment\": 1,\n    \"publisher\": 13\n  },\n  {\n    \"id\": 793,\n    \"hero name\": \"Lunar Eclipse\",\n    \"real name\": \"Diana Moon\",\n    \"race\": 1,\n    \"gender\": 2,\n    \"alignment\": 1,\n    \"publisher\": 4\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment",
+      "gender",
+      "publisher",
+      "race"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "alignment",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "alignment",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "gender": {
+        "gold": [],
+        "predicted": [
+          "gender",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "gender",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "publisher": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "publisher_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "publisher_name"
+        ],
+        "table_status": "extra_table"
+      },
+      "race": {
+        "gold": [],
+        "predicted": [
+          "id",
+          "race"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id",
+          "race"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "full_name",
+          "gender_id",
+          "id",
+          "publisher_id",
+          "race_id",
+          "superhero_name"
+        ],
+        "predicted": [
+          "alignment_id",
+          "full_name",
+          "gender_id",
+          "id",
+          "publisher_id",
+          "race_id",
+          "superhero_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 280,
+    "db_id": "superhero",
+    "user_request": "Please register these new heroes with their alignments: Blitz (Good), Havoc (Bad), Zenith (Good), Vortex (Neutral), Apex (Good), Chaos (Bad), Nexus (Neutral), Pulse (Good), Rogue (Neutral), Titan (Good), Wraith (Bad), Echo (Good), Phantom (Neutral), and Surge (Good).",
+    "tables_missing": [],
+    "tables_extra": [
+      "alignment"
+    ],
+    "diff": {
+      "alignment": {
+        "gold": [],
+        "predicted": [
+          "alignment",
+          "id"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "alignment",
+          "id"
+        ],
+        "table_status": "extra_table"
+      },
+      "superhero": {
+        "gold": [
+          "alignment_id",
+          "id",
+          "superhero_name"
+        ],
+        "predicted": [
+          "alignment_id",
+          "id",
+          "superhero_name"
+        ],
+        "missing_cols": [],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 291,
+    "db_id": "codebase_community",
+    "user_request": "Add the following new users to the developer community:\n\n```json\n[\n  {\n    \"display name\": \"CodeMaster\",\n    \"reputation\": 1250,\n    \"location\": \"San Francisco, CA\",\n    \"about\": \"Full-stack developer passionate about clean code and TDD\"\n  },\n  {\n    \"display name\": \"DataWizard\",\n    \"reputation\": 3420,\n    \"location\": \"New York, NY\",\n    \"about\": \"Data scientist specializing in ML and Python\"\n  },\n  {\n    \"display name\": \"DevOpsGuru\",\n    \"reputation\": 890,\n    \"location\": \"Seattle, WA\",\n    \"about\": \"Cloud infrastructure and Kubernetes expert\"\n  },\n  {\n    \"display name\": \"FrontendNinja\",\n    \"reputation\": 2100,\n    \"location\": \"Austin, TX\",\n    \"about\": \"React and TypeScript enthusiast\"\n  },\n  {\n    \"display name\": \"BackendPro\",\n    \"reputation\": 4560,\n    \"location\": \"Boston, MA\",\n    \"about\": \"Java and Spring Boot developer with 10 years experience\"\n  },\n  {\n    \"display name\": \"MobileDev\",\n    \"reputation\": 1780,\n    \"location\": \"Los Angeles, CA\",\n    \"about\": \"iOS and Android developer\"\n  },\n  {\n    \"display name\": \"SecurityExpert\",\n    \"reputation\": 5200,\n    \"location\": \"Washington, DC\",\n    \"about\": \"Cybersecurity specialist and ethical hacker\"\n  },\n  {\n    \"display name\": \"AIResearcher\",\n    \"reputation\": 6700,\n    \"location\": \"Cambridge, MA\",\n    \"about\": \"PhD in AI, working on deep learning and NLP\"\n  },\n  {\n    \"display name\": \"GameDev\",\n    \"reputation\": 920,\n    \"location\": \"Montreal, Canada\",\n    \"about\": \"Unity and Unreal Engine game developer\"\n  },\n  {\n    \"display name\": \"DatabaseAdmin\",\n    \"reputation\": 3100,\n    \"location\": \"Chicago, IL\",\n    \"about\": \"PostgreSQL and MySQL DBA\"\n  },\n  {\n    \"display name\": \"CloudArchitect\",\n    \"reputation\": 7800,\n    \"location\": \"San Jose, CA\",\n    \"about\": \"AWS Solutions Architect with 15 years experience\"\n  },\n  {\n    \"display name\": \"QAEngineer\",\n    \"reputation\": 1450,\n    \"location\": \"Denver, CO\",\n    \"about\": \"Test automation and quality assurance specialist\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "users": {
+        "gold": [
+          "aboutme",
+          "displayname",
+          "location",
+          "reputation"
+        ],
+        "predicted": [
+          "aboutme",
+          "displayname",
+          "id",
+          "location",
+          "reputation"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 293,
+    "db_id": "codebase_community",
+    "user_request": "Add the following technology tags:\n\n```json\n[\n  {\n    \"tag name\": \"rust\",\n    \"usage count\": 245\n  },\n  {\n    \"tag name\": \"graphql\",\n    \"usage count\": 189\n  },\n  {\n    \"tag name\": \"kubernetes\",\n    \"usage count\": 567\n  },\n  {\n    \"tag name\": \"terraform\",\n    \"usage count\": 134\n  },\n  {\n    \"tag name\": \"nextjs\",\n    \"usage count\": 423\n  },\n  {\n    \"tag name\": \"tailwind\",\n    \"usage count\": 312\n  },\n  {\n    \"tag name\": \"prisma\",\n    \"usage count\": 98\n  },\n  {\n    \"tag name\": \"svelte\",\n    \"usage count\": 276\n  },\n  {\n    \"tag name\": \"deno\",\n    \"usage count\": 87\n  },\n  {\n    \"tag name\": \"fastapi\",\n    \"usage count\": 201\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "tags": {
+        "gold": [
+          "count",
+          "tagname"
+        ],
+        "predicted": [
+          "count",
+          "id",
+          "tagname"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 294,
+    "db_id": "codebase_community",
+    "user_request": "Add the following questions to the community:\n\n```json\n[\n  {\n    \"title\": \"How to implement authentication in Next.js 14?\",\n    \"tags\": \"<nextjs><authentication><react>\",\n    \"post type\": 1,\n    \"view count\": 245,\n    \"score\": 12\n  },\n  {\n    \"title\": \"What is the difference between Rust and Go?\",\n    \"tags\": \"<rust><go><comparison>\",\n    \"post type\": 1,\n    \"view count\": 567,\n    \"score\": 23\n  },\n  {\n    \"title\": \"Best practices for Kubernetes deployment\",\n    \"tags\": \"<kubernetes><devops><deployment>\",\n    \"post type\": 1,\n    \"view count\": 892,\n    \"score\": 34\n  },\n  {\n    \"title\": \"GraphQL vs REST API: Which to choose?\",\n    \"tags\": \"<graphql><rest><api>\",\n    \"post type\": 1,\n    \"view count\": 1234,\n    \"score\": 45\n  },\n  {\n    \"title\": \"How to optimize Tailwind CSS bundle size?\",\n    \"tags\": \"<tailwind><css><performance>\",\n    \"post type\": 1,\n    \"view count\": 456,\n    \"score\": 18\n  },\n  {\n    \"title\": \"Prisma migration best practices\",\n    \"tags\": \"<prisma><database><migration>\",\n    \"post type\": 1,\n    \"view count\": 321,\n    \"score\": 15\n  },\n  {\n    \"title\": \"Svelte vs React: Performance comparison\",\n    \"tags\": \"<svelte><react><performance>\",\n    \"post type\": 1,\n    \"view count\": 789,\n    \"score\": 28\n  },\n  {\n    \"title\": \"Getting started with Deno 2.0\",\n    \"tags\": \"<deno><javascript><typescript>\",\n    \"post type\": 1,\n    \"view count\": 234,\n    \"score\": 9\n  },\n  {\n    \"title\": \"FastAPI async database queries\",\n    \"tags\": \"<fastapi><python><async>\",\n    \"post type\": 1,\n    \"view count\": 678,\n    \"score\": 21\n  },\n  {\n    \"title\": \"Terraform state management strategies\",\n    \"tags\": \"<terraform><infrastructure><devops>\",\n    \"post type\": 1,\n    \"view count\": 543,\n    \"score\": 19\n  },\n  {\n    \"title\": \"How to handle CORS in GraphQL?\",\n    \"tags\": \"<graphql><cors><security>\",\n    \"post type\": 1,\n    \"view count\": 412,\n    \"score\": 14\n  },\n  {\n    \"title\": \"Rust error handling patterns\",\n    \"tags\": \"<rust><error-handling><best-practices>\",\n    \"post type\": 1,\n    \"view count\": 987,\n    \"score\": 37\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "posts": {
+        "gold": [
+          "posttypeid",
+          "score",
+          "tags",
+          "title",
+          "viewcount"
+        ],
+        "predicted": [
+          "id",
+          "posttypeid",
+          "score",
+          "tags",
+          "title",
+          "viewcount"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 298,
+    "db_id": "codebase_community",
+    "user_request": "Add the following new users:\n\n```csv\nusername,reputation,location\nPythonExpert,450,Portland, OR\nJavaScriptNinja,780,Miami, FL\nCppMaster,1200,Toronto, Canada\nSwiftDev,560,San Diego, CA\nKotlinFan,890,Phoenix, AZ\nGoLangPro,1100,Dallas, TX\nRubyDev,670,Atlanta, GA\nPHPCoder,540,Philadelphia, PA\nScalaDev,920,Minneapolis, MN\nElixirFan,730,Nashville, TN\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "users": {
+        "gold": [
+          "displayname",
+          "location",
+          "reputation"
+        ],
+        "predicted": [
+          "displayname",
+          "id",
+          "location",
+          "reputation"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 299,
+    "db_id": "codebase_community",
+    "user_request": "Add the following technology tags:\n\n| technology | questions |\n| --- | --- |\n| astro | 156 |\n| remix | 234 |\n| solidjs | 189 |\n| qwik | 98 |\n| htmx | 267 |\n| bun | 345 |\n| turbo | 178 |\n| vite | 567 |\n| vitest | 234 |\n| playwright | 456 |\n| cypress | 389 |\n| storybook | 312 |",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "tags": {
+        "gold": [
+          "count",
+          "tagname"
+        ],
+        "predicted": [
+          "count",
+          "id",
+          "tagname"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "id"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 302,
+    "db_id": "formula_1",
+    "user_request": "Add the following new F1 teams:\n\n```json\n[\n  {\n    \"team name\": \"Andretti Global\",\n    \"nationality\": \"American\",\n    \"team reference\": \"andretti\"\n  },\n  {\n    \"team name\": \"Porsche F1 Team\",\n    \"nationality\": \"German\",\n    \"team reference\": \"porsche\"\n  },\n  {\n    \"team name\": \"Audi Sport\",\n    \"nationality\": \"German\",\n    \"team reference\": \"audi\"\n  },\n  {\n    \"team name\": \"Cadillac Racing\",\n    \"nationality\": \"American\",\n    \"team reference\": \"cadillac\"\n  },\n  {\n    \"team name\": \"Hyundai Motorsport\",\n    \"nationality\": \"South Korean\",\n    \"team reference\": \"hyundai\"\n  },\n  {\n    \"team name\": \"Genesis Racing\",\n    \"nationality\": \"South Korean\",\n    \"team reference\": \"genesis\"\n  },\n  {\n    \"team name\": \"Lamborghini Squadra Corse\",\n    \"nationality\": \"Italian\",\n    \"team reference\": \"lamborghini\"\n  },\n  {\n    \"team name\": \"Bentley Motorsport\",\n    \"nationality\": \"British\",\n    \"team reference\": \"bentley\"\n  },\n  {\n    \"team name\": \"Bugatti Racing\",\n    \"nationality\": \"French\",\n    \"team reference\": \"bugatti\"\n  },\n  {\n    \"team name\": \"Koenigsegg Racing\",\n    \"nationality\": \"Swedish\",\n    \"team reference\": \"koenigsegg\"\n  },\n  {\n    \"team name\": \"Pagani F1\",\n    \"nationality\": \"Italian\",\n    \"team reference\": \"pagani\"\n  },\n  {\n    \"team name\": \"Rimac Racing\",\n    \"nationality\": \"Croatian\",\n    \"team reference\": \"rimac\"\n  }\n]\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "constructors": {
+        "gold": [
+          "constructorref",
+          "name",
+          "nationality"
+        ],
+        "predicted": [
+          "constructorid",
+          "constructorref",
+          "name",
+          "nationality",
+          "url"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "constructorid",
+          "url"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 307,
+    "db_id": "formula_1",
+    "user_request": "Add the following race finish status codes:\n\n```csv\nstatus description\nBattery\nHybrid System\nPower Unit\nERS\nMGU-K\nMGU-H\nTurbo\nFuel Pressure\nDRS\nFloor Damage\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "status": {
+        "gold": [
+          "status"
+        ],
+        "predicted": [
+          "status",
+          "statusid"
+        ],
+        "missing_cols": [],
+        "extra_cols": [
+          "statusid"
+        ],
+        "table_status": "ok"
+      }
+    }
+  },
+  {
+    "id": 330,
+    "db_id": "california_schools",
+    "user_request": "Add schools with their website and administrator information:\n\n```csv\nschool code,status,county,district,school name,website,admin first name,admin last name,admin email,district ownership code,district ownership type,last update,social_media_handle,parent_association,annual_budget\n99140014000001,Active,Admin County,Admin Unified,Leadership Academy,www.leadershipacademy.edu,Sarah,Johnson,sjohnson@leadershipacademy.edu,54,Unified School District,2024-04-29,@LeadershipAcad,Active,2500000\n99140014000002,Active,Admin County,Admin Unified,Excellence High School,www.excellencehigh.org,Michael,Chen,mchen@excellencehigh.org,54,Unified School District,2024-04-29,@ExcellenceHS,Active,3200000\n99140014000003,Active,Admin County,Admin Unified,Pioneer Elementary,www.pioneerelementary.edu,Jennifer,Martinez,jmartinez@pioneerelementary.edu,54,Unified School District,2024-04-29,@PioneerElem,Active,1800000\n99140014000004,Active,Admin County,Admin Unified,Discovery Middle School,www.discoverymiddle.org,David,Thompson,dthompson@discoverymiddle.org,54,Unified School District,2024-04-29,@DiscoveryMS,Active,2100000\n99140014000005,Active,Admin County,Admin Unified,Innovation Charter,www.innovationcharter.edu,Lisa,Anderson,landerson@innovationcharter.edu,54,Unified School District,2024-04-29,@InnovateChart,Forming,1950000\n99140014000006,Active,Admin County,Admin Unified,Heritage High School,www.heritagehigh.org,Robert,Garcia,rgarcia@heritagehigh.org,54,Unified School District,2024-04-29,@HeritageHS,Active,3500000\n99140014000007,Active,Admin County,Admin Unified,Bright Futures Elementary,www.brightfutures.edu,Emily,Rodriguez,erodriguez@brightfutures.edu,54,Unified School District,2024-04-29,@BrightFuturesE,Active,1700000\n99140014000008,Active,Admin County,Admin Unified,Unity Middle School,www.unitymiddle.org,James,Wilson,jwilson@unitymiddle.org,54,Unified School District,2024-04-29,@UnityMiddle,Active,2200000\n```",
+    "tables_missing": [],
+    "tables_extra": [],
+    "diff": {
+      "schools": {
+        "gold": [
+          "admemail1",
+          "admfname1",
+          "admlname1",
+          "cdscode",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "lastupdate",
+          "school",
+          "statustype",
+          "website"
+        ],
+        "predicted": [
+          "cdscode",
+          "county",
+          "district",
+          "doc",
+          "doctype",
+          "lastupdate",
+          "school",
+          "statustype",
+          "website"
+        ],
+        "missing_cols": [
+          "admemail1",
+          "admfname1",
+          "admlname1"
+        ],
+        "extra_cols": [],
+        "table_status": "ok"
+      }
+    }
+  }
+]
