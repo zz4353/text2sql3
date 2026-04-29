@@ -24,7 +24,7 @@ For each table:
 - Ensure each value matches the correct column based on meaning, context, and sample data format
 - If a required column has no corresponding value in the user input, set its value to null
 - If multiple records are present, extract all of them
-- Determine the user's intent for this table: if the user explicitly requests to update existing data, set operation to "upsert"; otherwise set it to null
+- Determine the user's intent for this table: set operation to "update" if the user explicitly requests to update or modify existing data (e.g. "update", "change", "edit", "modify"); otherwise set operation to null. operation must be either "update" or null — no other values are allowed
 
 Important constraints
 
