@@ -2,7 +2,7 @@ import os
 import json
 from db_client import DB_ID, get_all_foreign_keys, get_all_table_column_names2
 from db_client import get_required_insert_columns, get_forbidden_insert_columns
-from utils import render_prompt, extract_columns_from_insert, fuzzy_match
+from utils import render_prompt, fuzzy_match
 
 
 def select_columns(db_id: DB_ID, llm, user_input, schema_context):
@@ -11,7 +11,7 @@ def select_columns(db_id: DB_ID, llm, user_input, schema_context):
     prompt = render_prompt(template_path, user_input=user_input, schema=schema_context, foreign_keys=foreign_keys)
 
     llm_raw_result = llm.call_llm(prompt, text={"format": {"type": "json_object"}})
-    llm_raw_result = extract_columns_from_insert(json.loads(llm_raw_result)['sql'])
+    llm_raw_result = json.loads(llm_raw_result)["tables"]
 
     # Kiểm tra và map các cột trả về với cột thực tế trong database.
     all_columns = get_all_table_column_names2(db_id)
