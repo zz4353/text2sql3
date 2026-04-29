@@ -1,6 +1,6 @@
 import json
 from llm_client import OpenAIClient
-from pipeline.extract_values import extract_values
+from pipeline1.extract_values import extract_values
 from db_client import get_llm_table_schema_context, DB_ID
 
 with open("test.json", encoding="utf-8") as f:
@@ -329,7 +329,7 @@ data = [
   }
 ]
 
-from pipeline.build_sqls import build_sqls
+from pipeline1.build_sqls import build_sqls
 
 sqls = (build_sqls(DB_ID(sample['db_id']), data))
 for sql in sqls:

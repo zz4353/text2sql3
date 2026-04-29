@@ -1,4 +1,4 @@
-from pipeline import run
+from pipeline1 import run
 from db_client import DB_ID
 import json
 
