@@ -12,6 +12,7 @@ for item in test_set:
     try:
         print(item["id"])
         result = run(DB_ID(item["db_id"]), item["user_request"])
+        print(result)
         results.append({
             "id": item["id"],
             "db_id": item["db_id"], 

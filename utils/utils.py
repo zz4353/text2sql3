@@ -23,18 +23,19 @@ def _unquote(s: str) -> str:
     return s
 
 
-def extract_columns_from_insert(sql_list: list[str]) -> list[str]:
-    cols = []
+def extract_columns_from_insert(sql_list: list[str]) -> dict[str, list[str]]:
+    seen: dict[str, dict[str, None]] = {}
     for sql in sql_list:
         m = _INSERT_PATTERN.search(sql)
         if not m:
             continue
         table = _unquote(m.group(1))
+        table_seen = seen.setdefault(table, {})
         for col in m.group(2).split(","):
             col = _unquote(col)
             if col:
-                cols.append(f"{table}.{col}")
-    return cols
+                table_seen[col] = None
+    return {table: list(cols) for table, cols in seen.items()}
 
 def sqlite_affinity_type(declared_type: str) -> str:
     declared_type = declared_type.upper()

@@ -302,6 +302,9 @@ def get_all_table_column_names(db_id: DB_ID):
 
     return tuple(result)
 
+def get_all_table_column_names2(db_id: DB_ID) -> dict[str, list[str]]:
+    return {table: list(get_table_info(db_id, table).keys()) for table in get_all_table_names(db_id)}
+
 def get_foreign_key_references(db_id: DB_ID, columns: list[str]) -> list[str]:
     """Trả về danh sách các cột mà các cột trong `columns` tham chiếu khóa ngoại đến.
 
