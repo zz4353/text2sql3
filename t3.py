@@ -10,11 +10,6 @@ sample = test[0]
 
 llm = OpenAIClient()
 user_request = sample['user_request']
-columns = {
-    "alignment": ["alignment"],
-    "gender": ["gender"],
-    "superhero": ["superhero_name", "gender_id", "alignment_id"],
-}
 schema_context = get_llm_table_schema_context(DB_ID(sample['db_id']))
 # schema_context = [sc for sc in schema_context if sc["original_column_name"] in columns]
 
