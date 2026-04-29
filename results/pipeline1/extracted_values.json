@@ -1,0 +1,857 @@
+[
+  {
+    "id": 1,
+    "db_id": "financial",
+    "extract_values": [
+      {
+        "table": "client",
+        "operation": null,
+        "records": [
+          {
+            "client_id": 14500,
+            "gender": "M",
+            "birth_date": "1975-05-12",
+            "district_id": 1
+          },
+          {
+            "client_id": 14501,
+            "gender": "F",
+            "birth_date": "1982-08-25",
+            "district_id": 18
+          },
+          {
+            "client_id": 14502,
+            "gender": "M",
+            "birth_date": "1968-11-30",
+            "district_id": 35
+          },
+          {
+            "client_id": 14503,
+            "gender": "F",
+            "birth_date": "1990-03-18",
+            "district_id": 50
+          },
+          {
+            "client_id": 14504,
+            "gender": "M",
+            "birth_date": "1955-07-22",
+            "district_id": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "db_id": "financial",
+    "extract_values": [
+      {
+        "table": "trans",
+        "operation": null,
+        "records": [
+          {
+            "trans_id": 3700020,
+            "account_id": 1,
+            "date": "1998-07-01",
+            "type": "VYBER",
+            "operation": "VYBER",
+            "amount": 1000,
+            "balance": 5000
+          },
+          {
+            "trans_id": 3700021,
+            "account_id": 2,
+            "date": "1998-07-02",
+            "type": "VYBER",
+            "operation": "VYBER KARTOU",
+            "amount": 2000,
+            "balance": 13000
+          },
+          {
+            "trans_id": 3700022,
+            "account_id": 3,
+            "date": "1998-07-03",
+            "type": "VYBER",
+            "operation": "VYBER",
+            "amount": 500,
+            "balance": 5500
+          },
+          {
+            "trans_id": 3700023,
+            "account_id": 1,
+            "date": "1998-07-04",
+            "type": "VYBER",
+            "operation": "VYBER KARTOU",
+            "amount": 1500,
+            "balance": 3500
+          },
+          {
+            "trans_id": 3700024,
+            "account_id": 2,
+            "date": "1998-07-05",
+            "type": "VYBER",
+            "operation": "VYBER",
+            "amount": 3000,
+            "balance": 10000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "customers",
+        "operation": null,
+        "records": [
+          {
+            "CustomerID": 13427,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13428,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13429,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13430,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13431,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13432,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13433,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13434,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13435,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13436,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13437,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13438,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13439,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13440,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13441,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13442,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13443,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13444,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13445,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13446,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13447,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13448,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13449,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13450,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13451,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13452,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13453,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13454,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13455,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13456,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13457,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13458,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13459,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13460,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13461,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13462,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13463,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13464,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13465,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13466,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13467,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13468,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13469,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13470,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13471,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13472,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13473,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13474,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13475,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13476,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13477,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13478,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13479,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13480,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13481,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13482,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13483,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13484,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13485,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13486,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13487,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13488,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13489,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13490,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13491,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13492,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13493,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13494,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13495,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13496,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13497,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13498,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13499,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13500,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13501,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13502,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13503,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13504,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13505,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13506,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13507,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13508,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13509,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13510,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13511,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13512,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13513,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13514,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13515,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13516,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13517,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13518,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13519,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13520,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13521,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13522,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13523,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13524,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13525,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13526,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13527,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13528,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13529,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13530,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13531,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13532,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13533,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13534,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13535,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13536,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13537,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13538,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13539,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13540,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13541,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13542,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13543,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13544,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13545,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13546,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13547,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13548,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13549,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13550,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13551,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13552,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13553,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13554,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13555,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13556,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13557,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13558,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13559,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13560,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13561,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13562,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13563,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13564,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13565,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13566,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13567,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13568,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13569,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13570,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13571,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13572,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13573,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13574,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13575,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13576,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13577,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13578,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13579,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13580,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13581,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13582,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13583,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13584,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13585,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13586,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13587,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13588,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13589,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13590,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13591,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13592,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13593,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13594,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13595,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13596,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13597,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13598,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 13599,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 13600,
+            "Segment": "SME"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "db_id": "financial",
+    "extract_values": [
+      {
+        "table": "trans",
+        "operation": null,
+        "records": [
+          {
+            "trans_id": 3710020,
+            "account_id": 1,
+            "date": "1998-09-30",
+            "type": "VYDAJ",
+            "amount": 15,
+            "balance": 10110,
+            "k_symbol": "SLUZBY"
+          },
+          {
+            "trans_id": 3710021,
+            "account_id": 2,
+            "date": "1998-09-30",
+            "type": "VYDAJ",
+            "amount": 15,
+            "balance": 25235,
+            "k_symbol": "SLUZBY"
+          },
+          {
+            "trans_id": 3710022,
+            "account_id": 3,
+            "date": "1998-09-30",
+            "type": "VYDAJ",
+            "amount": 15,
+            "balance": 18165,
+            "k_symbol": "SLUZBY"
+          },
+          {
+            "trans_id": 3710023,
+            "account_id": 5,
+            "date": "1998-09-30",
+            "type": "VYDAJ",
+            "amount": 15,
+            "balance": 9580,
+            "k_symbol": "SLUZBY"
+          }
+        ]
+      }
+    ]
+  }
+]
