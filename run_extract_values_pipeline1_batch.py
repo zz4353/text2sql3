@@ -46,7 +46,7 @@ def submit():
     with open(TEST_PATH, encoding="utf-8") as f:
         test_lookup = {s["id"]: s for s in json.load(f)}
 
-    samples = [s for s in select_columns_data if "error" not in s][:4]
+    samples = [s for s in select_columns_data if "error" not in s]
     print(f"Preparing {len(samples)} requests...")
 
     model = os.getenv("CHAT_MODEL", "gpt-4o-mini")
