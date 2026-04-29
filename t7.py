@@ -29,10 +29,10 @@ def is_correct(gold: dict[str, set[str]], predicted: dict[str, set[str]]) -> boo
 
 
 def main():
-    with open("test3.json", encoding="utf-8") as f:
+    with open("test4.json", encoding="utf-8") as f:
         test_data = {s["id"]: s for s in json.load(f)}
 
-    with open("selectcol3.json", encoding="utf-8") as f:
+    with open("selectcol4.json", encoding="utf-8") as f:
         results = json.load(f)
 
     wrong = []
