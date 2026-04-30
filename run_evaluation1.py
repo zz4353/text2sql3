@@ -14,7 +14,7 @@ from db_client import DB_ID
 from evaluation import compare_sqls
 from utils import render_sql_for_log
 
-TEST_PATH = "test3.json"
+TEST_PATH = "z/test2.json"
 
 CONFIGS = {
     "baseline": {

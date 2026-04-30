@@ -648,12 +648,6 @@
     "error": null
   },
   {
-    "id": 109,
-    "db_id": "california_schools",
-    "match": false,
-    "error": null
-  },
-  {
     "id": 110,
     "db_id": "financial",
     "match": false,
