@@ -102,122 +102,122 @@
           {
             "zip_code": 87101,
             "city": "Albuquerque",
-            "state": "New Mexico",
-            "county": "Bernalillo County"
+            "county": "Bernalillo County",
+            "state": "New Mexico"
           },
           {
             "zip_code": 99201,
             "city": "Spokane",
-            "state": "Washington",
-            "county": "Spokane County"
+            "county": "Spokane County",
+            "state": "Washington"
           },
           {
             "zip_code": 98401,
             "city": "Tacoma",
-            "state": "Washington",
-            "county": "Pierce County"
+            "county": "Pierce County",
+            "state": "Washington"
           },
           {
             "zip_code": 80010,
             "city": "Aurora",
-            "state": "Colorado",
-            "county": "Arapahoe County"
+            "county": "Arapahoe County",
+            "state": "Colorado"
           },
           {
             "zip_code": 92801,
             "city": "Anaheim",
-            "state": "California",
-            "county": "Orange County"
+            "county": "Orange County",
+            "state": "California"
           },
           {
             "zip_code": 92701,
             "city": "Santa Ana",
-            "state": "California",
-            "county": "Orange County"
+            "county": "Orange County",
+            "state": "California"
           },
           {
             "zip_code": 78401,
             "city": "Corpus Christi",
-            "state": "Texas",
-            "county": "Nueces County"
+            "county": "Nueces County",
+            "state": "Texas"
           },
           {
             "zip_code": 92501,
             "city": "Riverside",
-            "state": "California",
-            "county": "Riverside County"
+            "county": "Riverside County",
+            "state": "California"
           },
           {
             "zip_code": 40501,
             "city": "Lexington",
-            "state": "Kentucky",
-            "county": "Fayette County"
+            "county": "Fayette County",
+            "state": "Kentucky"
           },
           {
             "zip_code": 63101,
             "city": "St. Louis",
-            "state": "Missouri",
-            "county": "St. Louis City"
+            "county": "St. Louis City",
+            "state": "Missouri"
           },
           {
             "zip_code": 15201,
             "city": "Pittsburgh",
-            "state": "Pennsylvania",
-            "county": "Allegheny County"
+            "county": "Allegheny County",
+            "state": "Pennsylvania"
           },
           {
             "zip_code": 95201,
             "city": "Stockton",
-            "state": "California",
-            "county": "San Joaquin County"
+            "county": "San Joaquin County",
+            "state": "California"
           },
           {
             "zip_code": 55101,
             "city": "St. Paul",
-            "state": "Minnesota",
-            "county": "Ramsey County"
+            "county": "Ramsey County",
+            "state": "Minnesota"
           },
           {
             "zip_code": 27401,
             "city": "Greensboro",
-            "state": "North Carolina",
-            "county": "Guilford County"
+            "county": "Guilford County",
+            "state": "North Carolina"
           },
           {
             "zip_code": 68501,
             "city": "Lincoln",
-            "state": "Nebraska",
-            "county": "Lancaster County"
+            "county": "Lancaster County",
+            "state": "Nebraska"
           },
           {
             "zip_code": 75023,
             "city": "Plano",
-            "state": "Texas",
-            "county": "Collin County"
+            "county": "Collin County",
+            "state": "Texas"
           },
           {
             "zip_code": 89002,
             "city": "Henderson",
-            "state": "Nevada",
-            "county": "Clark County"
+            "county": "Clark County",
+            "state": "Nevada"
           },
           {
             "zip_code": 14201,
             "city": "Buffalo",
-            "state": "New York",
-            "county": "Erie County"
+            "county": "Erie County",
+            "state": "New York"
           },
           {
             "zip_code": 46801,
             "city": "Fort Wayne",
-            "state": "Indiana",
-            "county": "Allen County"
+            "county": "Allen County",
+            "state": "Indiana"
           },
           {
             "zip_code": 7302,
             "city": "Jersey City",
-            "state": "New Jersey",
-            "county": "Hudson County"
+            "county": "Hudson County",
+            "state": "New Jersey"
           }
         ]
       }
@@ -347,121 +347,121 @@
             "account_id": 200,
             "district_id": 5,
             "frequency": "POPLATEK MESICNE",
-            "date": "930310"
+            "date": "1993-03-10"
           },
           {
             "account_id": 201,
             "district_id": 12,
             "frequency": "POPLATEK TYDNE",
-            "date": "940622"
+            "date": "1994-06-22"
           },
           {
             "account_id": 202,
             "district_id": 20,
             "frequency": "POPLATEK PO OBRATU",
-            "date": "950805"
+            "date": "1995-08-05"
           },
           {
             "account_id": 203,
             "district_id": 7,
             "frequency": "POPLATEK MESICNE",
-            "date": "960130"
+            "date": "1996-01-30"
           },
           {
             "account_id": 204,
             "district_id": 33,
             "frequency": "POPLATEK TYDNE",
-            "date": "961115"
+            "date": "1996-11-15"
           },
           {
             "account_id": 205,
             "district_id": 1,
             "frequency": "POPLATEK MESICNE",
-            "date": "970228"
+            "date": "1997-02-28"
           },
           {
             "account_id": 206,
             "district_id": 45,
             "frequency": "POPLATEK PO OBRATU",
-            "date": "970714"
+            "date": "1997-07-14"
           },
           {
             "account_id": 207,
             "district_id": 18,
             "frequency": "POPLATEK MESICNE",
-            "date": "971001"
+            "date": "1997-10-01"
           },
           {
             "account_id": 208,
             "district_id": 9,
             "frequency": "POPLATEK TYDNE",
-            "date": "980325"
+            "date": "1998-03-25"
           },
           {
             "account_id": 209,
             "district_id": 27,
             "frequency": "POPLATEK MESICNE",
-            "date": "980519"
+            "date": "1998-05-19"
           },
           {
             "account_id": 210,
             "district_id": 3,
             "frequency": "POPLATEK MESICNE",
-            "date": "980608"
+            "date": "1998-06-08"
           },
           {
             "account_id": 211,
             "district_id": 14,
             "frequency": "POPLATEK TYDNE",
-            "date": "980731"
+            "date": "1998-07-31"
           },
           {
             "account_id": 212,
             "district_id": 22,
             "frequency": "POPLATEK PO OBRATU",
-            "date": "980904"
+            "date": "1998-09-04"
           },
           {
             "account_id": 213,
             "district_id": 40,
             "frequency": "POPLATEK MESICNE",
-            "date": "981017"
+            "date": "1998-10-17"
           },
           {
             "account_id": 214,
             "district_id": 6,
             "frequency": "POPLATEK TYDNE",
-            "date": "981122"
+            "date": "1998-11-22"
           },
           {
             "account_id": 215,
             "district_id": 29,
             "frequency": "POPLATEK MESICNE",
-            "date": "990109"
+            "date": "1999-01-09"
           },
           {
             "account_id": 216,
             "district_id": 11,
             "frequency": "POPLATEK PO OBRATU",
-            "date": "990403"
+            "date": "1999-04-03"
           },
           {
             "account_id": 217,
             "district_id": 35,
             "frequency": "POPLATEK MESICNE",
-            "date": "990720"
+            "date": "1999-07-20"
           },
           {
             "account_id": 218,
             "district_id": 8,
             "frequency": "POPLATEK TYDNE",
-            "date": "990911"
+            "date": "1999-09-11"
           },
           {
             "account_id": 219,
             "district_id": 16,
             "frequency": "POPLATEK MESICNE",
-            "date": "000214"
+            "date": "2000-02-14"
           }
         ]
       }
@@ -484,7 +484,7 @@
             "A6": "20",
             "A7": "8",
             "A8": 2,
-            "A9": null,
+            "A9": 3,
             "A10": 72.1,
             "A11": 10200,
             "A13": 5.8,
@@ -500,7 +500,7 @@
             "A6": "30",
             "A7": "12",
             "A8": 3,
-            "A9": null,
+            "A9": 4,
             "A10": 58.4,
             "A11": 9600,
             "A13": 8.3,
@@ -516,7 +516,7 @@
             "A6": "35",
             "A7": "6",
             "A8": 1,
-            "A9": null,
+            "A9": 2,
             "A10": 44.7,
             "A11": 8900,
             "A13": 9.1,
@@ -532,7 +532,7 @@
             "A6": "27",
             "A7": "10",
             "A8": 2,
-            "A9": null,
+            "A9": 3,
             "A10": 63.9,
             "A11": 10500,
             "A13": 6.7,
@@ -548,7 +548,7 @@
             "A6": "24",
             "A7": "9",
             "A8": 2,
-            "A9": null,
+            "A9": 2,
             "A10": 60.2,
             "A11": 9300,
             "A13": 7.5,
@@ -695,123 +695,123 @@
         "records": [
           {
             "client_id": 15000,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15001,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15002,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15003,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15004,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15005,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15006,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15007,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15008,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15009,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15010,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15011,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15012,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15013,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15014,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15015,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15016,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15017,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15018,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           },
           {
             "client_id": 15019,
-            "district_id": null,
             "gender": null,
-            "birth_date": null
+            "birth_date": null,
+            "district_id": null
           }
         ]
       },
@@ -1142,16 +1142,6 @@
           },
           {
             "CustomerID": 20020
-          }
-        ]
-      },
-      {
-        "table": "yearmonth",
-        "operation": null,
-        "records": [
-          {
-            "CustomerID": null,
-            "Date": null
           }
         ]
       }
@@ -1661,103 +1651,83 @@
         "records": [
           {
             "GasStationID": 3001,
-            "ChainID": 8,
-            "Segment": "Premium"
+            "ChainID": 8
           },
           {
             "GasStationID": 3002,
-            "ChainID": 3,
-            "Segment": "Value for money"
+            "ChainID": 3
           },
           {
             "GasStationID": 3003,
-            "ChainID": 15,
-            "Segment": "Other"
+            "ChainID": 15
           },
           {
             "GasStationID": 3004,
-            "ChainID": 21,
-            "Segment": "Premium"
+            "ChainID": 21
           },
           {
             "GasStationID": 3005,
-            "ChainID": 6,
-            "Segment": "Value for money"
+            "ChainID": 6
           },
           {
             "GasStationID": 3006,
-            "ChainID": 11,
-            "Segment": "Other"
+            "ChainID": 11
           },
           {
             "GasStationID": 3007,
-            "ChainID": 17,
-            "Segment": "Premium"
+            "ChainID": 17
           },
           {
             "GasStationID": 3008,
-            "ChainID": 2,
-            "Segment": "Other"
+            "ChainID": 2
           },
           {
             "GasStationID": 3009,
-            "ChainID": 9,
-            "Segment": "Value for money"
+            "ChainID": 9
           },
           {
             "GasStationID": 3010,
-            "ChainID": 14,
-            "Segment": "Premium"
+            "ChainID": 14
           },
           {
             "GasStationID": 3011,
-            "ChainID": 4,
-            "Segment": "Value for money"
+            "ChainID": 4
           },
           {
             "GasStationID": 3012,
-            "ChainID": 20,
-            "Segment": "Other"
+            "ChainID": 20
           },
           {
             "GasStationID": 3013,
-            "ChainID": 7,
-            "Segment": "Premium"
+            "ChainID": 7
           },
           {
             "GasStationID": 3014,
-            "ChainID": 12,
-            "Segment": "Value for money"
+            "ChainID": 12
           },
           {
             "GasStationID": 3015,
-            "ChainID": 1,
-            "Segment": "Other"
+            "ChainID": 1
           },
           {
             "GasStationID": 3016,
-            "ChainID": 18,
-            "Segment": "Premium"
+            "ChainID": 18
           },
           {
             "GasStationID": 3017,
-            "ChainID": 5,
-            "Segment": "Value for money"
+            "ChainID": 5
           },
           {
             "GasStationID": 3018,
-            "ChainID": 13,
-            "Segment": "Other"
+            "ChainID": 13
           },
           {
             "GasStationID": 3019,
-            "ChainID": 22,
-            "Segment": "Premium"
+            "ChainID": 22
           },
           {
             "GasStationID": 3020,
-            "ChainID": 10,
-            "Segment": "Value for money"
+            "ChainID": 10
           }
         ]
       }
@@ -2030,37 +2000,6 @@
             "A16": 2010
           }
         ]
-      },
-      {
-        "table": "account",
-        "operation": null,
-        "records": [
-          {
-            "district_id": 91,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "district_id": 92,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "district_id": 93,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "district_id": 94,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "district_id": 95,
-            "frequency": null,
-            "date": null
-          }
-        ]
       }
     ]
   },
@@ -2074,114 +2013,103 @@
         "records": [
           {
             "TransactionID": 301,
-            "Amount": 2,
-            "Price": 199.99
+            "Price": 199.99,
+            "Amount": 2
           },
           {
             "TransactionID": 302,
-            "Amount": 5,
-            "Price": 49.5
+            "Price": 49.5,
+            "Amount": 5
           },
           {
             "TransactionID": 303,
-            "Amount": 1,
-            "Price": 875.0
+            "Price": 875.0,
+            "Amount": 1
           },
           {
             "TransactionID": 304,
-            "Amount": 8,
-            "Price": 32.25
+            "Price": 32.25,
+            "Amount": 8
           },
           {
             "TransactionID": 305,
-            "Amount": 3,
-            "Price": 420.0
+            "Price": 420.0,
+            "Amount": 3
           },
           {
             "TransactionID": 306,
-            "Amount": 4,
-            "Price": 67.75
+            "Price": 67.75,
+            "Amount": 4
           },
           {
             "TransactionID": 307,
-            "Amount": 1,
-            "Price": 1200.0
+            "Price": 1200.0,
+            "Amount": 1
           },
           {
             "TransactionID": 308,
-            "Amount": 10,
-            "Price": 15.99
+            "Price": 15.99,
+            "Amount": 10
           },
           {
             "TransactionID": 309,
-            "Amount": 2,
-            "Price": 540.5
+            "Price": 540.5,
+            "Amount": 2
           },
           {
             "TransactionID": 310,
-            "Amount": 3,
-            "Price": 88.0
+            "Price": 88.0,
+            "Amount": 3
           },
           {
             "TransactionID": 311,
-            "Amount": 2,
-            "Price": 260.0
+            "Price": 260.0,
+            "Amount": 2
           },
           {
             "TransactionID": 312,
-            "Amount": 6,
-            "Price": 73.25
+            "Price": 73.25,
+            "Amount": 6
           },
           {
             "TransactionID": 313,
-            "Amount": 1,
-            "Price": 950.0
+            "Price": 950.0,
+            "Amount": 1
           },
           {
             "TransactionID": 314,
-            "Amount": 7,
-            "Price": 41.0
+            "Price": 41.0,
+            "Amount": 7
           },
           {
             "TransactionID": 315,
-            "Amount": 2,
-            "Price": 315.75
+            "Price": 315.75,
+            "Amount": 2
           },
           {
             "TransactionID": 316,
-            "Amount": 4,
-            "Price": 128.5
+            "Price": 128.5,
+            "Amount": 4
           },
           {
             "TransactionID": 317,
-            "Amount": 1,
-            "Price": 690.0
+            "Price": 690.0,
+            "Amount": 1
           },
           {
             "TransactionID": 318,
-            "Amount": 9,
-            "Price": 25.99
+            "Price": 25.99,
+            "Amount": 9
           },
           {
             "TransactionID": 319,
-            "Amount": 2,
-            "Price": 480.0
+            "Price": 480.0,
+            "Amount": 2
           },
           {
             "TransactionID": 320,
-            "Amount": 3,
-            "Price": 105.0
-          }
-        ]
-      },
-      {
-        "table": "yearmonth",
-        "operation": null,
-        "records": [
-          {
-            "CustomerID": null,
-            "Date": null,
-            "Consumption": null
+            "Price": 105.0,
+            "Amount": 3
           }
         ]
       }
@@ -2538,7 +2466,7 @@
         "operation": null,
         "records": [
           {
-            "district_id": 1,
+            "district_id": 96,
             "A2": "Prague 5",
             "A3": "Prague",
             "A4": "1350000",
@@ -2546,17 +2474,15 @@
             "A6": "28",
             "A7": "18",
             "A8": 4,
-            "A9": 1,
+            "A9": 8,
             "A10": 82.3,
             "A11": 14500,
-            "A12": null,
-            "A13": 96,
+            "A13": 1.1,
             "A14": 165,
-            "A15": null,
             "A16": 12500
           },
           {
-            "district_id": 2,
+            "district_id": 97,
             "A2": "Mladá Boleslav",
             "A3": "central Bohemia",
             "A4": "124000",
@@ -2564,17 +2490,15 @@
             "A6": "22",
             "A7": "9",
             "A8": 2,
-            "A9": 1,
+            "A9": 4,
             "A10": 58.9,
             "A11": 11200,
-            "A12": null,
-            "A13": 97,
+            "A13": 3.8,
             "A14": 119,
-            "A15": null,
             "A16": 2650
           },
           {
-            "district_id": 3,
+            "district_id": 98,
             "A2": "Písek",
             "A3": "south Bohemia",
             "A4": "70400",
@@ -2582,17 +2506,15 @@
             "A6": "16",
             "A7": "5",
             "A8": 1,
-            "A9": 1,
+            "A9": 2,
             "A10": 49.1,
             "A11": 9800,
-            "A12": null,
-            "A13": 98,
+            "A13": 5.2,
             "A14": 87,
-            "A15": null,
             "A16": 1380
           },
           {
-            "district_id": 4,
+            "district_id": 99,
             "A2": "Sokolov",
             "A3": "west Bohemia",
             "A4": "96200",
@@ -2600,17 +2522,15 @@
             "A6": "14",
             "A7": "6",
             "A8": 1,
-            "A9": 1,
+            "A9": 3,
             "A10": 62.5,
             "A11": 9100,
-            "A12": null,
-            "A13": 99,
+            "A13": 8.7,
             "A14": 76,
-            "A15": null,
             "A16": 1920
           },
           {
-            "district_id": 5,
+            "district_id": 100,
             "A2": "Děčín",
             "A3": "north Bohemia",
             "A4": "133700",
@@ -2618,50 +2538,12 @@
             "A6": "19",
             "A7": "8",
             "A8": 2,
-            "A9": 1,
+            "A9": 3,
             "A10": 67.4,
             "A11": 9600,
-            "A12": null,
-            "A13": 100,
+            "A13": 7.3,
             "A14": 83,
-            "A15": null,
             "A16": 2480
-          }
-        ]
-      },
-      {
-        "table": "account",
-        "operation": null,
-        "records": [
-          {
-            "account_id": 1,
-            "district_id": 1,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "account_id": 2,
-            "district_id": 2,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "account_id": 3,
-            "district_id": 3,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "account_id": 4,
-            "district_id": 4,
-            "frequency": null,
-            "date": null
-          },
-          {
-            "account_id": 5,
-            "district_id": 5,
-            "frequency": null,
-            "date": null
           }
         ]
       }

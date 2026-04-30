@@ -3,7 +3,7 @@
     "id": 1,
     "db_id": "debit_card_specializing",
     "sqls": [
-      "INSERT INTO customers (CustomerID, Segment) VALUES (14001, 'SME'), (14002, 'LAM'), (14003, 'KAM'), (14004, 'SME'), (14005, 'LAM'), (14006, 'SME'), (14007, 'KAM'), (14008, 'LAM'), (14009, 'SME'), (14010, 'LAM'), (14011, 'KAM'), (14012, 'SME'), (14013, 'LAM'), (14014, 'SME'), (14015, 'KAM'), (14016, 'LAM'), (14017, 'SME'), (14018, 'LAM'), (14019, 'KAM'), (14020, 'SME');"
+      "INSERT INTO customers (Segment, CustomerID) VALUES ('SME', 14001), ('LAM', 14002), ('KAM', 14003), ('SME', 14004), ('LAM', 14005), ('SME', 14006), ('KAM', 14007), ('LAM', 14008), ('SME', 14009), ('LAM', 14010), ('KAM', 14011), ('SME', 14012), ('LAM', 14013), ('SME', 14014), ('KAM', 14015), ('LAM', 14016), ('SME', 14017), ('LAM', 14018), ('KAM', 14019), ('SME', 14020);"
     ]
   },
   {
@@ -31,7 +31,7 @@
     "id": 5,
     "db_id": "financial",
     "sqls": [
-      "INSERT INTO district (district_id, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, A16) VALUES (86, 'Liberec', 'north Bohemia', '103400', '41', '20', '8', 2, 3, 72.1, 10200, NULL, 5.8, 94, 2310, NULL), (87, 'Opava', 'north Moravia', '177200', '52', '30', '12', 3, 4, 58.4, 9600, NULL, 8.3, 79, 3150, NULL), (88, 'Znojmo', 'south Moravia', '113600', '67', '35', '6', 1, 2, 44.7, 8900, NULL, 9.1, 73, 1740, NULL), (89, 'Nový Jičín', 'north Moravia', '152300', '44', '27', '10', 2, 3, 63.9, 10500, NULL, 6.7, 88, 2640, NULL), (90, 'Vsetín', 'north Moravia', '145800', '38', '24', '9', 2, 2, 60.2, 9300, NULL, 7.5, 81, 2080, NULL);"
+      "INSERT INTO district (district_id, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, A16) VALUES (86, 'Liberec', 'north Bohemia', '103400', '41', '20', '8', 2, 3, 72.1, 10200, 5.8, 94, 2310, NULL, NULL), (87, 'Opava', 'north Moravia', '177200', '52', '30', '12', 3, 4, 58.4, 9600, 8.3, 79, 3150, NULL, NULL), (88, 'Znojmo', 'south Moravia', '113600', '67', '35', '6', 1, 2, 44.7, 8900, 9.1, 73, 1740, NULL, NULL), (89, 'Nový Jičín', 'north Moravia', '152300', '44', '27', '10', 2, 3, 63.9, 10500, 6.7, 88, 2640, NULL, NULL), (90, 'Vsetín', 'north Moravia', '145800', '38', '24', '9', 2, 2, 60.2, 9300, 7.5, 81, 2080, NULL, NULL);"
     ]
   },
   {
@@ -80,7 +80,7 @@
     "id": 12,
     "db_id": "debit_card_specializing",
     "sqls": [
-      "INSERT INTO gasstations (GasStationID, ChainID, Segment) VALUES (2001, 3, 'Value for money'), (2002, 7, 'Premium'), (2003, 12, 'Other'), (2004, 5, 'Value for money'), (2005, 18, 'Premium'), (2006, 22, 'Other'), (2007, 9, 'Value for money'), (2008, 14, 'Premium'), (2009, 1, 'Other'), (2010, 6, 'Value for money'), (2011, 11, 'Premium'), (2012, 20, 'Other'), (2013, 8, 'Value for money'), (2014, 15, 'Premium'), (2015, 4, 'Other'), (2016, 17, 'Value for money'), (2017, 2, 'Premium'), (2018, 10, 'Other'), (2019, 13, 'Value for money'), (2020, 19, 'Premium');"
+      "INSERT INTO gasstations (ChainID, GasStationID, Segment) VALUES (3, 2001, 'Value for money'), (7, 2002, 'Premium'), (12, 2003, 'Other'), (5, 2004, 'Value for money'), (18, 2005, 'Premium'), (22, 2006, 'Other'), (9, 2007, 'Value for money'), (14, 2008, 'Premium'), (1, 2009, 'Other'), (6, 2010, 'Value for money'), (11, 2011, 'Premium'), (20, 2012, 'Other'), (8, 2013, 'Value for money'), (15, 2014, 'Premium'), (4, 2015, 'Other'), (17, 2016, 'Value for money'), (2, 2017, 'Premium'), (10, 2018, 'Other'), (13, 2019, 'Value for money'), (19, 2020, 'Premium');"
     ]
   },
   {
@@ -95,7 +95,7 @@
     "db_id": "european_football_2",
     "sqls": [
       "INSERT INTO Player (player_api_id) VALUES (300001), (300002), (300003), (300004), (300005), (300006), (300007), (300008), (300009), (300010), (300011), (300012), (300013), (300014), (300015), (300016), (300017), (300018), (300019), (300020);",
-      "INSERT INTO Player_Attributes (player_fifa_api_id, player_api_id, overall_rating, potential) VALUES (NULL, 300001, 82, 88), (NULL, 300002, 76, 82), (NULL, 300003, 88, 93), (NULL, 300004, 71, 78), (NULL, 300005, 84, 89), (NULL, 300006, 79, 85), (NULL, 300007, 90, 95), (NULL, 300008, 73, 80), (NULL, 300009, 85, 91), (NULL, 300010, 77, 83), (NULL, 300011, 83, 88), (NULL, 300012, 68, 75), (NULL, 300013, 87, 92), (NULL, 300014, 75, 81), (NULL, 300015, 81, 87), (NULL, 300016, 70, 77), (NULL, 300017, 86, 91), (NULL, 300018, 74, 80), (NULL, 300019, 89, 94), (NULL, 300020, 72, 79);"
+      "INSERT INTO Player_Attributes (player_api_id, potential, overall_rating) VALUES (300001, 88, 82), (300002, 82, 76), (300003, 93, 88), (300004, 78, 71), (300005, 89, 84), (300006, 85, 79), (300007, 95, 90), (300008, 80, 73), (300009, 91, 85), (300010, 83, 77), (300011, 88, 83), (300012, 75, 68), (300013, 92, 87), (300014, 81, 75), (300015, 87, 81), (300016, 77, 70), (300017, 91, 86), (300018, 80, 74), (300019, 94, 89), (300020, 79, 72);"
     ]
   },
   {
@@ -109,7 +109,7 @@
     "id": 16,
     "db_id": "debit_card_specializing",
     "sqls": [
-      "INSERT INTO transactions_1k (TransactionID, Amount, Price) VALUES (301, 2, 199.99), (302, 5, 49.5), (303, 1, 875.0), (304, 8, 32.25), (305, 3, 420.0), (306, 4, 67.75), (307, 1, 1200.0), (308, 10, 15.99), (309, 2, 540.5), (310, 3, 88.0), (311, 2, 260.0), (312, 6, 73.25), (313, 1, 950.0), (314, 7, 41.0), (315, 2, 315.75), (316, 4, 128.5), (317, 1, 690.0), (318, 9, 25.99), (319, 2, 480.0), (320, 3, 105.0);"
+      "INSERT INTO transactions_1k (Price, Amount, TransactionID) VALUES (199.99, 2, 301), (49.5, 5, 302), (875.0, 1, 303), (32.25, 8, 304), (420.0, 3, 305), (67.75, 4, 306), (1200.0, 1, 307), (15.99, 10, 308), (540.5, 2, 309), (88.0, 3, 310), (260.0, 2, 311), (73.25, 6, 312), (950.0, 1, 313), (41.0, 7, 314), (315.75, 2, 315), (128.5, 4, 316), (690.0, 1, 317), (25.99, 9, 318), (480.0, 2, 319), (105.0, 3, 320);"
     ]
   },
   {
@@ -137,7 +137,7 @@
     "id": 20,
     "db_id": "financial",
     "sqls": [
-      "INSERT INTO district (district_id, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A13, A14, A16) VALUES (12500, 'Prague 5', 'Prague', '165', '8', '82.3', '18', '4', '8', '14500', '1.1', '96', '165', '12500'), (2650, 'Mladá Boleslav', 'central Bohemia', '119', '18', '58.9', '9', '2', '4', '11200', '3.8', '97', '119', '2650'), (1380, 'Písek', 'south Bohemia', '87', '30', '49.1', '5', '1', '2', '9800', '5.2', '98', '87', '1380'), (1920, 'Sokolov', 'west Bohemia', '76', '22', '62.5', '6', '1', '3', '9100', '8.7', '99', '76', '1920'), (2480, 'Děčín', 'north Bohemia', '83', '27', '67.4', '8', '2', '3', '9600', '7.3', '100', '83', '2480');"
+      "INSERT INTO district (district_id, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A13, A14, A16) VALUES (96, 'Prague 5', 'Prague', '165', '8', '28', '18', 4, 8, 82.3, 14500, 1.1, 1350000, 12500), (97, 'Mladá Boleslav', 'central Bohemia', '119', '18', '22', '9', 2, 4, 58.9, 11200, 3.8, 124000, 2650), (98, 'Písek', 'south Bohemia', '87', '30', '16', '5', 1, 2, 49.1, 9800, 5.2, 70400, 1380), (99, 'Sokolov', 'west Bohemia', '76', '22', '14', '6', 1, 3, 62.5, 9100, 8.7, 96200, 1920), (100, 'Děčín', 'north Bohemia', '83', '27', '19', '8', 2, 3, 67.4, 9600, 7.3, 133700, 2480);"
     ]
   }
 ]

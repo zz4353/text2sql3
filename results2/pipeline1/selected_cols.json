@@ -16,17 +16,8 @@
       "zip_code": [
         "zip_code",
         "city",
-        "state",
-        "county"
-      ],
-      "member": [
-        "first_name",
-        "last_name",
-        "email",
-        "position",
-        "t_shirt_size",
-        "phone",
-        "zip"
+        "county",
+        "state"
       ]
     }
   },
@@ -50,22 +41,6 @@
         "district_id",
         "frequency",
         "date"
-      ],
-      "district": [
-        "district_id",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6",
-        "A7",
-        "A8",
-        "A9",
-        "A10",
-        "A11",
-        "A13",
-        "A14",
-        "A16"
       ]
     }
   },
@@ -103,9 +78,9 @@
       ],
       "client": [
         "client_id",
-        "district_id",
         "gender",
-        "birth_date"
+        "birth_date",
+        "district_id"
       ],
       "disp": [
         "disp_id",
@@ -124,22 +99,6 @@
         "gender",
         "birth_date",
         "district_id"
-      ],
-      "district": [
-        "district_id",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6",
-        "A7",
-        "A8",
-        "A9",
-        "A10",
-        "A11",
-        "A13",
-        "A14",
-        "A16"
       ]
     }
   },
@@ -149,10 +108,6 @@
     "selected_columns": {
       "customers": [
         "CustomerID"
-      ],
-      "yearmonth": [
-        "CustomerID",
-        "Date"
       ]
     }
   },
@@ -199,10 +154,6 @@
         "GasStationID",
         "ChainID",
         "Segment"
-      ],
-      "customers": [
-        "CustomerID",
-        "Segment"
       ]
     }
   },
@@ -212,12 +163,7 @@
     "selected_columns": {
       "gasstations": [
         "GasStationID",
-        "ChainID",
-        "Segment"
-      ],
-      "customers": [
-        "CustomerID",
-        "Segment"
+        "ChainID"
       ]
     }
   },
@@ -254,11 +200,6 @@
         "A13",
         "A14",
         "A16"
-      ],
-      "account": [
-        "district_id",
-        "frequency",
-        "date"
       ]
     }
   },
@@ -268,13 +209,8 @@
     "selected_columns": {
       "transactions_1k": [
         "TransactionID",
-        "Amount",
-        "Price"
-      ],
-      "yearmonth": [
-        "CustomerID",
-        "Date",
-        "Consumption"
+        "Price",
+        "Amount"
       ]
     }
   },
@@ -327,17 +263,9 @@
         "A9",
         "A10",
         "A11",
-        "A12",
         "A13",
         "A14",
-        "A15",
         "A16"
-      ],
-      "account": [
-        "account_id",
-        "district_id",
-        "frequency",
-        "date"
       ]
     }
   }
