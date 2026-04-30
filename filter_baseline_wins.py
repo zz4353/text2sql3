@@ -25,12 +25,12 @@ def main():
 
     results = []
     for item_id in sorted(all_ids):
-        bl_correct = all(m.get(item_id) is True for m in bl_maps)
+        bl_correct = any(m.get(item_id) is True for m in bl_maps)
         p1_wrong = all(m.get(item_id) is False for m in p1_maps)
         if bl_correct and p1_wrong:
             results.append(item_id)
 
-    print(f"Found {len(results)} samples: baseline correct in both, pipeline1 wrong in both")
+    print(f"Found {len(results)} samples: baseline correct in at least 1, pipeline1 wrong in both")
     print(f"IDs: {results}")
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:

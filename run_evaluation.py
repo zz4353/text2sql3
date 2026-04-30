@@ -14,16 +14,16 @@ from db_client import DB_ID
 from evaluation import compare_sqls
 from utils import render_sql_for_log
 
-TEST_PATH = "test.json"
+TEST_PATH = "test3.json"
 
 CONFIGS = {
     "baseline": {
-        "input": os.path.join("results", "baseline", "results.json"),
-        "output": os.path.join("results", "baseline", "evaluation.json"),
+        "input": os.path.join("results2", "baseline", "results.json"),
+        "output": os.path.join("results2", "baseline", "evaluation.json"),
     },
     "pipeline1": {
-        "input": os.path.join("results", "pipeline1", "built_sqls.json"),
-        "output": os.path.join("results", "pipeline1", "evaluation.json"),
+        "input": os.path.join("results2", "pipeline1", "built_sqls.json"),
+        "output": os.path.join("results2", "pipeline1", "evaluation.json"),
     },
 }
 

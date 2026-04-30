@@ -1,0 +1,8096 @@
+[
+  {
+    "id": 1,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "amount",
+        "balance",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "db_id": "student_club",
+    "selected_columns": {
+      "budget": [
+        "budget_id",
+        "category",
+        "amount",
+        "spent",
+        "remaining",
+        "event_status"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "constructorStandings": [
+        "constructorId",
+        "raceId",
+        "constructorStandingsId",
+        "points"
+      ],
+      "constructorResults": [
+        "constructorId",
+        "raceId",
+        "points"
+      ],
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "t_shirt_size"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "db_id": "student_club",
+    "selected_columns": {
+      "zip_code": [
+        "zip_code",
+        "city",
+        "state",
+        "county"
+      ],
+      "member": [
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "DOC",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "GSserved",
+        "GSoffered",
+        "DOCType",
+        "EILName",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "db_id": "thrombosis_prediction",
+    "selected_columns": {
+      "Patient": [
+        "ID",
+        "SEX",
+        "Birthday",
+        "Description",
+        "First Date",
+        "Admission",
+        "Diagnosis"
+      ],
+      "Examination": [
+        "ID",
+        "Examination Date",
+        "Diagnosis"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "name",
+        "type",
+        "manaCost",
+        "power",
+        "toughness",
+        "rarity",
+        "uuid"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate"
+      ],
+      "foreign_data": [
+        "uuid",
+        "language",
+        "name",
+        "flavorText"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "drivers": [
+        "driverId",
+        "driverRef",
+        "number",
+        "code",
+        "forename",
+        "surname",
+        "dob",
+        "nationality",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "GSoffered",
+        "GSserved",
+        "EILName",
+        "StatusType",
+        "County",
+        "District",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName"
+      ],
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "CreaionDate",
+        "Title"
+      ],
+      "comments": [
+        "Id",
+        "PostId",
+        "UserId",
+        "CreationDate",
+        "Text"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "drivers": [
+        "driverId"
+      ],
+      "races": [
+        "raceId"
+      ],
+      "qualifying": [
+        "qualifyId",
+        "raceId",
+        "driverId",
+        "constructorId",
+        "position"
+      ],
+      "constructors": [
+        "constructorId"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "date",
+        "frequency"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A10",
+        "A11",
+        "A9",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "db_id": "student_club",
+    "selected_columns": {
+      "budget": [
+        "budget_id",
+        "category",
+        "spent",
+        "remaining",
+        "amount",
+        "event_status",
+        "link_to_event"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id",
+        "height_cm",
+        "weight_kg"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "seasons": [
+        "year",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "products": [
+        "ProductID",
+        "Description"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code",
+        "County Code"
+      ],
+      "satscores": [
+        "cds",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip",
+        "link_to_major"
+      ],
+      "major": [
+        "major_id",
+        "major_name"
+      ],
+      "zip_code": [
+        "zip_code",
+        "city",
+        "county",
+        "state",
+        "short_state"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "OpenDate",
+        "Charter",
+        "DOC",
+        "DOCType",
+        "GSoffered",
+        "Latitude",
+        "Longitude",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code"
+      ],
+      "satscores": [
+        "cds",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "posts": [
+        "Id",
+        "FavoriteCount",
+        "CommentCount",
+        "AnswerCount"
+      ],
+      "comments": [
+        "Id",
+        "PostId",
+        "Score",
+        "Text",
+        "CreationDate"
+      ],
+      "votes": [
+        "Id",
+        "PostId",
+        "VoteTypeId",
+        "CreationDate"
+      ],
+      "tags": [
+        "Id",
+        "TagName",
+        "Count"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "GSoffered",
+        "GSserved",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "publisher_id",
+        "alignment_id"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "alignment": [
+        "id",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "db_id": "financial",
+    "selected_columns": {
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "crossing",
+        "dribbling",
+        "finishing"
+      ],
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ],
+      "Match": [
+        "home_team_api_id",
+        "away_team_api_id",
+        "league_id",
+        "season",
+        "date",
+        "home_team_goal",
+        "away_team_goal"
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "name",
+        "faceName",
+        "faceConvertedManaCost",
+        "flavorName"
+      ],
+      "foreign_data": [
+        "uuid",
+        "flavorText",
+        "language"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "name",
+        "type",
+        "manaCost",
+        "loyalty",
+        "rarity",
+        "uuid"
+      ],
+      "foreign_data": [
+        "uuid",
+        "name",
+        "language",
+        "flavorText",
+        "multiverseid"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "db_id": "superhero",
+    "selected_columns": {
+      "publisher": [
+        "id",
+        "publisher_name"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "OpenDate",
+        "ClosedDate",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "StatusType",
+        "LastUpdate",
+        "DOC",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "School Type",
+        "Charter School (Y/N)"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "db_id": "financial",
+    "selected_columns": {
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Country": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "tags": [
+        "Id",
+        "TagName",
+        "Count",
+        "ExcerptPostId",
+        "WikiPostId"
+      ],
+      "badges": [
+        "Id",
+        "UserId",
+        "Name",
+        "Date"
+      ],
+      "comments": [
+        "Id",
+        "PostId",
+        "Score",
+        "Text",
+        "CreationDate",
+        "UserId",
+        "UserDisplayName"
+      ],
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "AcceptedAnswerId",
+        "CreaionDate",
+        "Score",
+        "ViewCount",
+        "Body",
+        "OwnerUserId",
+        "LasActivityDate"
+      ],
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "LastAccessDate",
+        "WebsiteUrl",
+        "Location",
+        "AboutMe"
+      ],
+      "votes": [
+        "Id",
+        "PostId",
+        "VoteTypeId",
+        "CreationDate",
+        "UserId",
+        "BountyAmount"
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date"
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol",
+        "bank",
+        "account"
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "GSoffered",
+        "SOC",
+        "DOC",
+        "LastUpdate",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code",
+        "County Code",
+        "School Code"
+      ],
+      "satscores": [
+        "cds",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "name",
+        "frameVersion",
+        "frameEffects",
+        "isFullArt"
+      ],
+      "foreign_data": [
+        "uuid",
+        "flavorText",
+        "language",
+        "multiverseid",
+        "name",
+        "text"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "db_id": "financial",
+    "selected_columns": {
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ],
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "account": [
+        "account_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "name",
+        "layout",
+        "isOnlineOnly",
+        "uuid"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "db_id": "thrombosis_prediction",
+    "selected_columns": {
+      "Patient": [
+        "ID",
+        "SEX",
+        "Birthday"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol",
+        "bank",
+        "account"
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "name",
+        "manaCost",
+        "text",
+        "rarity"
+      ],
+      "sets": [
+        "id",
+        "name",
+        "code",
+        "releaseDate"
+      ],
+      "foreign_data": [
+        "id",
+        "name",
+        "language",
+        "multiverseid",
+        "flavorText"
+      ],
+      "legalities": [
+        "id",
+        "format",
+        "status"
+      ],
+      "set_translations": [
+        "id",
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "id",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id",
+        "height_cm",
+        "weight_kg"
+      ],
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "attribute": [
+        "id",
+        "attribute_name"
+      ],
+      "superpower": [
+        "id",
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip",
+        "link_to_major"
+      ],
+      "zip_code": [
+        "zip_code",
+        "short_state"
+      ],
+      "major": [
+        "major_id",
+        "major_name"
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes"
+      ],
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip"
+      ],
+      "attendance": [
+        "link_to_event",
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes"
+      ],
+      "budget": [
+        "link_to_event",
+        "event_status",
+        "amount",
+        "spent",
+        "remaining"
+      ],
+      "attendance": [
+        "link_to_event",
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "artist",
+        "flavorText",
+        "keywords",
+        "name"
+      ],
+      "foreign_data": [
+        "uuid",
+        "flavorText",
+        "language"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "db_id": "thrombosis_prediction",
+    "selected_columns": {
+      "Patient": [
+        "ID",
+        "SEX",
+        "Birthday"
+      ],
+      "Examination": [
+        "ID",
+        "Examination Date",
+        "aCL IgA",
+        "ANA",
+        "Thrombosis"
+      ],
+      "Laboratory": [
+        "ID",
+        "Date",
+        "GOT",
+        "GPT"
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "driverStandings": [
+        "driverStandingsId",
+        "raceId",
+        "driverId",
+        "points"
+      ],
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId",
+        "name",
+        "date",
+        "time"
+      ],
+      "drivers": [
+        "driverId",
+        "driverRef",
+        "forename",
+        "surname"
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes",
+        "status"
+      ],
+      "budget": [
+        "budget_id",
+        "category",
+        "spent",
+        "remaining",
+        "amount",
+        "event_status",
+        "link_to_event"
+      ],
+      "attendance": [
+        "link_to_event",
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Country": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "db_id": "card_games",
+    "selected_columns": {
+      "sets": [
+        "code",
+        "name",
+        "releaseDate",
+        "baseSetSize",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "GSoffered",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "School Type"
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Match": [
+        "id",
+        "country_id",
+        "league_id",
+        "season",
+        "stage",
+        "date",
+        "match_api_id",
+        "home_team_api_id",
+        "away_team_api_id",
+        "home_team_goal",
+        "away_team_goal",
+        "home_player_1",
+        "home_player_2",
+        "home_player_3",
+        "home_player_4",
+        "home_player_5",
+        "home_player_6",
+        "home_player_7",
+        "home_player_8",
+        "home_player_9",
+        "home_player_10",
+        "home_player_11"
+      ],
+      "Player": [
+        "id",
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Team": [
+        "id",
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "League": [
+        "id",
+        "country_id",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "db_id": "student_club",
+    "selected_columns": {
+      "income": [
+        "income_id",
+        "date_received",
+        "amount",
+        "source",
+        "link_to_member",
+        "notes"
+      ],
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip",
+        "link_to_major"
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id",
+        "height_cm",
+        "weight_kg"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "alignment": [
+        "id",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "OpenDate",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "Charter School (Y/N)",
+        "Charter School Number",
+        "Charter Funding Type"
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "circuits": [
+        "circuitId",
+        "circuitRef",
+        "name",
+        "location",
+        "country",
+        "lat",
+        "lng",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "db_id": "superhero",
+    "selected_columns": {
+      "race": [
+        "id",
+        "race"
+      ],
+      "superhero": [
+        "race_id"
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "db_id": "superhero",
+    "selected_columns": {
+      "publisher": [
+        "id",
+        "publisher_name"
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId",
+        "name",
+        "date",
+        "time",
+        "url"
+      ],
+      "drivers": [
+        "driverId",
+        "driverRef",
+        "forename",
+        "surname",
+        "dob",
+        "nationality",
+        "url"
+      ],
+      "lapTimes": [
+        "raceId",
+        "driverId",
+        "lap",
+        "position",
+        "time"
+      ],
+      "pitStops": [
+        "raceId",
+        "driverId",
+        "stop",
+        "lap",
+        "time"
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "db_id": "student_club",
+    "selected_columns": {
+      "expense": [
+        "expense_id",
+        "expense_date",
+        "approved"
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "db_id": "financial",
+    "selected_columns": {
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "transactions_1k": [
+        "TransactionID",
+        "Amount",
+        "Price"
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Currency"
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Segment"
+      ],
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "MailState",
+        "MailCity",
+        "DOCType",
+        "LastUpdate",
+        "MailZip",
+        "District",
+        "County",
+        "StatusType",
+        "DOC"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Name",
+        "District Name",
+        "District Type"
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "Location",
+        "WebsiteUrl",
+        "Views",
+        "UpVotes",
+        "DownVotes",
+        "AccountId",
+        "Age"
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "products": [
+        "ProductID",
+        "Description"
+      ]
+    }
+  },
+  {
+    "id": 95,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "bond": [
+        "bond_id",
+        "molecule_id",
+        "bond_type"
+      ],
+      "connected": [
+        "bond_id",
+        "atom_id",
+        "atom_id2"
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "loyalty",
+        "name",
+        "power",
+        "toughness",
+        "uuid"
+      ],
+      "foreign_data": [
+        "uuid",
+        "name",
+        "language",
+        "flavorText",
+        "multiverseid"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "GSoffered",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Segment"
+      ],
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "publisher_id",
+        "alignment_id"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "alignment": [
+        "id",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date"
+      ],
+      "expense": [
+        "expense_id",
+        "expense_description",
+        "expense_date",
+        "cost",
+        "approved",
+        "link_to_member",
+        "link_to_budget"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superpower": [
+        "id",
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "LastUpdate",
+        "DOC",
+        "StatusType",
+        "School",
+        "County",
+        "District",
+        "DOCType"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential",
+        "preferred_foot",
+        "attacking_work_rate",
+        "defensive_work_rate"
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "seasons": [
+        "year",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "status",
+        "location"
+      ],
+      "budget": [
+        "budget_id",
+        "event_status",
+        "link_to_event",
+        "amount",
+        "spent",
+        "remaining"
+      ],
+      "expense": [
+        "expense_id",
+        "expense_description",
+        "expense_date",
+        "cost",
+        "approved",
+        "link_to_member",
+        "link_to_budget"
+      ],
+      "income": [
+        "income_id",
+        "date_received",
+        "amount",
+        "source",
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "db_id": "thrombosis_prediction",
+    "selected_columns": {
+      "Patient": [
+        "ID",
+        "First Date",
+        "Description",
+        "Admission"
+      ],
+      "Examination": [
+        "ID",
+        "Examination Date",
+        "Diagnosis",
+        "KCT",
+        "RVVT",
+        "LAC",
+        "Symptoms",
+        "Thrombosis"
+      ],
+      "Laboratory": [
+        "ID",
+        "Date",
+        "GOT",
+        "GPT",
+        "LDH",
+        "ALP",
+        "TP",
+        "ALB",
+        "UA",
+        "UN",
+        "CRE",
+        "T-BIL",
+        "T-CHO",
+        "TG",
+        "CPK",
+        "GLU",
+        "WBC",
+        "RBC",
+        "HGB",
+        "HCT",
+        "PLT"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "potential",
+        "overall_rating"
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "atom": [
+        "atom_id",
+        "molecule_id"
+      ],
+      "bond": [
+        "bond_id",
+        "molecule_id"
+      ],
+      "connected": [
+        "atom_id",
+        "atom_id2",
+        "bond_id"
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "name",
+        "manaCost",
+        "rarity",
+        "type"
+      ],
+      "foreign_data": [
+        "uuid",
+        "name",
+        "flavorText",
+        "language",
+        "multiverseid"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName"
+      ],
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "AcceptedAnswerId",
+        "CreaionDate",
+        "Score",
+        "ViewCount",
+        "Body",
+        "OwnerUserId"
+      ],
+      "comments": [
+        "Id",
+        "PostId",
+        "Score",
+        "Text",
+        "CreationDate",
+        "UserId"
+      ],
+      "votes": [
+        "Id",
+        "PostId",
+        "VoteTypeId",
+        "CreationDate",
+        "UserId"
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "superhero_name",
+        "gender_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id"
+      ],
+      "attribute": [
+        "attribute_name"
+      ],
+      "hero_attribute": [
+        "hero_id",
+        "attribute_id",
+        "attribute_value"
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "constructors": [
+        "constructorId",
+        "constructorRef",
+        "name",
+        "nationality",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 114,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 118,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "status": [
+        "statusId",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "DisplayName",
+        "CreationDate",
+        "Reputation"
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "atom": [
+        "molecule_id",
+        "atom_id"
+      ],
+      "bond": [
+        "molecule_id",
+        "bond_id"
+      ],
+      "connected": [
+        "atom_id",
+        "atom_id2",
+        "bond_id"
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ],
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Country",
+        "Segment"
+      ],
+      "products": [
+        "ProductID",
+        "Description"
+      ],
+      "transactions_1k": [
+        "TransactionID",
+        "CustomerID",
+        "GasStationID",
+        "ProductID",
+        "Amount",
+        "Price"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id",
+        "label"
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "OpenDate",
+        "Charter",
+        "DOC",
+        "DOCType",
+        "GSoffered",
+        "Latitude",
+        "Longitude",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code",
+        "County Code"
+      ],
+      "satscores": [
+        "cds",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "db_id": "superhero",
+    "selected_columns": {
+      "colour": [
+        "id",
+        "colour"
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "phone",
+        "zip"
+      ],
+      "zip_code": [
+        "zip_code",
+        "short_state"
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "mtgArenaId",
+        "mtgoFoilId",
+        "mtgoId",
+        "name",
+        "uuid"
+      ],
+      "foreign_data": [
+        "id",
+        "flavorText",
+        "language",
+        "multiverseid",
+        "name",
+        "text",
+        "type",
+        "uuid"
+      ],
+      "legalities": [
+        "id",
+        "format",
+        "status",
+        "uuid"
+      ],
+      "sets": [
+        "id",
+        "baseSetSize",
+        "block",
+        "booster",
+        "code",
+        "isFoilOnly",
+        "isForeignOnly",
+        "isNonFoilOnly",
+        "isOnlineOnly",
+        "isPartialPreview",
+        "mcmId",
+        "mcmIdExtras",
+        "mcmName",
+        "mtgoCode",
+        "name",
+        "parentCode",
+        "releaseDate",
+        "tcgplayerGroupId",
+        "totalSetSize",
+        "type"
+      ],
+      "set_translations": [
+        "id",
+        "language",
+        "setCode",
+        "translation"
+      ],
+      "rulings": [
+        "id",
+        "date",
+        "text",
+        "uuid"
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "AcceptedAnswerId",
+        "CreaionDate",
+        "Score",
+        "ViewCount",
+        "Body",
+        "Title"
+      ],
+      "comments": [
+        "Id",
+        "PostId",
+        "Score",
+        "Text",
+        "CreationDate",
+        "UserId",
+        "UserDisplayName"
+      ],
+      "badges": [
+        "Id",
+        "UserId",
+        "Name",
+        "Date"
+      ],
+      "tags": [
+        "Id",
+        "TagName",
+        "Count",
+        "ExcerptPostId",
+        "WikiPostId"
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "status": [
+        "statusId",
+        "status"
+      ],
+      "results": [
+        "resultId",
+        "raceId",
+        "driverId",
+        "constructorId",
+        "statusId"
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date"
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "db_id": "financial",
+    "selected_columns": {
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 135,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superpower": [
+        "id",
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "GSoffered",
+        "GSserved",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 137,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 138,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "LastUpdate",
+        "Latitude",
+        "Longitude",
+        "DOC",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type"
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "status": [
+        "statusId",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 140,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Match": [
+        "home_team_api_id",
+        "away_team_api_id",
+        "home_team_goal",
+        "away_team_goal"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "League": [
+        "id",
+        "country_id",
+        "name"
+      ],
+      "Country": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "db_id": "student_club",
+    "selected_columns": {
+      "budget": [
+        "budget_id",
+        "category",
+        "spent",
+        "remaining",
+        "amount",
+        "event_status",
+        "link_to_event"
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 144,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 145,
+    "db_id": "thrombosis_prediction",
+    "selected_columns": {
+      "Patient": [
+        "ID",
+        "Birthday",
+        "SEX"
+      ],
+      "Examination": [
+        "ID",
+        "Diagnosis"
+      ],
+      "Laboratory": [
+        "ID",
+        "Date"
+      ]
+    }
+  },
+  {
+    "id": 146,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 147,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "name",
+        "isPromo",
+        "hasFoil",
+        "availability"
+      ],
+      "foreign_data": [
+        "uuid",
+        "language",
+        "name",
+        "flavorText",
+        "multiverseid"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ],
+      "card": [
+        "card_id",
+        "disp_id",
+        "type",
+        "issued"
+      ],
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "status",
+        "payments"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 149,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "client": [
+        "client_id",
+        "district_id",
+        "gender",
+        "birth_date"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ],
+      "card": [
+        "card_id",
+        "disp_id",
+        "type",
+        "issued"
+      ],
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol",
+        "bank",
+        "account"
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "name",
+        "frameEffects",
+        "frameVersion",
+        "isFullArt"
+      ],
+      "foreign_data": [
+        "uuid",
+        "flavorText",
+        "language",
+        "multiverseid",
+        "name",
+        "text"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code",
+        "County Code",
+        "School Code",
+        "District Name",
+        "County Name"
+      ],
+      "satscores": [
+        "cds",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 152,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential",
+        "preferred_foot",
+        "attacking_work_rate",
+        "defensive_work_rate"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "Match": [
+        "match_api_id",
+        "league_id",
+        "season",
+        "date",
+        "home_team_api_id",
+        "away_team_api_id",
+        "home_team_goal",
+        "away_team_goal"
+      ]
+    }
+  },
+  {
+    "id": 153,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Location",
+        "AboutMe"
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "notes"
+      ],
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name"
+      ],
+      "major": [
+        "major_id",
+        "major_name"
+      ],
+      "zip_code": [
+        "zip_code",
+        "city",
+        "state"
+      ]
+    }
+  },
+  {
+    "id": 155,
+    "db_id": "student_club",
+    "selected_columns": {
+      "income": [
+        "income_id",
+        "date_received",
+        "amount",
+        "source"
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "db_id": "superhero",
+    "selected_columns": {
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id"
+      ]
+    }
+  },
+  {
+    "id": 157,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "seasons": [
+        "year",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 158,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 159,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "AcceptedAnswerId",
+        "CreaionDate",
+        "Score",
+        "ViewCount",
+        "Body",
+        "Title",
+        "AnswerCount",
+        "CommentCount",
+        "FavoriteCount",
+        "LastEditorUserId",
+        "LastEditDate",
+        "CommunityOwnedDate",
+        "ParentId",
+        "OwnerUserId"
+      ],
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "LastAccessDate",
+        "WebsiteUrl",
+        "Location",
+        "AboutMe",
+        "Views",
+        "UpVotes",
+        "DownVotes",
+        "AccountId",
+        "Age",
+        "ProfileImageUrl"
+      ]
+    }
+  },
+  {
+    "id": 160,
+    "db_id": "student_club",
+    "selected_columns": {
+      "zip_code": [
+        "zip_code",
+        "type",
+        "city",
+        "county",
+        "state",
+        "short_state"
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ],
+      "card": [
+        "card_id",
+        "disp_id",
+        "type",
+        "issued"
+      ],
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "Segment",
+        "Country"
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "constructors": [
+        "constructorRef",
+        "name",
+        "nationality",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Latitude",
+        "Longitude",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code",
+        "County Code",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "School Type",
+        "Charter School (Y/N)",
+        "Charter Funding Type"
+      ],
+      "satscores": [
+        "cds",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 166,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "DOCType",
+        "MailCity",
+        "MailZip",
+        "MailState",
+        "StatusType",
+        "LastUpdate",
+        "DOC"
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "phone",
+        "t_shirt_size"
+      ],
+      "zip_code": [
+        "zip_code",
+        "short_state"
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 170,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 172,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "district_id",
+        "birth_date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "db_id": "superhero",
+    "selected_columns": {
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "alignment_id",
+        "publisher_id"
+      ]
+    }
+  },
+  {
+    "id": 174,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Currency"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 175,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "Website",
+        "OpenDate",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "DOC",
+        "DOCType",
+        "GSoffered",
+        "AdmFName1",
+        "AdmLName1",
+        "AdmEmail1",
+        "Latitude",
+        "Longitude",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "School Type",
+        "Educational Option Type",
+        "Charter School (Y/N)",
+        "Charter School Number",
+        "Charter Funding Type"
+      ],
+      "satscores": [
+        "cds",
+        "rtype",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "AvgScrRead",
+        "AvgScrMath",
+        "AvgScrWrite",
+        "NumGE1500"
+      ]
+    }
+  },
+  {
+    "id": 176,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "atom": [
+        "atom_id",
+        "molecule_id"
+      ],
+      "bond": [
+        "bond_id",
+        "bond_type",
+        "molecule_id"
+      ],
+      "connected": [
+        "atom_id",
+        "atom_id2",
+        "bond_id"
+      ]
+    }
+  },
+  {
+    "id": 177,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "District",
+        "DOC",
+        "FundingType",
+        "DOCType",
+        "LastUpdate",
+        "Charter",
+        "County"
+      ],
+      "frpm": [
+        "CDSCode"
+      ]
+    }
+  },
+  {
+    "id": 178,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "db_id": "student_club",
+    "selected_columns": {
+      "expense": [
+        "expense_id",
+        "expense_date",
+        "approved"
+      ]
+    }
+  },
+  {
+    "id": 180,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "Country",
+        "ChainID",
+        "GasStationID"
+      ]
+    }
+  },
+  {
+    "id": 181,
+    "db_id": "superhero",
+    "selected_columns": {
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "attribute": [
+        "id",
+        "attribute_name"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id",
+        "height_cm",
+        "weight_kg"
+      ],
+      "hero_attribute": [
+        "hero_id",
+        "attribute_id",
+        "attribute_value"
+      ],
+      "superpower": [
+        "id",
+        "power_name"
+      ],
+      "hero_power": [
+        "hero_id",
+        "power_id"
+      ]
+    }
+  },
+  {
+    "id": 182,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 183,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "atom": [
+        "atom_id",
+        "molecule_id",
+        "element"
+      ],
+      "molecule": [
+        "molecule_id"
+      ]
+    }
+  },
+  {
+    "id": 184,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superpower": [
+        "id",
+        "power_name"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id",
+        "height_cm",
+        "weight_kg"
+      ],
+      "hero_power": [
+        "hero_id",
+        "power_id"
+      ]
+    }
+  },
+  {
+    "id": 185,
+    "db_id": "student_club",
+    "selected_columns": {
+      "zip_code": [
+        "zip_code",
+        "short_state"
+      ]
+    }
+  },
+  {
+    "id": 186,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 187,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Match": [
+        "B365D",
+        "B365A",
+        "B365H"
+      ],
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ],
+      "Country": [
+        "name"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential"
+      ],
+      "Team_Attributes": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "date",
+        "buildUpPlaySpeed"
+      ]
+    }
+  },
+  {
+    "id": 188,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "products": [
+        "ProductID",
+        "Description"
+      ]
+    }
+  },
+  {
+    "id": 189,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "School",
+        "OpenDate",
+        "StatusType",
+        "GSoffered",
+        "GSserved",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "Academic Year",
+        "Enrollment (K-12)",
+        "Free Meal Count (K-12)",
+        "Percent (%) Eligible Free (K-12)"
+      ]
+    }
+  },
+  {
+    "id": 190,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "transactions_1k": [
+        "Date",
+        "Time",
+        "GasStationID"
+      ],
+      "gasstations": [
+        "GasStationID"
+      ]
+    }
+  },
+  {
+    "id": 191,
+    "db_id": "superhero",
+    "selected_columns": {
+      "race": [
+        "id",
+        "race"
+      ]
+    }
+  },
+  {
+    "id": 192,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "drivers": [
+        "driverId",
+        "driverRef",
+        "forename",
+        "surname"
+      ],
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId",
+        "name",
+        "date"
+      ],
+      "lapTimes": [
+        "raceId",
+        "driverId",
+        "lap",
+        "position",
+        "time"
+      ],
+      "pitStops": [
+        "raceId",
+        "driverId",
+        "stop",
+        "lap",
+        "time"
+      ]
+    }
+  },
+  {
+    "id": 193,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "bond": [
+        "bond_id",
+        "bond_type",
+        "molecule_id"
+      ]
+    }
+  },
+  {
+    "id": 194,
+    "db_id": "financial",
+    "selected_columns": {
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "balance",
+        "type",
+        "amount"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 195,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "Match": [
+        "country_id",
+        "league_id",
+        "season",
+        "date",
+        "home_team_api_id",
+        "away_team_api_id",
+        "home_team_goal",
+        "away_team_goal"
+      ]
+    }
+  },
+  {
+    "id": 196,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "products": [
+        "ProductID"
+      ],
+      "transactions_1k": [
+        "ProductID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date"
+      ]
+    }
+  },
+  {
+    "id": 197,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 198,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "location",
+        "status"
+      ],
+      "budget": [
+        "link_to_event",
+        "event_status",
+        "amount",
+        "spent",
+        "remaining"
+      ],
+      "attendance": [
+        "link_to_event",
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 199,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "AdmFName1",
+        "AdmLName1",
+        "AdmEmail1",
+        "StatusType",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "County Name",
+        "District Name",
+        "District Type"
+      ]
+    }
+  },
+  {
+    "id": 200,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Country": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": 201,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "mcmMetaId",
+        "name",
+        "tcgplayerProductId",
+        "mcmId"
+      ],
+      "foreign_data": [
+        "uuid",
+        "name",
+        "multiverseid",
+        "language",
+        "flavorText"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 202,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "atom": [
+        "atom_id",
+        "molecule_id",
+        "element"
+      ]
+    }
+  },
+  {
+    "id": 203,
+    "db_id": "superhero",
+    "selected_columns": {
+      "race": [
+        "id",
+        "race"
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "Website",
+        "OpenDate",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "LastUpdate",
+        "StatusType",
+        "DOC",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "School Type",
+        "Low Grade",
+        "High Grade",
+        "Charter School (Y/N)",
+        "Charter Funding Type"
+      ],
+      "satscores": [
+        "cds",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "AvgScrRead",
+        "AvgScrMath",
+        "AvgScrWrite",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 205,
+    "db_id": "financial",
+    "selected_columns": {
+      "card": [
+        "issued",
+        "type",
+        "disp_id"
+      ],
+      "disp": [
+        "client_id",
+        "account_id",
+        "type"
+      ],
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 206,
+    "db_id": "superhero",
+    "selected_columns": {
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id"
+      ]
+    }
+  },
+  {
+    "id": 207,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id"
+      ],
+      "attribute": [
+        "id",
+        "attribute_name"
+      ],
+      "hero_attribute": [
+        "hero_id",
+        "attribute_id",
+        "attribute_value"
+      ]
+    }
+  },
+  {
+    "id": 208,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 209,
+    "db_id": "student_club",
+    "selected_columns": {
+      "income": [
+        "income_id",
+        "date_received",
+        "amount",
+        "source",
+        "notes",
+        "link_to_member"
+      ],
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip",
+        "link_to_major"
+      ]
+    }
+  },
+  {
+    "id": 210,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 211,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "AcceptedAnswerId",
+        "CreaionDate",
+        "Score",
+        "ViewCount",
+        "Body",
+        "OwnerUserId",
+        "LasActivityDate"
+      ],
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "LastAccessDate",
+        "WebsiteUrl",
+        "Location",
+        "AboutMe"
+      ]
+    }
+  },
+  {
+    "id": 212,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "School",
+        "LastUpdate",
+        "StatusType",
+        "DOCType",
+        "DOC"
+      ],
+      "frpm": [
+        "CDSCode"
+      ]
+    }
+  },
+  {
+    "id": 213,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "Location",
+        "WebsiteUrl",
+        "Views",
+        "UpVotes",
+        "DownVotes",
+        "AccountId",
+        "Age"
+      ]
+    }
+  },
+  {
+    "id": 214,
+    "db_id": "card_games",
+    "selected_columns": {
+      "sets": [
+        "id",
+        "baseSetSize",
+        "code",
+        "isFoilOnly",
+        "isForeignOnly",
+        "isNonFoilOnly",
+        "isOnlineOnly",
+        "isPartialPreview",
+        "name",
+        "releaseDate",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 215,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "phone",
+        "zip"
+      ],
+      "zip_code": [
+        "zip_code",
+        "city",
+        "county",
+        "state",
+        "short_state"
+      ]
+    }
+  },
+  {
+    "id": 216,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes",
+        "location",
+        "status"
+      ],
+      "budget": [
+        "budget_id",
+        "category",
+        "spent",
+        "remaining",
+        "amount",
+        "event_status",
+        "link_to_event"
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superpower": [
+        "id",
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 218,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "School",
+        "City",
+        "CharterNum",
+        "GSoffered",
+        "GSserved",
+        "Charter",
+        "FundingType",
+        "StatusType",
+        "District",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "Academic Year",
+        "Enrollment (K-12)",
+        "Percent (%) Eligible Free (K-12)",
+        "Percent (%) Eligible FRPM (K-12)"
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "db_id": "financial",
+    "selected_columns": {
+      "card": [
+        "issued",
+        "type",
+        "disp_id"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ],
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 220,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 221,
+    "db_id": "superhero",
+    "selected_columns": {
+      "colour": [
+        "id",
+        "colour"
+      ]
+    }
+  },
+  {
+    "id": 222,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "Website",
+        "OpenDate",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "LastUpdate",
+        "StatusType",
+        "DOC",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "School Type",
+        "Low Grade",
+        "High Grade",
+        "Charter School (Y/N)",
+        "Charter Funding Type"
+      ],
+      "satscores": [
+        "cds",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 223,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 224,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "OpenDate",
+        "Website",
+        "LastUpdate",
+        "District",
+        "County",
+        "Phone",
+        "DOC",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "District Type",
+        "School Type"
+      ]
+    }
+  },
+  {
+    "id": 225,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 226,
+    "db_id": "superhero",
+    "selected_columns": {
+      "publisher": [
+        "id",
+        "publisher_name"
+      ]
+    }
+  },
+  {
+    "id": 227,
+    "db_id": "superhero",
+    "selected_columns": {
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "attribute": [
+        "id",
+        "attribute_name"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id",
+        "height_cm",
+        "weight_kg"
+      ],
+      "hero_attribute": [
+        "hero_id",
+        "attribute_id",
+        "attribute_value"
+      ],
+      "superpower": [
+        "id",
+        "power_name"
+      ],
+      "hero_power": [
+        "hero_id",
+        "power_id"
+      ]
+    }
+  },
+  {
+    "id": 228,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "races": [
+        "raceId",
+        "circuitId",
+        "name",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 229,
+    "db_id": "financial",
+    "selected_columns": {
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 230,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "status",
+        "notes"
+      ],
+      "attendance": [
+        "link_to_event",
+        "link_to_member"
+      ],
+      "budget": [
+        "link_to_event",
+        "event_status",
+        "amount",
+        "spent",
+        "remaining"
+      ],
+      "expense": [
+        "link_to_budget",
+        "link_to_member",
+        "expense_description",
+        "expense_date",
+        "cost",
+        "approved"
+      ],
+      "income": [
+        "link_to_member",
+        "date_received",
+        "amount",
+        "source",
+        "notes"
+      ]
+    }
+  },
+  {
+    "id": 231,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "products": [
+        "ProductID",
+        "Description"
+      ]
+    }
+  },
+  {
+    "id": 232,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 233,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 234,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "constructors": [
+        "constructorId",
+        "name",
+        "nationality"
+      ]
+    }
+  },
+  {
+    "id": 235,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "OpenDate",
+        "ClosedDate",
+        "LastUpdate",
+        "DOC",
+        "DOCType"
+      ]
+    }
+  },
+  {
+    "id": 236,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "GSoffered",
+        "GSserved",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 237,
+    "db_id": "student_club",
+    "selected_columns": {
+      "expense": [
+        "expense_id",
+        "expense_description",
+        "expense_date",
+        "cost",
+        "approved"
+      ]
+    }
+  },
+  {
+    "id": 238,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Country",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 239,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "LastUpdate",
+        "Latitude",
+        "Longitude",
+        "DOC",
+        "DOCType"
+      ]
+    }
+  },
+  {
+    "id": 240,
+    "db_id": "superhero",
+    "selected_columns": {
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "gender_id",
+        "alignment_id"
+      ]
+    }
+  },
+  {
+    "id": 241,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size"
+      ],
+      "attendance": [
+        "link_to_member",
+        "link_to_event"
+      ]
+    }
+  },
+  {
+    "id": 242,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes",
+        "location",
+        "status"
+      ],
+      "budget": [
+        "budget_id",
+        "category",
+        "spent",
+        "remaining",
+        "amount",
+        "event_status",
+        "link_to_event"
+      ],
+      "expense": [
+        "expense_id",
+        "expense_description",
+        "expense_date",
+        "cost",
+        "approved",
+        "link_to_member",
+        "link_to_budget"
+      ]
+    }
+  },
+  {
+    "id": 243,
+    "db_id": "financial",
+    "selected_columns": {
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": 244,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 245,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "location",
+        "status"
+      ],
+      "budget": [
+        "budget_id",
+        "category",
+        "spent",
+        "remaining",
+        "amount",
+        "event_status",
+        "link_to_event"
+      ],
+      "attendance": [
+        "link_to_event",
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 246,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Match": [
+        "home_team_api_id",
+        "away_team_api_id",
+        "home_team_goal",
+        "away_team_goal"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "League": [
+        "id",
+        "country_id",
+        "name"
+      ],
+      "Country": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player_Attributes": [
+        "dribbling",
+        "crossing",
+        "finishing"
+      ],
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ],
+      "Match": [
+        "home_team_api_id",
+        "away_team_api_id",
+        "league_id",
+        "season",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 248,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Latitude",
+        "Longitude",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code",
+        "County Code"
+      ],
+      "satscores": [
+        "cds",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 249,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "circuits": [
+        "circuitId",
+        "circuitRef",
+        "name",
+        "location",
+        "country",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 250,
+    "db_id": "superhero",
+    "selected_columns": {
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "superhero": [
+        "id",
+        "superhero_name",
+        "height_cm",
+        "weight_kg",
+        "alignment_id",
+        "race_id",
+        "gender_id",
+        "hair_colour_id",
+        "eye_colour_id",
+        "skin_colour_id",
+        "publisher_id"
+      ]
+    }
+  },
+  {
+    "id": 251,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "atom": [
+        "atom_id",
+        "molecule_id"
+      ],
+      "bond": [
+        "bond_id",
+        "molecule_id"
+      ],
+      "connected": [
+        "atom_id",
+        "atom_id2",
+        "bond_id"
+      ]
+    }
+  },
+  {
+    "id": 252,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "transactions_1k": [
+        "TransactionID",
+        "Date",
+        "Time",
+        "CustomerID",
+        "Amount",
+        "Price"
+      ]
+    }
+  },
+  {
+    "id": 253,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "LastUpdate",
+        "EILCode",
+        "GSoffered",
+        "GSserved",
+        "DOC",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "District Type",
+        "Low Grade",
+        "High Grade"
+      ]
+    }
+  },
+  {
+    "id": 254,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "superhero_name",
+        "hair_colour_id",
+        "eye_colour_id"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "alignment": [
+        "id",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "id": 255,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 256,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Website",
+        "AdmFName1",
+        "AdmLName1",
+        "AdmEmail1",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 257,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Country": [
+        "id",
+        "name"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": 259,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "products": [
+        "ProductID",
+        "Description"
+      ]
+    }
+  },
+  {
+    "id": 260,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "long_passing",
+        "heading_accuracy",
+        "free_kick_accuracy"
+      ],
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name"
+      ]
+    }
+  },
+  {
+    "id": 261,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "lapTimes": [
+        "raceId",
+        "driverId",
+        "lap",
+        "time"
+      ],
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId",
+        "name",
+        "date"
+      ],
+      "drivers": [
+        "driverId",
+        "driverRef",
+        "forename",
+        "surname"
+      ]
+    }
+  },
+  {
+    "id": 262,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Country",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 263,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "circuits": [
+        "circuitId",
+        "circuitRef",
+        "name",
+        "location",
+        "country",
+        "url"
+      ],
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId",
+        "name",
+        "date",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 264,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "tags": [
+        "Id",
+        "TagName",
+        "Count"
+      ]
+    }
+  },
+  {
+    "id": 265,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "LastAccessDate",
+        "WebsiteUrl",
+        "Location",
+        "AboutMe"
+      ]
+    }
+  },
+  {
+    "id": 266,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 267,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "gender_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "hero_attribute": [
+        "hero_id",
+        "attribute_id",
+        "attribute_value"
+      ],
+      "superpower": [
+        "id",
+        "power_name"
+      ],
+      "hero_power": [
+        "hero_id",
+        "power_id"
+      ]
+    }
+  },
+  {
+    "id": 268,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "publisher_id",
+        "alignment_id"
+      ],
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "gender": [
+        "id",
+        "gender"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ]
+    }
+  },
+  {
+    "id": 269,
+    "db_id": "superhero",
+    "selected_columns": {
+      "publisher": [
+        "id",
+        "publisher_name"
+      ]
+    }
+  },
+  {
+    "id": 270,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Country"
+      ]
+    }
+  },
+  {
+    "id": 271,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id",
+        "label"
+      ],
+      "bond": [
+        "bond_id",
+        "molecule_id",
+        "bond_type"
+      ]
+    }
+  },
+  {
+    "id": 272,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "name",
+        "scryfallOracleId",
+        "scryfallId",
+        "scryfallIllustrationId",
+        "uuid"
+      ],
+      "foreign_data": [
+        "uuid",
+        "flavorText",
+        "language",
+        "multiverseid",
+        "name",
+        "text",
+        "type"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 273,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superpower": [
+        "id",
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 274,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "drivers": [
+        "driverId",
+        "surname",
+        "nationality",
+        "forename"
+      ]
+    }
+  },
+  {
+    "id": 275,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Country",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 276,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Match": [
+        "stage",
+        "date",
+        "season"
+      ]
+    }
+  },
+  {
+    "id": 277,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "DOC",
+        "DOCType",
+        "OpenDate",
+        "LastUpdate",
+        "StatusType",
+        "Phone",
+        "Website"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "District Name",
+        "District Type",
+        "School Type"
+      ],
+      "satscores": [
+        "cds",
+        "enroll12",
+        "NumTstTakr",
+        "AvgScrRead",
+        "AvgScrMath",
+        "AvgScrWrite",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 278,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "Website",
+        "OpenDate",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "DOC",
+        "DOCType",
+        "GSoffered",
+        "Latitude",
+        "Longitude",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "Charter School (Y/N)",
+        "Charter School Number",
+        "Charter Funding Type"
+      ]
+    }
+  },
+  {
+    "id": 279,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "atom": [
+        "atom_id",
+        "molecule_id"
+      ],
+      "bond": [
+        "bond_id",
+        "molecule_id"
+      ],
+      "connected": [
+        "bond_id",
+        "atom_id",
+        "atom_id2"
+      ]
+    }
+  },
+  {
+    "id": 280,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "LastAccessDate",
+        "WebsiteUrl"
+      ]
+    }
+  },
+  {
+    "id": 281,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "OpenDate",
+        "ClosedDate",
+        "LastUpdate",
+        "DOC",
+        "DOCType"
+      ]
+    }
+  },
+  {
+    "id": 282,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "location",
+        "status"
+      ],
+      "budget": [
+        "budget_id",
+        "category",
+        "spent",
+        "remaining",
+        "amount",
+        "event_status",
+        "link_to_event"
+      ],
+      "attendance": [
+        "link_to_event",
+        "link_to_member"
+      ],
+      "expense": [
+        "expense_id",
+        "expense_description",
+        "expense_date",
+        "cost",
+        "approved",
+        "link_to_member",
+        "link_to_budget"
+      ],
+      "income": [
+        "income_id",
+        "date_received",
+        "amount",
+        "source",
+        "notes",
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 283,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "ClosedDate",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "District Code",
+        "County Code",
+        "School Name"
+      ],
+      "satscores": [
+        "cds",
+        "enroll12",
+        "NumTstTakr",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 284,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "name",
+        "type",
+        "manaCost",
+        "text",
+        "rarity",
+        "uuid"
+      ],
+      "sets": [
+        "name",
+        "code",
+        "releaseDate"
+      ],
+      "foreign_data": [
+        "uuid",
+        "name",
+        "language",
+        "multiverseid",
+        "flavorText"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 285,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "Charter School (Y/N)",
+        "Charter Funding Type"
+      ],
+      "satscores": [
+        "cds",
+        "rtype",
+        "sname",
+        "dname",
+        "cname",
+        "enroll12",
+        "NumTstTakr",
+        "AvgScrRead",
+        "AvgScrMath",
+        "AvgScrWrite"
+      ]
+    }
+  },
+  {
+    "id": 286,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "City",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "satscores": [
+        "cds",
+        "enroll12",
+        "NumTstTakr",
+        "AvgScrRead",
+        "AvgScrMath",
+        "AvgScrWrite",
+        "rtype"
+      ]
+    }
+  },
+  {
+    "id": 287,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "City",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "District Type",
+        "School Type",
+        "Educational Option Type",
+        "Charter School (Y/N)"
+      ]
+    }
+  },
+  {
+    "id": 288,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "Country",
+        "Segment"
+      ],
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 289,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "faceConvertedManaCost",
+        "name",
+        "faceName",
+        "uuid",
+        "flavorName"
+      ],
+      "foreign_data": [
+        "uuid",
+        "flavorText",
+        "language",
+        "multiverseid",
+        "name",
+        "text",
+        "type"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "sets": [
+        "code",
+        "name",
+        "releaseDate",
+        "baseSetSize",
+        "totalSetSize"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 290,
+    "db_id": "financial",
+    "selected_columns": {
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "amount",
+        "balance",
+        "k_symbol"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 291,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Match": [
+        "home_team_api_id",
+        "away_team_api_id",
+        "home_team_goal",
+        "away_team_goal"
+      ]
+    }
+  },
+  {
+    "id": 293,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "amount",
+        "balance",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 294,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "LastAccessDate",
+        "WebsiteUrl",
+        "Location",
+        "AboutMe"
+      ]
+    }
+  },
+  {
+    "id": 295,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name"
+      ],
+      "hero_attribute": [
+        "hero_id",
+        "attribute_value"
+      ]
+    }
+  },
+  {
+    "id": 296,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "postHistory": [
+        "Id",
+        "PostHistoryTypeId",
+        "PostId",
+        "CreationDate"
+      ],
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "CreaionDate"
+      ]
+    }
+  },
+  {
+    "id": 297,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 298,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "School",
+        "OpenDate",
+        "GSoffered",
+        "GSserved",
+        "StatusType",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "Academic Year",
+        "Enrollment (K-12)",
+        "Free Meal Count (K-12)",
+        "FRPM Count (K-12)"
+      ]
+    }
+  },
+  {
+    "id": 299,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "superhero_name",
+        "height_cm",
+        "weight_kg",
+        "gender_id",
+        "alignment_id",
+        "race_id",
+        "publisher_id"
+      ],
+      "alignment": [
+        "alignment"
+      ],
+      "gender": [
+        "gender"
+      ],
+      "race": [
+        "race"
+      ],
+      "publisher": [
+        "publisher_name"
+      ],
+      "attribute": [
+        "attribute_name"
+      ],
+      "superpower": [
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 300,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "attacking_work_rate",
+        "defensive_work_rate",
+        "positioning"
+      ],
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ],
+      "Match": [
+        "home_team_api_id",
+        "away_team_api_id",
+        "league_id",
+        "season",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 301,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "City",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "DOC",
+        "LastUpdate",
+        "DOCType"
+      ],
+      "frpm": [
+        "CDSCode",
+        "Charter School (Y/N)",
+        "Charter School Number",
+        "Charter Funding Type"
+      ]
+    }
+  },
+  {
+    "id": 302,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department"
+      ]
+    }
+  },
+  {
+    "id": 303,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "qualifying": [
+        "qualifyId",
+        "raceId",
+        "driverId",
+        "constructorId",
+        "position"
+      ],
+      "constructors": [
+        "constructorId",
+        "constructorRef",
+        "name",
+        "nationality",
+        "url"
+      ],
+      "drivers": [
+        "driverId",
+        "driverRef",
+        "forename",
+        "surname",
+        "dob",
+        "nationality",
+        "url"
+      ],
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId",
+        "name",
+        "date",
+        "time",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 304,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential",
+        "preferred_foot",
+        "attacking_work_rate",
+        "defensive_work_rate"
+      ]
+    }
+  },
+  {
+    "id": 305,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "OpenDate",
+        "Charter",
+        "CharterNum",
+        "FundingType",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "School Code",
+        "County Name",
+        "District Name",
+        "School Name",
+        "District Type",
+        "Charter School (Y/N)",
+        "Charter School Number",
+        "Charter Funding Type"
+      ]
+    }
+  },
+  {
+    "id": 306,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 307,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "City",
+        "State",
+        "DOCType",
+        "LastUpdate",
+        "StatusType",
+        "Zip",
+        "DOC"
+      ]
+    }
+  },
+  {
+    "id": 308,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superpower": [
+        "id",
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 309,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "t_shirt_size"
+      ],
+      "attendance": [
+        "link_to_member",
+        "link_to_event"
+      ],
+      "budget": [
+        "link_to_event",
+        "event_status"
+      ],
+      "expense": [
+        "link_to_member",
+        "link_to_budget"
+      ],
+      "income": [
+        "link_to_member"
+      ]
+    }
+  },
+  {
+    "id": 310,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": 311,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "constructorResults": [
+        "constructorResultsId",
+        "constructorId",
+        "points",
+        "raceId"
+      ],
+      "constructors": [
+        "constructorId",
+        "constructorRef",
+        "name",
+        "nationality",
+        "url"
+      ],
+      "races": [
+        "raceId",
+        "year",
+        "round",
+        "circuitId",
+        "name",
+        "date",
+        "time",
+        "url"
+      ]
+    }
+  },
+  {
+    "id": 312,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "Street",
+        "City",
+        "Zip",
+        "State",
+        "Phone",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 313,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position"
+      ]
+    }
+  },
+  {
+    "id": 314,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 315,
+    "db_id": "student_club",
+    "selected_columns": {
+      "income": [
+        "income_id",
+        "date_received",
+        "amount",
+        "source"
+      ]
+    }
+  },
+  {
+    "id": 316,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "notes",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 317,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 318,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "frequency",
+        "date"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 319,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "posts": [
+        "Id",
+        "AnswerCount",
+        "CommentCount",
+        "FavoriteCount"
+      ]
+    }
+  },
+  {
+    "id": 320,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "district_id",
+        "gender",
+        "birth_date"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 323,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ],
+      "card": [
+        "card_id",
+        "disp_id",
+        "type",
+        "issued"
+      ],
+      "loan": [
+        "loan_id",
+        "account_id",
+        "date",
+        "amount",
+        "duration",
+        "payments",
+        "status"
+      ],
+      "order": [
+        "order_id",
+        "account_id",
+        "bank_to",
+        "account_to",
+        "amount",
+        "k_symbol"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 324,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "posts": [
+        "Id",
+        "Title",
+        "Tags"
+      ],
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName"
+      ],
+      "votes": [
+        "Id",
+        "PostId",
+        "VoteTypeId",
+        "CreationDate"
+      ],
+      "comments": [
+        "Id",
+        "PostId",
+        "UserId",
+        "Text",
+        "CreationDate"
+      ],
+      "badges": [
+        "Id",
+        "UserId",
+        "Name",
+        "Date"
+      ],
+      "tags": [
+        "Id",
+        "TagName",
+        "Count"
+      ]
+    }
+  },
+  {
+    "id": 325,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "card": [
+        "card_id",
+        "disp_id",
+        "type",
+        "issued"
+      ],
+      "client": [
+        "client_id",
+        "district_id",
+        "gender",
+        "birth_date"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 326,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "LastAccessDate",
+        "WebsiteUrl",
+        "Location",
+        "AboutMe",
+        "Views",
+        "UpVotes",
+        "DownVotes",
+        "AccountId",
+        "Age",
+        "ProfileImageUrl"
+      ]
+    }
+  },
+  {
+    "id": 327,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": 329,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "posts": [
+        "Id",
+        "ViewCount",
+        "Score"
+      ],
+      "votes": [
+        "Id",
+        "PostId",
+        "VoteTypeId",
+        "CreationDate"
+      ],
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate"
+      ]
+    }
+  },
+  {
+    "id": 330,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player_Attributes": [
+        "player_api_id",
+        "attacking_work_rate",
+        "positioning",
+        "defensive_work_rate"
+      ],
+      "Player": [
+        "player_api_id",
+        "player_name",
+        "player_fifa_api_id"
+      ],
+      "Match": [
+        "home_team_api_id",
+        "away_team_api_id",
+        "league_id",
+        "season",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 331,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position"
+      ],
+      "zip_code": [
+        "zip_code",
+        "city",
+        "state",
+        "short_state"
+      ]
+    }
+  },
+  {
+    "id": 332,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "LastUpdate",
+        "DOC",
+        "DOCType"
+      ]
+    }
+  },
+  {
+    "id": 333,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "name",
+        "manaCost",
+        "text",
+        "rarity",
+        "type",
+        "uuid"
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position"
+      ]
+    }
+  },
+  {
+    "id": 335,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "badges": [
+        "Id",
+        "UserId",
+        "Name",
+        "Date"
+      ],
+      "comments": [
+        "Id",
+        "PostId",
+        "Score",
+        "Text",
+        "CreationDate",
+        "UserId",
+        "UserDisplayName"
+      ],
+      "postHistory": [
+        "Id",
+        "PostHistoryTypeId",
+        "PostId",
+        "RevisionGUID",
+        "CreationDate",
+        "UserId",
+        "Text",
+        "Comment",
+        "UserDisplayName"
+      ],
+      "postLinks": [
+        "Id",
+        "CreationDate",
+        "PostId",
+        "RelatedPostId",
+        "LinkTypeId"
+      ],
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "AcceptedAnswerId",
+        "CreaionDate",
+        "Score",
+        "ViewCount",
+        "Body",
+        "OwnerUserId",
+        "LasActivityDate",
+        "Title",
+        "Tags",
+        "AnswerCount",
+        "CommentCount",
+        "FavoriteCount",
+        "LastEditorUserId",
+        "LastEditDate",
+        "CommunityOwnedDate",
+        "ParentId",
+        "ClosedDate",
+        "OwnerDisplayName",
+        "LastEditorDisplayName"
+      ],
+      "tags": [
+        "Id",
+        "TagName",
+        "Count",
+        "ExcerptPostId",
+        "WikiPostId"
+      ],
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName",
+        "LastAccessDate",
+        "WebsiteUrl",
+        "Location",
+        "AboutMe",
+        "Views",
+        "UpVotes",
+        "DownVotes",
+        "AccountId",
+        "Age",
+        "ProfileImageUrl"
+      ],
+      "votes": [
+        "Id",
+        "PostId",
+        "VoteTypeId",
+        "CreationDate",
+        "UserId",
+        "BountyAmount"
+      ]
+    }
+  },
+  {
+    "id": 336,
+    "db_id": "student_club",
+    "selected_columns": {
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip",
+        "link_to_major"
+      ]
+    }
+  },
+  {
+    "id": 337,
+    "db_id": "thrombosis_prediction",
+    "selected_columns": {
+      "Patient": [
+        "ID",
+        "SEX",
+        "Birthday"
+      ],
+      "Examination": [
+        "ID",
+        "Symptoms",
+        "Diagnosis",
+        "aCL IgM"
+      ],
+      "Laboratory": [
+        "ID",
+        "Date",
+        "GOT",
+        "GPT"
+      ]
+    }
+  },
+  {
+    "id": 338,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 339,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "School",
+        "GSoffered",
+        "GSserved",
+        "DOC",
+        "DOCType",
+        "LastUpdate"
+      ]
+    }
+  },
+  {
+    "id": 340,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "notes"
+      ],
+      "member": [
+        "member_id",
+        "first_name",
+        "last_name",
+        "email"
+      ],
+      "major": [
+        "major_id",
+        "major_name"
+      ],
+      "zip_code": [
+        "zip_code",
+        "city",
+        "state"
+      ]
+    }
+  },
+  {
+    "id": 341,
+    "db_id": "student_club",
+    "selected_columns": {
+      "major": [
+        "major_id",
+        "major_name",
+        "department",
+        "college"
+      ]
+    }
+  },
+  {
+    "id": 342,
+    "db_id": "superhero",
+    "selected_columns": {
+      "race": [
+        "id",
+        "race"
+      ],
+      "superhero": [
+        "id",
+        "race_id"
+      ]
+    }
+  },
+  {
+    "id": 343,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 344,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "badges": [
+        "Id",
+        "UserId",
+        "Name",
+        "Date"
+      ],
+      "tags": [
+        "Id",
+        "TagName",
+        "Count",
+        "ExcerptPostId",
+        "WikiPostId"
+      ]
+    }
+  },
+  {
+    "id": 345,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential",
+        "preferred_foot",
+        "attacking_work_rate",
+        "defensive_work_rate",
+        "crossing",
+        "finishing",
+        "heading_accuracy",
+        "short_passing",
+        "volleys",
+        "dribbling",
+        "curve",
+        "free_kick_accuracy",
+        "long_passing",
+        "ball_control",
+        "acceleration",
+        "sprint_speed",
+        "agility",
+        "reactions",
+        "balance",
+        "shot_power",
+        "jumping",
+        "stamina",
+        "strength",
+        "long_shots",
+        "aggression",
+        "interceptions",
+        "positioning",
+        "vision",
+        "penalties",
+        "marking",
+        "standing_tackle",
+        "sliding_tackle",
+        "gk_diving",
+        "gk_handling",
+        "gk_kicking",
+        "gk_positioning",
+        "gk_reflexes"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "Match": [
+        "country_id",
+        "league_id",
+        "season",
+        "stage",
+        "date",
+        "match_api_id",
+        "home_team_api_id",
+        "away_team_api_id",
+        "home_team_goal",
+        "away_team_goal"
+      ]
+    }
+  },
+  {
+    "id": 346,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "AdmEmail1",
+        "AdmFName1",
+        "AdmLName1",
+        "DOC",
+        "District",
+        "County",
+        "DOCType",
+        "StatusType",
+        "LastUpdate"
+      ],
+      "frpm": [
+        "CDSCode",
+        "County Name",
+        "District Name",
+        "District Type"
+      ]
+    }
+  },
+  {
+    "id": 347,
+    "db_id": "superhero",
+    "selected_columns": {
+      "superhero": [
+        "id",
+        "superhero_name",
+        "full_name",
+        "gender_id",
+        "eye_colour_id",
+        "hair_colour_id",
+        "skin_colour_id",
+        "race_id",
+        "publisher_id",
+        "alignment_id",
+        "height_cm",
+        "weight_kg"
+      ],
+      "alignment": [
+        "id",
+        "alignment"
+      ],
+      "colour": [
+        "id",
+        "colour"
+      ],
+      "race": [
+        "id",
+        "race"
+      ],
+      "publisher": [
+        "id",
+        "publisher_name"
+      ],
+      "attribute": [
+        "id",
+        "attribute_name"
+      ],
+      "superpower": [
+        "id",
+        "power_name"
+      ]
+    }
+  },
+  {
+    "id": 348,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ]
+    }
+  },
+  {
+    "id": 349,
+    "db_id": "california_schools",
+    "selected_columns": {
+      "schools": [
+        "CDSCode",
+        "StatusType",
+        "County",
+        "District",
+        "LastUpdate",
+        "EILCode",
+        "GSoffered",
+        "GSserved",
+        "DOC",
+        "DOCType"
+      ]
+    }
+  },
+  {
+    "id": 350,
+    "db_id": "card_games",
+    "selected_columns": {
+      "cards": [
+        "uuid",
+        "name",
+        "mcmId",
+        "mcmMetaId",
+        "tcgplayerProductId"
+      ],
+      "foreign_data": [
+        "uuid",
+        "name",
+        "multiverseid",
+        "language",
+        "flavorText"
+      ],
+      "legalities": [
+        "uuid",
+        "format",
+        "status"
+      ],
+      "set_translations": [
+        "setCode",
+        "language",
+        "translation"
+      ],
+      "rulings": [
+        "uuid",
+        "date",
+        "text"
+      ]
+    }
+  },
+  {
+    "id": 351,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "type",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 353,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "trans": [
+        "trans_id",
+        "account_id",
+        "date",
+        "type",
+        "operation",
+        "amount",
+        "balance",
+        "k_symbol"
+      ]
+    }
+  },
+  {
+    "id": 354,
+    "db_id": "thrombosis_prediction",
+    "selected_columns": {
+      "Patient": [
+        "ID",
+        "SEX",
+        "Birthday"
+      ],
+      "Laboratory": [
+        "ID",
+        "Date",
+        "GOT"
+      ]
+    }
+  },
+  {
+    "id": 355,
+    "db_id": "student_club",
+    "selected_columns": {
+      "event": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "status",
+        "location"
+      ]
+    }
+  },
+  {
+    "id": 356,
+    "db_id": "codebase_community",
+    "selected_columns": {
+      "users": [
+        "Id",
+        "Reputation",
+        "CreationDate",
+        "DisplayName"
+      ],
+      "badges": [
+        "Id",
+        "UserId",
+        "Name",
+        "Date"
+      ],
+      "posts": [
+        "Id",
+        "PostTypeId",
+        "AcceptedAnswerId",
+        "CreaionDate",
+        "Score",
+        "ViewCount",
+        "Body",
+        "OwnerUserId"
+      ]
+    }
+  },
+  {
+    "id": 357,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential",
+        "preferred_foot",
+        "attacking_work_rate",
+        "defensive_work_rate"
+      ]
+    }
+  },
+  {
+    "id": 358,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id",
+        "label"
+      ]
+    }
+  },
+  {
+    "id": 359,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "seasons": [
+        "year",
+        "url"
+      ],
+      "races": [
+        "year",
+        "circuitId",
+        "name",
+        "date",
+        "url"
+      ],
+      "constructorResults": [
+        "raceId",
+        "constructorId",
+        "points"
+      ],
+      "driverStandings": [
+        "raceId",
+        "driverId",
+        "points"
+      ]
+    }
+  },
+  {
+    "id": 360,
+    "db_id": "toxicology",
+    "selected_columns": {
+      "molecule": [
+        "molecule_id"
+      ],
+      "atom": [
+        "atom_id",
+        "molecule_id"
+      ],
+      "bond": [
+        "bond_id",
+        "molecule_id"
+      ],
+      "connected": [
+        "bond_id",
+        "atom_id",
+        "atom_id2"
+      ]
+    }
+  }
+]

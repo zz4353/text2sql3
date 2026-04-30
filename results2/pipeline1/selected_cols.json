@@ -1,0 +1,344 @@
+[
+  {
+    "id": 1,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "db_id": "student_club",
+    "selected_columns": {
+      "zip_code": [
+        "zip_code",
+        "city",
+        "state",
+        "county"
+      ],
+      "member": [
+        "first_name",
+        "last_name",
+        "email",
+        "position",
+        "t_shirt_size",
+        "phone",
+        "zip"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Segment",
+        "Currency"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "db_id": "financial",
+    "selected_columns": {
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ],
+      "client": [
+        "client_id",
+        "district_id",
+        "gender",
+        "birth_date"
+      ],
+      "disp": [
+        "disp_id",
+        "client_id",
+        "account_id",
+        "type"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "db_id": "financial",
+    "selected_columns": {
+      "client": [
+        "client_id",
+        "gender",
+        "birth_date",
+        "district_id"
+      ],
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "transactions_1k": [
+        "TransactionID",
+        "Amount",
+        "Price"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID",
+        "Currency"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Segment"
+      ],
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "gasstations": [
+        "GasStationID",
+        "ChainID",
+        "Segment"
+      ],
+      "customers": [
+        "CustomerID",
+        "Segment"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Player": [
+        "player_api_id"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "potential",
+        "overall_rating"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A13",
+        "A14",
+        "A16"
+      ],
+      "account": [
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "transactions_1k": [
+        "TransactionID",
+        "Amount",
+        "Price"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date",
+        "Consumption"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "status": [
+        "statusId",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "db_id": "debit_card_specializing",
+    "selected_columns": {
+      "customers": [
+        "CustomerID"
+      ],
+      "yearmonth": [
+        "CustomerID",
+        "Date"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "db_id": "formula_1",
+    "selected_columns": {
+      "status": [
+        "statusId",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "db_id": "financial",
+    "selected_columns": {
+      "district": [
+        "district_id",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "account": [
+        "account_id",
+        "district_id",
+        "frequency",
+        "date"
+      ]
+    }
+  }
+]

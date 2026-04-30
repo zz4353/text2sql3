@@ -19,10 +19,10 @@ from utils import render_prompt
 
 load_dotenv()
 
-RESULTS_DIR = os.path.join("results", "pipeline1")
+RESULTS_DIR = os.path.join("results2", "pipeline1")
 SELECT_COLUMNS_PATH = os.path.join(RESULTS_DIR, "selected_cols.json")
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "extracted_values.json")
-TEST_PATH = "test.json"
+TEST_PATH = "test3.json"
 BATCH_STATE_PATH = os.path.join(RESULTS_DIR, "batch_state.json")
 BATCH_INPUT_PATH = os.path.join(RESULTS_DIR, "batch_input.jsonl")
 TEMPLATE_PATH = os.path.join("pipeline1", "templates", "extract_values.md")

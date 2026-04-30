@@ -20,8 +20,8 @@ from utils import render_prompt, extract_columns_from_insert
 
 load_dotenv()
 
-RESULTS_DIR = os.path.join("results", "pipeline1")
-TEST_PATH = "test.json"
+RESULTS_DIR = os.path.join("results2", "pipeline1")
+TEST_PATH = "test3.json"
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "selected_cols.json")
 BATCH_STATE_PATH = os.path.join(RESULTS_DIR, "select_cols_batch_state.json")
 BATCH_INPUT_PATH = os.path.join(RESULTS_DIR, "select_cols_batch_input.jsonl")

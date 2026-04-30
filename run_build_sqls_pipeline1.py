@@ -4,7 +4,7 @@ import os
 from db_client import DB_ID
 from pipeline1.build_sqls import build_sqls
 
-RESULTS_DIR = os.path.join("results", "pipeline1")
+RESULTS_DIR = os.path.join("results2", "pipeline1")
 INPUT_PATH = os.path.join(RESULTS_DIR, "extracted_values.json")
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "built_sqls.json")
 

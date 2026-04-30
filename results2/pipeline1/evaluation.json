@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 2,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 3,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 4,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'account': khác values"
+  },
+  {
+    "id": 5,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: district.A9"
+  },
+  {
+    "id": 6,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: account.district_id"
+  },
+  {
+    "id": 7,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 8,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: yearmonth.CustomerID"
+  },
+  {
+    "id": 9,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "Bảng 'yearmonth': khác values"
+  },
+  {
+    "id": 10,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 11,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 12,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 13,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 14,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 15,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: account.frequency"
+  },
+  {
+    "id": 16,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: yearmonth.CustomerID"
+  },
+  {
+    "id": 17,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 18,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 19,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 20,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: account.frequency"
+  }
+]
