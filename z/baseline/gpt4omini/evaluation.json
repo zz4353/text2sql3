@@ -1,0 +1,2156 @@
+[
+  {
+    "id": 1,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 2,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 3,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 4,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: products.ProductID"
+  },
+  {
+    "id": 5,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: table trans has no column named purpose"
+  },
+  {
+    "id": 6,
+    "db_id": "superhero",
+    "match": false,
+    "error": "Bảng 'attribute': khác values"
+  },
+  {
+    "id": 7,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: posts.Id"
+  },
+  {
+    "id": 8,
+    "db_id": "thrombosis_prediction",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 9,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: transactions_1k.TransactionID"
+  },
+  {
+    "id": 10,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: table schools has no column named DistrictType"
+  },
+  {
+    "id": 11,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 12,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: near \")\": syntax error"
+  },
+  {
+    "id": 13,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Match': khác values"
+  },
+  {
+    "id": 14,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 15,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 16,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 17,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 18,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: table schools has no column named SchoolType"
+  },
+  {
+    "id": 19,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: 15 values for 16 columns"
+  },
+  {
+    "id": 20,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 21,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 22,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 23,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 24,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: posts.Id"
+  },
+  {
+    "id": 25,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: district.A16"
+  },
+  {
+    "id": 26,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 27,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 28,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: lapTimes.raceId, lapTimes.driverId, lapTimes.lap"
+  },
+  {
+    "id": 29,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 30,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 31,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: zip_code.zip_code"
+  },
+  {
+    "id": 32,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 33,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 34,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 35,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.StatusType"
+  },
+  {
+    "id": 36,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 37,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 38,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 39,
+    "db_id": "superhero",
+    "match": false,
+    "error": "Bảng 'superhero': khác values"
+  },
+  {
+    "id": 40,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 41,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 42,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 43,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 44,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 45,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: major.major_id"
+  },
+  {
+    "id": 46,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 47,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 48,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 49,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 50,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.StatusType"
+  },
+  {
+    "id": 51,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: client.client_id"
+  },
+  {
+    "id": 52,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 53,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 54,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 55,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 56,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "Bảng 'schools': khác values"
+  },
+  {
+    "id": 57,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 58,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 59,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: constructors.constructorId"
+  },
+  {
+    "id": 60,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 61,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 62,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 63,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 64,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "Bảng 'schools': khác values"
+  },
+  {
+    "id": 65,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: driverStandings.driverStandingsId"
+  },
+  {
+    "id": 66,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 67,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: status.statusId"
+  },
+  {
+    "id": 68,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 69,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: 15 values for 16 columns"
+  },
+  {
+    "id": 70,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 71,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 72,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: connected.atom_id, connected.atom_id2"
+  },
+  {
+    "id": 73,
+    "db_id": "superhero",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: superhero.id"
+  },
+  {
+    "id": 74,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Player': khác values"
+  },
+  {
+    "id": 75,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 76,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 77,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 78,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.StatusType"
+  },
+  {
+    "id": 79,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 80,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 81,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 82,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 83,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 84,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 85,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 86,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 87,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 88,
+    "db_id": "thrombosis_prediction",
+    "match": false,
+    "error": "Bảng 'Examination': khác values"
+  },
+  {
+    "id": 89,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 90,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 91,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 92,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 93,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: transactions_1k.TransactionID"
+  },
+  {
+    "id": 94,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Match': khác values"
+  },
+  {
+    "id": 95,
+    "db_id": "superhero",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: race.id"
+  },
+  {
+    "id": 96,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 97,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 98,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: posts.Id"
+  },
+  {
+    "id": 99,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: circuits.url"
+  },
+  {
+    "id": 100,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 101,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: status.statusId"
+  },
+  {
+    "id": 102,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: qualifying.qualifyId"
+  },
+  {
+    "id": 103,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 104,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: products.ProductID"
+  },
+  {
+    "id": 105,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 106,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 107,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 108,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 109,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "Bảng 'schools': khác values"
+  },
+  {
+    "id": 110,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 111,
+    "db_id": "card_games",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 112,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: molecule.molecule_id"
+  },
+  {
+    "id": 113,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 114,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: lapTimes.raceId, lapTimes.driverId, lapTimes.lap"
+  },
+  {
+    "id": 115,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "Bảng 'schools': khác values"
+  },
+  {
+    "id": 116,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'loan': khác values"
+  },
+  {
+    "id": 117,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: disp.disp_id"
+  },
+  {
+    "id": 118,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 119,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 120,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 121,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 122,
+    "db_id": "card_games",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: cards.uuid"
+  },
+  {
+    "id": 123,
+    "db_id": "thrombosis_prediction",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 124,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 125,
+    "db_id": "card_games",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: cards.uuid"
+  },
+  {
+    "id": 126,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 127,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 128,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 129,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 130,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 131,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "Bảng 'schools': khác values"
+  },
+  {
+    "id": 132,
+    "db_id": "student_club",
+    "match": false,
+    "error": "Bảng 'event': khác values"
+  },
+  {
+    "id": 133,
+    "db_id": "student_club",
+    "match": false,
+    "error": "Bảng 'member': khác values"
+  },
+  {
+    "id": 134,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: bond.bond_id"
+  },
+  {
+    "id": 135,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 136,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 137,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 138,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: event.event_id"
+  },
+  {
+    "id": 139,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Match': khác values"
+  },
+  {
+    "id": 140,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.StatusType"
+  },
+  {
+    "id": 141,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "Bảng 'users': khác values"
+  },
+  {
+    "id": 142,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: zip_code.zip_code"
+  },
+  {
+    "id": 143,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 144,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 145,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: no such table: compound"
+  },
+  {
+    "id": 146,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: account.account_id"
+  },
+  {
+    "id": 147,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 148,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: tags.Id"
+  },
+  {
+    "id": 149,
+    "db_id": "superhero",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gender.id"
+  },
+  {
+    "id": 150,
+    "db_id": "superhero",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: superhero.id"
+  },
+  {
+    "id": 151,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 152,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: constructorStandings.constructorStandingsId"
+  },
+  {
+    "id": 153,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: bond.bond_id"
+  },
+  {
+    "id": 154,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 155,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 156,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "Bảng 'users': khác values"
+  },
+  {
+    "id": 157,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: posts.Id"
+  },
+  {
+    "id": 158,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 159,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 160,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: table schools has no column named SchoolType"
+  },
+  {
+    "id": 161,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 162,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: users.Id"
+  },
+  {
+    "id": 163,
+    "db_id": "student_club",
+    "match": false,
+    "error": "Bảng 'member': khác values"
+  },
+  {
+    "id": 164,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 165,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 166,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 167,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 168,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 169,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 170,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: card.card_id"
+  },
+  {
+    "id": 171,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: client.client_id"
+  },
+  {
+    "id": 172,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 173,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: client.client_id"
+  },
+  {
+    "id": 174,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 175,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 176,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 177,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 178,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: qualifying.qualifyId"
+  },
+  {
+    "id": 179,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 180,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 181,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: 15 values for 16 columns"
+  },
+  {
+    "id": 182,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: event.event_id"
+  },
+  {
+    "id": 183,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Player': khác values"
+  },
+  {
+    "id": 184,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 185,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 186,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 187,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 188,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 189,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 190,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 191,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 192,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 193,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.StatusType"
+  },
+  {
+    "id": 194,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 195,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 196,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 197,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 198,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Player': khác values"
+  },
+  {
+    "id": 199,
+    "db_id": "superhero",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: superhero.id"
+  },
+  {
+    "id": 200,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 201,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 202,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 203,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: client.client_id"
+  },
+  {
+    "id": 204,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 205,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: table schools has no column named CountyOffice"
+  },
+  {
+    "id": 206,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 207,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 208,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 209,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.StatusType"
+  },
+  {
+    "id": 210,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 211,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 212,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 213,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 214,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 215,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 216,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "Bảng 'transactions_1k': khác values"
+  },
+  {
+    "id": 217,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: users.Id"
+  },
+  {
+    "id": 218,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 219,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 220,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 221,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 222,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: card.card_id"
+  },
+  {
+    "id": 223,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'sets': khác values"
+  },
+  {
+    "id": 224,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 225,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: users.Id"
+  },
+  {
+    "id": 226,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 227,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 228,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: bond.bond_id"
+  },
+  {
+    "id": 229,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 230,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 231,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 232,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 233,
+    "db_id": "thrombosis_prediction",
+    "match": false,
+    "error": "Bảng 'Examination': khác values"
+  },
+  {
+    "id": 234,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: molecule.molecule_id"
+  },
+  {
+    "id": 235,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 236,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 237,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 238,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 239,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 240,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 241,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 242,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 243,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: drivers.driverId"
+  },
+  {
+    "id": 244,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 245,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 246,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: disp.disp_id"
+  },
+  {
+    "id": 247,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 248,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 249,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: status.statusId"
+  },
+  {
+    "id": 250,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 251,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 252,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 253,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: status.statusId"
+  },
+  {
+    "id": 254,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 255,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 256,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 257,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 258,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: races.raceId"
+  },
+  {
+    "id": 259,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: district.district_id"
+  },
+  {
+    "id": 260,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 261,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 262,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: disp.disp_id"
+  },
+  {
+    "id": 263,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 264,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: trans.trans_id"
+  },
+  {
+    "id": 265,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 266,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 267,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 268,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 269,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 270,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 271,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'district': khác values"
+  },
+  {
+    "id": 272,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'sets': khác values"
+  },
+  {
+    "id": 273,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 274,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 275,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 276,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: major.major_id"
+  },
+  {
+    "id": 277,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 278,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 279,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 280,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Player': khác values"
+  },
+  {
+    "id": 281,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 282,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 283,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: gasstations.GasStationID"
+  },
+  {
+    "id": 284,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 285,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: table major has no column named degree_type"
+  },
+  {
+    "id": 286,
+    "db_id": "card_games",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: cards.uuid"
+  },
+  {
+    "id": 287,
+    "db_id": "thrombosis_prediction",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 288,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 289,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 290,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 291,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: schools.CDSCode"
+  },
+  {
+    "id": 292,
+    "db_id": "european_football_2",
+    "match": false,
+    "error": "Bảng 'Player': khác values"
+  },
+  {
+    "id": 293,
+    "db_id": "student_club",
+    "match": false,
+    "error": "Bảng 'attendance': khác values"
+  },
+  {
+    "id": 294,
+    "db_id": "thrombosis_prediction",
+    "match": false,
+    "error": "Bảng 'Examination': khác values"
+  },
+  {
+    "id": 295,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: all VALUES must have the same number of terms"
+  },
+  {
+    "id": 296,
+    "db_id": "card_games",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 297,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: event.event_id"
+  },
+  {
+    "id": 298,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 299,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 300,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 301,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 302,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 303,
+    "db_id": "thrombosis_prediction",
+    "match": false,
+    "error": "Bảng 'Patient': khác values"
+  },
+  {
+    "id": 304,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 305,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: trans.trans_id"
+  },
+  {
+    "id": 306,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: posts.Id"
+  },
+  {
+    "id": 307,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 308,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 309,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: molecule.molecule_id"
+  },
+  {
+    "id": 310,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 311,
+    "db_id": "card_games",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: cards.uuid"
+  },
+  {
+    "id": 312,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 313,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 314,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 315,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: posts.Id"
+  },
+  {
+    "id": 316,
+    "db_id": "student_club",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: zip_code.zip_code"
+  },
+  {
+    "id": 317,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: pitStops.raceId, pitStops.driverId, pitStops.stop"
+  },
+  {
+    "id": 318,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: disp.disp_id"
+  },
+  {
+    "id": 319,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 320,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 321,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: transactions_1k.TransactionID"
+  },
+  {
+    "id": 322,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 323,
+    "db_id": "codebase_community",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 324,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 325,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 326,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: no such column: TR146_1"
+  },
+  {
+    "id": 327,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 328,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 329,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 330,
+    "db_id": "california_schools",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: schools.DOC"
+  },
+  {
+    "id": 331,
+    "db_id": "formula_1",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: constructorResults.constructorResultsId"
+  },
+  {
+    "id": 332,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 333,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: atom.atom_id"
+  },
+  {
+    "id": 334,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 335,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: customers.CustomerID"
+  },
+  {
+    "id": 336,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 337,
+    "db_id": "card_games",
+    "match": false,
+    "error": "Bảng 'cards': khác values"
+  },
+  {
+    "id": 338,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: disp.disp_id"
+  },
+  {
+    "id": 339,
+    "db_id": "financial",
+    "match": false,
+    "error": "Bảng 'trans': khác values"
+  },
+  {
+    "id": 340,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 341,
+    "db_id": "superhero",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 342,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 343,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: district.district_id"
+  },
+  {
+    "id": 344,
+    "db_id": "card_games",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 345,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 346,
+    "db_id": "codebase_community",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 347,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 348,
+    "db_id": "california_schools",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 349,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 350,
+    "db_id": "card_games",
+    "match": false,
+    "error": "pred_sqls lỗi: all VALUES must have the same number of terms"
+  },
+  {
+    "id": 351,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: connected.atom_id, connected.atom_id2"
+  },
+  {
+    "id": 352,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 353,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 354,
+    "db_id": "toxicology",
+    "match": false,
+    "error": "pred_sqls lỗi: no such table: compound"
+  },
+  {
+    "id": 355,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 356,
+    "db_id": "financial",
+    "match": false,
+    "error": "pred_sqls lỗi: UNIQUE constraint failed: district.district_id"
+  },
+  {
+    "id": 357,
+    "db_id": "card_games",
+    "match": false,
+    "error": "pred_sqls lỗi: NOT NULL constraint failed: cards.uuid"
+  },
+  {
+    "id": 358,
+    "db_id": "debit_card_specializing",
+    "match": false,
+    "error": "pred_sqls lỗi: FOREIGN KEY constraint failed"
+  },
+  {
+    "id": 359,
+    "db_id": "student_club",
+    "match": false,
+    "error": "Bảng 'event': khác values"
+  }
+]

@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": 1,
     "db_id": "financial",
@@ -67382,6 +67382,1402 @@
             "bond_id": "TR015_29_30",
             "atom_id": "TR015_29",
             "atom_id2": "TR015_30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "customers",
+        "operation": null,
+        "records": [
+          {
+            "CustomerID": 14001,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 14002,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 14003,
+            "Segment": "KAM"
+          },
+          {
+            "CustomerID": 14004,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 14005,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 14006,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 14007,
+            "Segment": "KAM"
+          },
+          {
+            "CustomerID": 14008,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 14009,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 14010,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 14011,
+            "Segment": "KAM"
+          },
+          {
+            "CustomerID": 14012,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 14013,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 14014,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 14015,
+            "Segment": "KAM"
+          },
+          {
+            "CustomerID": 14016,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 14017,
+            "Segment": "SME"
+          },
+          {
+            "CustomerID": 14018,
+            "Segment": "LAM"
+          },
+          {
+            "CustomerID": 14019,
+            "Segment": "KAM"
+          },
+          {
+            "CustomerID": 14020,
+            "Segment": "SME"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "db_id": "student_club",
+    "extract_values": [
+      {
+        "table": "zip_code",
+        "operation": null,
+        "records": [
+          {
+            "zip_code": 87101,
+            "city": "Albuquerque",
+            "county": "Bernalillo County",
+            "state": "New Mexico"
+          },
+          {
+            "zip_code": 99201,
+            "city": "Spokane",
+            "county": "Spokane County",
+            "state": "Washington"
+          },
+          {
+            "zip_code": 98401,
+            "city": "Tacoma",
+            "county": "Pierce County",
+            "state": "Washington"
+          },
+          {
+            "zip_code": 80010,
+            "city": "Aurora",
+            "county": "Arapahoe County",
+            "state": "Colorado"
+          },
+          {
+            "zip_code": 92801,
+            "city": "Anaheim",
+            "county": "Orange County",
+            "state": "California"
+          },
+          {
+            "zip_code": 92701,
+            "city": "Santa Ana",
+            "county": "Orange County",
+            "state": "California"
+          },
+          {
+            "zip_code": 78401,
+            "city": "Corpus Christi",
+            "county": "Nueces County",
+            "state": "Texas"
+          },
+          {
+            "zip_code": 92501,
+            "city": "Riverside",
+            "county": "Riverside County",
+            "state": "California"
+          },
+          {
+            "zip_code": 40501,
+            "city": "Lexington",
+            "county": "Fayette County",
+            "state": "Kentucky"
+          },
+          {
+            "zip_code": 63101,
+            "city": "St. Louis",
+            "county": "St. Louis City",
+            "state": "Missouri"
+          },
+          {
+            "zip_code": 15201,
+            "city": "Pittsburgh",
+            "county": "Allegheny County",
+            "state": "Pennsylvania"
+          },
+          {
+            "zip_code": 95201,
+            "city": "Stockton",
+            "county": "San Joaquin County",
+            "state": "California"
+          },
+          {
+            "zip_code": 55101,
+            "city": "St. Paul",
+            "county": "Ramsey County",
+            "state": "Minnesota"
+          },
+          {
+            "zip_code": 27401,
+            "city": "Greensboro",
+            "county": "Guilford County",
+            "state": "North Carolina"
+          },
+          {
+            "zip_code": 68501,
+            "city": "Lincoln",
+            "county": "Lancaster County",
+            "state": "Nebraska"
+          },
+          {
+            "zip_code": 75023,
+            "city": "Plano",
+            "county": "Collin County",
+            "state": "Texas"
+          },
+          {
+            "zip_code": 89002,
+            "city": "Henderson",
+            "county": "Clark County",
+            "state": "Nevada"
+          },
+          {
+            "zip_code": 14201,
+            "city": "Buffalo",
+            "county": "Erie County",
+            "state": "New York"
+          },
+          {
+            "zip_code": 46801,
+            "city": "Fort Wayne",
+            "county": "Allen County",
+            "state": "Indiana"
+          },
+          {
+            "zip_code": 7302,
+            "city": "Jersey City",
+            "county": "Hudson County",
+            "state": "New Jersey"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "customers",
+        "operation": null,
+        "records": [
+          {
+            "CustomerID": 15001,
+            "Segment": "SME",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15002,
+            "Segment": "LAM",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15003,
+            "Segment": "SME",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15004,
+            "Segment": "LAM",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15005,
+            "Segment": "KAM",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15006,
+            "Segment": "SME",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15007,
+            "Segment": "LAM",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15008,
+            "Segment": "KAM",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15009,
+            "Segment": "SME",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15010,
+            "Segment": "LAM",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15011,
+            "Segment": "KAM",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15012,
+            "Segment": "SME",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15013,
+            "Segment": "LAM",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15014,
+            "Segment": "SME",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15015,
+            "Segment": "LAM",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15016,
+            "Segment": "KAM",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15017,
+            "Segment": "SME",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15018,
+            "Segment": "LAM",
+            "Currency": "CZK"
+          },
+          {
+            "CustomerID": 15019,
+            "Segment": "SME",
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 15020,
+            "Segment": "KAM",
+            "Currency": "CZK"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "db_id": "financial",
+    "extract_values": [
+      {
+        "table": "client",
+        "operation": null,
+        "records": [
+          {
+            "client_id": 15000,
+            "gender": "F",
+            "birth_date": "1988-02-14",
+            "district_id": 5
+          },
+          {
+            "client_id": 15001,
+            "gender": "M",
+            "birth_date": "1975-08-30",
+            "district_id": 12
+          },
+          {
+            "client_id": 15002,
+            "gender": "F",
+            "birth_date": "1992-11-05",
+            "district_id": 20
+          },
+          {
+            "client_id": 15003,
+            "gender": "M",
+            "birth_date": "1983-04-22",
+            "district_id": 7
+          },
+          {
+            "client_id": 15004,
+            "gender": "F",
+            "birth_date": "1969-07-18",
+            "district_id": 33
+          },
+          {
+            "client_id": 15005,
+            "gender": "M",
+            "birth_date": "1995-01-09",
+            "district_id": 1
+          },
+          {
+            "client_id": 15006,
+            "gender": "F",
+            "birth_date": "1980-06-27",
+            "district_id": 45
+          },
+          {
+            "client_id": 15007,
+            "gender": "M",
+            "birth_date": "1971-03-14",
+            "district_id": 18
+          },
+          {
+            "client_id": 15008,
+            "gender": "F",
+            "birth_date": "1987-09-03",
+            "district_id": 9
+          },
+          {
+            "client_id": 15009,
+            "gender": "M",
+            "birth_date": "1963-12-25",
+            "district_id": 27
+          },
+          {
+            "client_id": 15010,
+            "gender": "F",
+            "birth_date": "1991-05-11",
+            "district_id": 3
+          },
+          {
+            "client_id": 15011,
+            "gender": "M",
+            "birth_date": "1978-10-08",
+            "district_id": 14
+          },
+          {
+            "client_id": 15012,
+            "gender": "F",
+            "birth_date": "1985-07-29",
+            "district_id": 22
+          },
+          {
+            "client_id": 15013,
+            "gender": "M",
+            "birth_date": "1967-02-16",
+            "district_id": 40
+          },
+          {
+            "client_id": 15014,
+            "gender": "F",
+            "birth_date": "1993-08-20",
+            "district_id": 6
+          },
+          {
+            "client_id": 15015,
+            "gender": "M",
+            "birth_date": "1976-04-04",
+            "district_id": 29
+          },
+          {
+            "client_id": 15016,
+            "gender": "F",
+            "birth_date": "1989-11-17",
+            "district_id": 11
+          },
+          {
+            "client_id": 15017,
+            "gender": "M",
+            "birth_date": "1972-06-12",
+            "district_id": 35
+          },
+          {
+            "client_id": 15018,
+            "gender": "F",
+            "birth_date": "1984-01-28",
+            "district_id": 8
+          },
+          {
+            "client_id": 15019,
+            "gender": "M",
+            "birth_date": "1960-09-06",
+            "district_id": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "transactions_1k",
+        "operation": null,
+        "records": [
+          {
+            "TransactionID": 201,
+            "Amount": 3,
+            "Price": 89.99
+          },
+          {
+            "TransactionID": 202,
+            "Amount": 1,
+            "Price": 450.0
+          },
+          {
+            "TransactionID": 203,
+            "Amount": 5,
+            "Price": 22.5
+          },
+          {
+            "TransactionID": 204,
+            "Amount": 2,
+            "Price": 175.75
+          },
+          {
+            "TransactionID": 205,
+            "Amount": 4,
+            "Price": 60.0
+          },
+          {
+            "TransactionID": 206,
+            "Amount": 1,
+            "Price": 999.99
+          },
+          {
+            "TransactionID": 207,
+            "Amount": 6,
+            "Price": 35.25
+          },
+          {
+            "TransactionID": 208,
+            "Amount": 2,
+            "Price": 210.0
+          },
+          {
+            "TransactionID": 209,
+            "Amount": 3,
+            "Price": 125.5
+          },
+          {
+            "TransactionID": 210,
+            "Amount": 1,
+            "Price": 680.0
+          },
+          {
+            "TransactionID": 211,
+            "Amount": 7,
+            "Price": 18.99
+          },
+          {
+            "TransactionID": 212,
+            "Amount": 2,
+            "Price": 340.0
+          },
+          {
+            "TransactionID": 213,
+            "Amount": 4,
+            "Price": 75.0
+          },
+          {
+            "TransactionID": 214,
+            "Amount": 1,
+            "Price": 550.5
+          },
+          {
+            "TransactionID": 215,
+            "Amount": 3,
+            "Price": 99.0
+          },
+          {
+            "TransactionID": 216,
+            "Amount": 5,
+            "Price": 44.75
+          },
+          {
+            "TransactionID": 217,
+            "Amount": 2,
+            "Price": 280.0
+          },
+          {
+            "TransactionID": 218,
+            "Amount": 1,
+            "Price": 720.25
+          },
+          {
+            "TransactionID": 219,
+            "Amount": 4,
+            "Price": 55.0
+          },
+          {
+            "TransactionID": 220,
+            "Amount": 2,
+            "Price": 160.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "customers",
+        "operation": null,
+        "records": [
+          {
+            "CustomerID": 16001,
+            "Currency": "USD"
+          },
+          {
+            "CustomerID": 16002,
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 16003,
+            "Currency": "GBP"
+          },
+          {
+            "CustomerID": 16004,
+            "Currency": "AUD"
+          },
+          {
+            "CustomerID": 16005,
+            "Currency": "CAD"
+          },
+          {
+            "CustomerID": 16006,
+            "Currency": "CHF"
+          },
+          {
+            "CustomerID": 16007,
+            "Currency": "JPY"
+          },
+          {
+            "CustomerID": 16008,
+            "Currency": "CNY"
+          },
+          {
+            "CustomerID": 16009,
+            "Currency": "SEK"
+          },
+          {
+            "CustomerID": 16010,
+            "Currency": "NOK"
+          },
+          {
+            "CustomerID": 16011,
+            "Currency": "USD"
+          },
+          {
+            "CustomerID": 16012,
+            "Currency": "EUR"
+          },
+          {
+            "CustomerID": 16013,
+            "Currency": "GBP"
+          },
+          {
+            "CustomerID": 16014,
+            "Currency": "AUD"
+          },
+          {
+            "CustomerID": 16015,
+            "Currency": "CAD"
+          },
+          {
+            "CustomerID": 16016,
+            "Currency": "CHF"
+          },
+          {
+            "CustomerID": 16017,
+            "Currency": "JPY"
+          },
+          {
+            "CustomerID": 16018,
+            "Currency": "CNY"
+          },
+          {
+            "CustomerID": 16019,
+            "Currency": "SEK"
+          },
+          {
+            "CustomerID": 16020,
+            "Currency": "NOK"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "gasstations",
+        "operation": null,
+        "records": [
+          {
+            "GasStationID": 2001,
+            "ChainID": 3,
+            "Segment": "Value for money"
+          },
+          {
+            "GasStationID": 2002,
+            "ChainID": 7,
+            "Segment": "Premium"
+          },
+          {
+            "GasStationID": 2003,
+            "ChainID": 12,
+            "Segment": "Other"
+          },
+          {
+            "GasStationID": 2004,
+            "ChainID": 5,
+            "Segment": "Value for money"
+          },
+          {
+            "GasStationID": 2005,
+            "ChainID": 18,
+            "Segment": "Premium"
+          },
+          {
+            "GasStationID": 2006,
+            "ChainID": 22,
+            "Segment": "Other"
+          },
+          {
+            "GasStationID": 2007,
+            "ChainID": 9,
+            "Segment": "Value for money"
+          },
+          {
+            "GasStationID": 2008,
+            "ChainID": 14,
+            "Segment": "Premium"
+          },
+          {
+            "GasStationID": 2009,
+            "ChainID": 1,
+            "Segment": "Other"
+          },
+          {
+            "GasStationID": 2010,
+            "ChainID": 6,
+            "Segment": "Value for money"
+          },
+          {
+            "GasStationID": 2011,
+            "ChainID": 11,
+            "Segment": "Premium"
+          },
+          {
+            "GasStationID": 2012,
+            "ChainID": 20,
+            "Segment": "Other"
+          },
+          {
+            "GasStationID": 2013,
+            "ChainID": 8,
+            "Segment": "Value for money"
+          },
+          {
+            "GasStationID": 2014,
+            "ChainID": 15,
+            "Segment": "Premium"
+          },
+          {
+            "GasStationID": 2015,
+            "ChainID": 4,
+            "Segment": "Other"
+          },
+          {
+            "GasStationID": 2016,
+            "ChainID": 17,
+            "Segment": "Value for money"
+          },
+          {
+            "GasStationID": 2017,
+            "ChainID": 2,
+            "Segment": "Premium"
+          },
+          {
+            "GasStationID": 2018,
+            "ChainID": 10,
+            "Segment": "Other"
+          },
+          {
+            "GasStationID": 2019,
+            "ChainID": 13,
+            "Segment": "Value for money"
+          },
+          {
+            "GasStationID": 2020,
+            "ChainID": 19,
+            "Segment": "Premium"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "gasstations",
+        "operation": null,
+        "records": [
+          {
+            "GasStationID": 3001,
+            "ChainID": 8
+          },
+          {
+            "GasStationID": 3002,
+            "ChainID": 3
+          },
+          {
+            "GasStationID": 3003,
+            "ChainID": 15
+          },
+          {
+            "GasStationID": 3004,
+            "ChainID": 21
+          },
+          {
+            "GasStationID": 3005,
+            "ChainID": 6
+          },
+          {
+            "GasStationID": 3006,
+            "ChainID": 11
+          },
+          {
+            "GasStationID": 3007,
+            "ChainID": 17
+          },
+          {
+            "GasStationID": 3008,
+            "ChainID": 2
+          },
+          {
+            "GasStationID": 3009,
+            "ChainID": 9
+          },
+          {
+            "GasStationID": 3010,
+            "ChainID": 14
+          },
+          {
+            "GasStationID": 3011,
+            "ChainID": 4
+          },
+          {
+            "GasStationID": 3012,
+            "ChainID": 20
+          },
+          {
+            "GasStationID": 3013,
+            "ChainID": 7
+          },
+          {
+            "GasStationID": 3014,
+            "ChainID": 12
+          },
+          {
+            "GasStationID": 3015,
+            "ChainID": 1
+          },
+          {
+            "GasStationID": 3016,
+            "ChainID": 18
+          },
+          {
+            "GasStationID": 3017,
+            "ChainID": 5
+          },
+          {
+            "GasStationID": 3018,
+            "ChainID": 13
+          },
+          {
+            "GasStationID": 3019,
+            "ChainID": 22
+          },
+          {
+            "GasStationID": 3020,
+            "ChainID": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "db_id": "european_football_2",
+    "extract_values": [
+      {
+        "table": "Player",
+        "operation": null,
+        "records": [
+          {
+            "player_api_id": 300001
+          },
+          {
+            "player_api_id": 300002
+          },
+          {
+            "player_api_id": 300003
+          },
+          {
+            "player_api_id": 300004
+          },
+          {
+            "player_api_id": 300005
+          },
+          {
+            "player_api_id": 300006
+          },
+          {
+            "player_api_id": 300007
+          },
+          {
+            "player_api_id": 300008
+          },
+          {
+            "player_api_id": 300009
+          },
+          {
+            "player_api_id": 300010
+          },
+          {
+            "player_api_id": 300011
+          },
+          {
+            "player_api_id": 300012
+          },
+          {
+            "player_api_id": 300013
+          },
+          {
+            "player_api_id": 300014
+          },
+          {
+            "player_api_id": 300015
+          },
+          {
+            "player_api_id": 300016
+          },
+          {
+            "player_api_id": 300017
+          },
+          {
+            "player_api_id": 300018
+          },
+          {
+            "player_api_id": 300019
+          },
+          {
+            "player_api_id": 300020
+          }
+        ]
+      },
+      {
+        "table": "Player_Attributes",
+        "operation": null,
+        "records": [
+          {
+            "player_api_id": 300001,
+            "potential": 88,
+            "overall_rating": 82
+          },
+          {
+            "player_api_id": 300002,
+            "potential": 82,
+            "overall_rating": 76
+          },
+          {
+            "player_api_id": 300003,
+            "potential": 93,
+            "overall_rating": 88
+          },
+          {
+            "player_api_id": 300004,
+            "potential": 78,
+            "overall_rating": 71
+          },
+          {
+            "player_api_id": 300005,
+            "potential": 89,
+            "overall_rating": 84
+          },
+          {
+            "player_api_id": 300006,
+            "potential": 85,
+            "overall_rating": 79
+          },
+          {
+            "player_api_id": 300007,
+            "potential": 95,
+            "overall_rating": 90
+          },
+          {
+            "player_api_id": 300008,
+            "potential": 80,
+            "overall_rating": 73
+          },
+          {
+            "player_api_id": 300009,
+            "potential": 91,
+            "overall_rating": 85
+          },
+          {
+            "player_api_id": 300010,
+            "potential": 83,
+            "overall_rating": 77
+          },
+          {
+            "player_api_id": 300011,
+            "potential": 88,
+            "overall_rating": 83
+          },
+          {
+            "player_api_id": 300012,
+            "potential": 75,
+            "overall_rating": 68
+          },
+          {
+            "player_api_id": 300013,
+            "potential": 92,
+            "overall_rating": 87
+          },
+          {
+            "player_api_id": 300014,
+            "potential": 81,
+            "overall_rating": 75
+          },
+          {
+            "player_api_id": 300015,
+            "potential": 87,
+            "overall_rating": 81
+          },
+          {
+            "player_api_id": 300016,
+            "potential": 77,
+            "overall_rating": 70
+          },
+          {
+            "player_api_id": 300017,
+            "potential": 91,
+            "overall_rating": 86
+          },
+          {
+            "player_api_id": 300018,
+            "potential": 80,
+            "overall_rating": 74
+          },
+          {
+            "player_api_id": 300019,
+            "potential": 94,
+            "overall_rating": 89
+          },
+          {
+            "player_api_id": 300020,
+            "potential": 79,
+            "overall_rating": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "db_id": "formula_1",
+    "extract_values": [
+      {
+        "table": "status",
+        "operation": null,
+        "records": [
+          {
+            "statusId": 20,
+            "status": "Queued"
+          },
+          {
+            "statusId": 21,
+            "status": "Processing"
+          },
+          {
+            "statusId": 22,
+            "status": "Dispatched"
+          },
+          {
+            "statusId": 23,
+            "status": "Delivered"
+          },
+          {
+            "statusId": 24,
+            "status": "Returned"
+          },
+          {
+            "statusId": 25,
+            "status": "Cancelled"
+          },
+          {
+            "statusId": 26,
+            "status": "Refunded"
+          },
+          {
+            "statusId": 27,
+            "status": "Partially Delivered"
+          },
+          {
+            "statusId": 28,
+            "status": "Backordered"
+          },
+          {
+            "statusId": 29,
+            "status": "On Route"
+          },
+          {
+            "statusId": 30,
+            "status": "Held"
+          },
+          {
+            "statusId": 31,
+            "status": "Released"
+          },
+          {
+            "statusId": 32,
+            "status": "Escalated"
+          },
+          {
+            "statusId": 33,
+            "status": "Investigating"
+          },
+          {
+            "statusId": 34,
+            "status": "Resolved"
+          },
+          {
+            "statusId": 35,
+            "status": "Archived"
+          },
+          {
+            "statusId": 36,
+            "status": "Transferred"
+          },
+          {
+            "statusId": 37,
+            "status": "Merged"
+          },
+          {
+            "statusId": 38,
+            "status": "Split"
+          },
+          {
+            "statusId": 39,
+            "status": "Voided"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "db_id": "debit_card_specializing",
+    "extract_values": [
+      {
+        "table": "customers",
+        "operation": null,
+        "records": [
+          {
+            "CustomerID": 22001
+          },
+          {
+            "CustomerID": 22002
+          },
+          {
+            "CustomerID": 22003
+          },
+          {
+            "CustomerID": 22004
+          },
+          {
+            "CustomerID": 22005
+          },
+          {
+            "CustomerID": 22006
+          },
+          {
+            "CustomerID": 22007
+          },
+          {
+            "CustomerID": 22008
+          },
+          {
+            "CustomerID": 22009
+          },
+          {
+            "CustomerID": 22010
+          },
+          {
+            "CustomerID": 22011
+          },
+          {
+            "CustomerID": 22012
+          },
+          {
+            "CustomerID": 22013
+          },
+          {
+            "CustomerID": 22014
+          },
+          {
+            "CustomerID": 22015
+          },
+          {
+            "CustomerID": 22016
+          },
+          {
+            "CustomerID": 22017
+          },
+          {
+            "CustomerID": 22018
+          },
+          {
+            "CustomerID": 22019
+          },
+          {
+            "CustomerID": 22020
+          }
+        ]
+      },
+      {
+        "table": "yearmonth",
+        "operation": null,
+        "records": [
+          {
+            "CustomerID": 22001,
+            "Date": "201501"
+          },
+          {
+            "CustomerID": 22002,
+            "Date": "201502"
+          },
+          {
+            "CustomerID": 22003,
+            "Date": "201503"
+          },
+          {
+            "CustomerID": 22004,
+            "Date": "201504"
+          },
+          {
+            "CustomerID": 22005,
+            "Date": "201505"
+          },
+          {
+            "CustomerID": 22006,
+            "Date": "201506"
+          },
+          {
+            "CustomerID": 22007,
+            "Date": "201507"
+          },
+          {
+            "CustomerID": 22008,
+            "Date": "201508"
+          },
+          {
+            "CustomerID": 22009,
+            "Date": "201509"
+          },
+          {
+            "CustomerID": 22010,
+            "Date": "201510"
+          },
+          {
+            "CustomerID": 22011,
+            "Date": "201511"
+          },
+          {
+            "CustomerID": 22012,
+            "Date": "201512"
+          },
+          {
+            "CustomerID": 22013,
+            "Date": "201601"
+          },
+          {
+            "CustomerID": 22014,
+            "Date": "201602"
+          },
+          {
+            "CustomerID": 22015,
+            "Date": "201603"
+          },
+          {
+            "CustomerID": 22016,
+            "Date": "201604"
+          },
+          {
+            "CustomerID": 22017,
+            "Date": "201605"
+          },
+          {
+            "CustomerID": 22018,
+            "Date": "201606"
+          },
+          {
+            "CustomerID": 22019,
+            "Date": "201607"
+          },
+          {
+            "CustomerID": 22020,
+            "Date": "201608"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "db_id": "formula_1",
+    "extract_values": [
+      {
+        "table": "status",
+        "operation": null,
+        "records": [
+          {
+            "statusId": 40,
+            "status": "In Review"
+          },
+          {
+            "statusId": 41,
+            "status": "Submitted"
+          },
+          {
+            "statusId": 42,
+            "status": "Acknowledged"
+          },
+          {
+            "statusId": 43,
+            "status": "Forwarded"
+          },
+          {
+            "statusId": 44,
+            "status": "Reassigned"
+          },
+          {
+            "statusId": 45,
+            "status": "Suspended"
+          },
+          {
+            "statusId": 46,
+            "status": "Reactivated"
+          },
+          {
+            "statusId": 47,
+            "status": "Closed"
+          },
+          {
+            "statusId": 48,
+            "status": "Reopened"
+          },
+          {
+            "statusId": 49,
+            "status": "Flagged"
+          },
+          {
+            "statusId": 50,
+            "status": "Verified"
+          },
+          {
+            "statusId": 51,
+            "status": "Rejected"
+          },
+          {
+            "statusId": 52,
+            "status": "Appealed"
+          },
+          {
+            "statusId": 53,
+            "status": "Under Audit"
+          },
+          {
+            "statusId": 54,
+            "status": "Cleared"
+          },
+          {
+            "statusId": 55,
+            "status": "Blocked"
+          },
+          {
+            "statusId": 56,
+            "status": "Unblocked"
+          },
+          {
+            "statusId": 57,
+            "status": "Deferred"
+          },
+          {
+            "statusId": 58,
+            "status": "Expedited"
+          },
+          {
+            "statusId": 59,
+            "status": "Finalized"
           }
         ]
       }
