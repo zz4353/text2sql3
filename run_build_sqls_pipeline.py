@@ -4,7 +4,7 @@ import os
 from db_client import DB_ID
 from pipeline1.build_sqls import build_sqls
 
-RESULTS_DIR = os.path.join("z", "gpt4omini")
+RESULTS_DIR = os.path.join("results2", "pipeline1")
 INPUT_PATH = os.path.join(RESULTS_DIR, "extracted_values.json")
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "built_sqls.json")
 
@@ -14,15 +14,10 @@ def main():
         extracted_data = json.load(f)
 
     samples = [s for s in extracted_data if "error" not in s]
-    upstream_errors = [s for s in extracted_data if "error" in s]
-    print(f"Building SQLs for {len(samples)} samples (pass-through {len(upstream_errors)} upstream errors)")
+    print(f"Building SQLs for {len(samples)} samples (skipped {len(extracted_data) - len(samples)} errors)")
 
     results = []
     n_ok = n_err = 0
-
-    for sample in upstream_errors:
-        results.append({"id": sample["id"], "db_id": sample["db_id"], "sqls": [], "error": sample["error"]})
-        print(f"[{sample['id']}] UPSTREAM ERROR: {sample['error']}")
 
     for sample in samples:
         item_id = sample["id"]
