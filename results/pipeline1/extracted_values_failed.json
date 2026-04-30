@@ -1,0 +1,47 @@
+[
+  {
+    "id": 187,
+    "db_id": "european_football_2",
+    "selected_columns": {
+      "Match": [
+        "B365D",
+        "B365A",
+        "B365H"
+      ],
+      "Player": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "player_name",
+        "birthday",
+        "height",
+        "weight"
+      ],
+      "League": [
+        "country_id",
+        "name"
+      ],
+      "Country": [
+        "name"
+      ],
+      "Team": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "team_long_name",
+        "team_short_name"
+      ],
+      "Player_Attributes": [
+        "player_api_id",
+        "player_fifa_api_id",
+        "date",
+        "overall_rating",
+        "potential"
+      ],
+      "Team_Attributes": [
+        "team_api_id",
+        "team_fifa_api_id",
+        "date",
+        "buildUpPlaySpeed"
+      ]
+    }
+  }
+]

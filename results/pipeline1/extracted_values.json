@@ -45040,7 +45040,7 @@
   {
     "id": 187,
     "db_id": "european_football_2",
-    "error": "'NoneType' object has no attribute 'items'"
+    "extract_values": []
   },
   {
     "id": 188,
@@ -63259,7 +63259,7 @@
   {
     "id": 277,
     "db_id": "california_schools",
-    "error": "Unterminated string starting at: line 1897 column 38 (char 80313)"
+    "error": "Unterminated string starting at: line 1897 column 38 (char 80330)"
   },
   {
     "id": 278,
