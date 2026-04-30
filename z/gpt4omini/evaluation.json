@@ -2080,5 +2080,77 @@
     "db_id": "toxicology",
     "match": false,
     "error": "Bảng 'atom': khác values"
+  },
+  {
+    "id": 1,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 2,
+    "db_id": "student_club",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 3,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 7,
+    "db_id": "financial",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 10,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 11,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 12,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 13,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 14,
+    "db_id": "european_football_2",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 17,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 18,
+    "db_id": "debit_card_specializing",
+    "match": true,
+    "error": null
+  },
+  {
+    "id": 19,
+    "db_id": "formula_1",
+    "match": true,
+    "error": null
   }
 ]
