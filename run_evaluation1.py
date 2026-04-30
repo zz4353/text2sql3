@@ -18,12 +18,12 @@ TEST_PATH = "z/test2.json"
 
 CONFIGS = {
     "baseline": {
-        "input": os.path.join("z", "baseline", "gpt4omini", "results.json"),
-        "output": os.path.join("z", "baseline", "gpt4omini", "evaluation.json"),
+        "input": os.path.join("z", "baseline", "gpt4.1", "results.json"),
+        "output": os.path.join("z", "baseline", "gpt4.1", "evaluation.json"),
     },
     "pipeline1": {
-        "input": os.path.join("z", "gpt4omini", "built_sqls.json"),
-        "output": os.path.join("z", "gpt4omini", "evaluation.json"),
+        "input": os.path.join("z", "gpt4.1", "built_sqls.json"),
+        "output": os.path.join("z", "gpt4.1", "evaluation.json"),
     },
 }
 
