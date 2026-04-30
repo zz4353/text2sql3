@@ -1,46 +1,36 @@
 [
   {
-    "id": 187,
-    "db_id": "european_football_2",
+    "id": 277,
+    "db_id": "california_schools",
     "selected_columns": {
-      "Match": [
-        "B365D",
-        "B365A",
-        "B365H"
+      "schools": [
+        "CDSCode",
+        "County",
+        "District",
+        "DOC",
+        "DOCType",
+        "OpenDate",
+        "LastUpdate",
+        "StatusType",
+        "Phone",
+        "Website"
       ],
-      "Player": [
-        "player_api_id",
-        "player_fifa_api_id",
-        "player_name",
-        "birthday",
-        "height",
-        "weight"
+      "frpm": [
+        "CDSCode",
+        "County Code",
+        "District Code",
+        "District Name",
+        "District Type",
+        "School Type"
       ],
-      "League": [
-        "country_id",
-        "name"
-      ],
-      "Country": [
-        "name"
-      ],
-      "Team": [
-        "team_api_id",
-        "team_fifa_api_id",
-        "team_long_name",
-        "team_short_name"
-      ],
-      "Player_Attributes": [
-        "player_api_id",
-        "player_fifa_api_id",
-        "date",
-        "overall_rating",
-        "potential"
-      ],
-      "Team_Attributes": [
-        "team_api_id",
-        "team_fifa_api_id",
-        "date",
-        "buildUpPlaySpeed"
+      "satscores": [
+        "cds",
+        "enroll12",
+        "NumTstTakr",
+        "AvgScrRead",
+        "AvgScrMath",
+        "AvgScrWrite",
+        "rtype"
       ]
     }
   }
