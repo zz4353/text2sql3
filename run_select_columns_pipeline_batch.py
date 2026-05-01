@@ -16,7 +16,7 @@ from openai import OpenAI
 from db_client import get_llm_table_schema_context, get_all_foreign_keys, DB_ID
 from db_client import get_all_table_column_names2
 from pipeline2.select_columns import _map_to_valid_columns, _apply_column_constraints
-from utils import render_prompt, extract_columns_from_insert
+from utils import render_prompt
 
 load_dotenv()
 
@@ -144,11 +144,10 @@ def retrieve():
 
         try:
             raw = resp["response"]["body"]["choices"][0]["message"]["content"]
-            sql_list = json.loads(raw)["sql"]
+            tables_dict = json.loads(raw)["tables"]
 
-            raw_cols = extract_columns_from_insert(sql_list)
             all_columns = get_all_table_column_names2(DB_ID(db_id))
-            valid_cols = _map_to_valid_columns(raw_cols, all_columns)
+            valid_cols = _map_to_valid_columns(tables_dict, all_columns)
             selected_columns = _apply_column_constraints(DB_ID(db_id), valid_cols)
 
             results.append({"id": item_id, "db_id": db_id, "selected_columns": selected_columns})
