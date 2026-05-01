@@ -14,21 +14,20 @@ You will be given:
 - Foreign key relationships (from_table.from_col → to_table.to_col)
 {{ foreign_keys }}
 
-## Notes
-- Your task is strictly limited to identifying tables and columns for data insertion; do not consider any schema changes (CREATE, ALTER, DROP).
-- Follow the user's request closely and map data accurately to the correct tables and columns in the schema.
-- Data may need to be split across multiple tables; include every table involved, including parent tables that the child tables depend on via foreign keys.
-- Only include columns that have a corresponding value in the user's request, plus any columns required to satisfy NOT NULL or FOREIGN KEY constraints.
-- When a field in the request matches a specific column name (e.g. `alignment_id: 1`), select the column with that exact name (e.g. `superhero.alignment_id`). Do NOT select the `id` column of another table (e.g. do NOT select `alignment.id`) — even if the values look the same.
-- Use the exact table and column names from the schema. Do not invent or rename anything.
+## Rules
+1. **Scope:** Identify tables/columns for data insertion only. Ignore any schema changes (CREATE, ALTER, DROP).
+2. **Coverage:** Include every table required to store the data, including parent tables that child tables reference via foreign keys.
+3. **Ordering:** List tables in dependency order — parent tables must appear before the child tables that depend on them. If no foreign key dependency exists between tables, order does not matter.
+4. **Columns:** Include only columns that have a corresponding value in the request, plus columns required by NOT NULL or FOREIGN KEY constraints.
+5. **FK field mapping:** When a field in the request matches a specific column name (e.g. `alignment_id: 1`), select that exact column (e.g. `superhero.alignment_id`). Do NOT select the `id` column of the referenced table (e.g. do NOT select `alignment.id`) — even if the values appear identical.
+6. **Exact names:** Use the exact table and column names from the schema. Do not invent or rename anything.
 
 ## Output format
 Return only valid JSON. Do not include explanations, comments, or extra text.
 
 {
     "tables": {
-        "table_1": ["column1", "column2"],
-        "table_2": ["columnA", "columnB", "columnC"],
-        "table_3": ["columnX", "columnY"]
+        "parent_table": ["column1", "column2"],
+        "child_table": ["columnA", "columnB", "columnC"]
     }
 }

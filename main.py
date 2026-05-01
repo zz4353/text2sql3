@@ -1,4 +1,4 @@
-from pipeline1 import run
+from pipeline2 import run
 from db_client import DB_ID
 import json
 
@@ -7,7 +7,8 @@ with open(path, "r", encoding="utf-8") as file:
     test_set = json.load(file)
 
 count = 0
-results = []
+results = [] 
+test_set = test_set[3:4]
 for item in test_set:
     try:
         print(item["id"])
