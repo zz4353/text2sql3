@@ -2,9 +2,9 @@ import json
 import os
 
 from db_client import DB_ID
-from pipeline1.build_sqls import build_sqls
+from pipeline2.build_sqls import build_sqls
 
-RESULTS_DIR = os.path.join("results2", "pipeline1")
+RESULTS_DIR = os.path.join("results", "pipeline2")
 INPUT_PATH = os.path.join(RESULTS_DIR, "extracted_values.json")
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "built_sqls.json")
 

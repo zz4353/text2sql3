@@ -3,7 +3,7 @@ Evaluate prediction results against gold SQLs.
 
 Usage:
   python run_evaluation.py baseline
-  python run_evaluation.py pipeline1
+  python run_evaluation.py pipeline2
 """
 
 import json
@@ -14,16 +14,16 @@ from db_client import DB_ID
 from evaluation import compare_sqls
 from utils import render_sql_for_log
 
-TEST_PATH = "test3.json"
+TEST_PATH = "test.json"
 
 CONFIGS = {
     "baseline": {
-        "input": os.path.join("results2", "baseline", "results.json"),
-        "output": os.path.join("results2", "baseline", "evaluation.json"),
+        "input": os.path.join("results", "baseline", "results.json"),
+        "output": os.path.join("results", "baseline", "evaluation.json"),
     },
-    "pipeline1": {
-        "input": os.path.join("results2", "pipeline1", "built_sqls.json"),
-        "output": os.path.join("results2", "pipeline1", "evaluation.json"),
+    "pipeline2": {
+        "input": os.path.join("results", "pipeline2", "built_sqls.json"),
+        "output": os.path.join("results", "pipeline2", "evaluation.json"),
     },
 }
 
@@ -32,7 +32,7 @@ def get_pred_sqls_baseline(sample: dict) -> list[str]:
     return sample.get("sqls", [])
 
 
-def get_pred_sqls_pipeline1(sample: dict) -> list[str]:
+def get_pred_sqls_pipeline2(sample: dict) -> list[str]:
     sqls = []
     for entry in sample.get("sqls", []):
         if entry.get("missing_required_columns"):
@@ -50,7 +50,7 @@ def main(target: str):
     with open(config["input"], encoding="utf-8") as f:
         predictions = json.load(f)
 
-    get_pred_sqls = get_pred_sqls_baseline if target == "baseline" else get_pred_sqls_pipeline1
+    get_pred_sqls = get_pred_sqls_baseline if target == "baseline" else get_pred_sqls_pipeline2
 
     samples = [s for s in predictions if "error" not in s]
     print(f"Evaluating {len(samples)} samples (skipped {len(predictions) - len(samples)} errors)")

@@ -18,8 +18,8 @@ from utils import render_prompt
 
 load_dotenv()
 
-RESULTS_DIR = os.path.join("results2", "baseline")
-TEST_PATH = "test3.json"
+RESULTS_DIR = os.path.join("results", "baseline")
+TEST_PATH = "test.json"
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "results.json")
 BATCH_STATE_PATH = os.path.join(RESULTS_DIR, "batch_state.json")
 BATCH_INPUT_PATH = os.path.join(RESULTS_DIR, "batch_input.jsonl")
