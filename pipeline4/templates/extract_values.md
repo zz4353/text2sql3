@@ -9,13 +9,11 @@ Each extracted record must contain values for all of the following columns:
 
 Column descriptions and sample data
 
-Below are descriptions and sample values for each column, retrieved from the database:
-{{ column_descriptions }}
+Below are descriptions and sample values for each column, retrieved from the database (provided as image)
 
 Data extraction task
 
-Extract data records from the following user input:
-{{ user_input }}
+Extract data records from the following user input (provided as image)
 
 For each table:
 

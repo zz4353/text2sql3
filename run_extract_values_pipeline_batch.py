@@ -1,5 +1,5 @@
 """
-Batch API version of run_extract_values_pipeline2.py (50% cheaper, async).
+Batch API version of pipeline4 extract_values step.
 
 Usage:
   python run_extract_values_pipeline_batch.py submit    # prepare & submit batch
@@ -14,30 +14,44 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from db_client import get_llm_table_schema_context, DB_ID
-from pipeline2.extract_values import _build_examples, _strip_samples, _parse_llm_records
+from pipeline4.extract_values import _build_examples, _strip_samples, _parse_llm_records, _format_column_descriptions
 from utils import render_prompt
+from utils.text_to_image import render_text_pages_b64
 
 load_dotenv()
 
-RESULTS_DIR = os.path.join("results", "pipeline2")
+RESULTS_DIR = os.path.join("results", "pipeline4")
 SELECT_COLUMNS_PATH = os.path.join(RESULTS_DIR, "selected_cols.json")
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "extracted_values.json")
 TEST_PATH = "test.json"
-BATCH_STATE_PATH = os.path.join(RESULTS_DIR, "batch_state.json")
-BATCH_INPUT_PATH = os.path.join(RESULTS_DIR, "batch_input.jsonl")
-TEMPLATE_PATH = os.path.join("pipeline2", "templates", "extract_values.md")
+BATCH_STATE_PATH = os.path.join(RESULTS_DIR, "extract_values_batch_state.json")
+BATCH_INPUT_PATH = os.path.join(RESULTS_DIR, "extract_values_batch_input.jsonl")
+TEMPLATE_PATH = os.path.join("pipeline4", "templates", "extract_values.md")
 
 
-def _build_prompt(user_request: str, selected_columns: dict, schema_context: list) -> str:
+def _build_request_body(model: str, user_request: str, selected_columns: dict, schema_context: list) -> dict:
     examples = _build_examples(selected_columns, schema_context)
     schema_context_stripped = _strip_samples(schema_context)
-    return render_prompt(
-        TEMPLATE_PATH,
-        user_input=user_request,
-        column_descriptions=schema_context_stripped,
-        columns=selected_columns,
-        examples=examples,
-    )
+    system_prompt = render_prompt(TEMPLATE_PATH, columns=selected_columns, examples=examples)
+
+    schema_text = _format_column_descriptions(schema_context_stripped)
+    schema_images = render_text_pages_b64(schema_text, header="[Column Descriptions]")
+    user_input_images = render_text_pages_b64(str(user_request), header="[User Request]")
+    all_images = schema_images + user_input_images
+
+    user_content = [
+        {"type": "input_image", "image_url": f"data:image/png;base64,{b64}"}
+        for b64 in all_images
+    ]
+    return {
+        "model": model,
+        "input": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_content},
+        ],
+        "text": {"format": {"type": "json_object"}},
+        "temperature": 0,
+    }
 
 
 def submit():
@@ -75,17 +89,12 @@ def submit():
                 sc for sc in full_schema
                 if sc["original_column_name"] in selected_set
             ]
-            prompt = _build_prompt(test_sample["user_request"], selected_columns, schema_context)
+            body = _build_request_body(model, test_sample["user_request"], selected_columns, schema_context)
             requests.append({
                 "custom_id": str(item_id),
                 "method": "POST",
-                "url": "/v1/chat/completions",
-                "body": {
-                    "model": model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "response_format": {"type": "json_object"},
-                    "temperature": 0,
-                },
+                "url": "/v1/responses",
+                "body": body,
             })
         except Exception as e:
             print(f"[{item_id}] ERROR preparing: {e}")
@@ -106,7 +115,7 @@ def submit():
     print("Creating batch job...")
     batch = client.batches.create(
         input_file_id=batch_file.id,
-        endpoint="/v1/chat/completions",
+        endpoint="/v1/responses",
         completion_window="24h",
     )
 
@@ -164,7 +173,7 @@ def retrieve():
             continue
 
         try:
-            raw = resp["response"]["body"]["choices"][0]["message"]["content"]
+            raw = resp["response"]["body"]["output"][0]["content"][0]["text"]
             llm_result = json.loads(raw)
             parsed = _parse_llm_records(llm_result, sample["selected_columns"])
             results.append({"id": item_id, "db_id": db_id, "extract_values": parsed})

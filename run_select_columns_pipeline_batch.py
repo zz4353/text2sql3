@@ -39,7 +39,7 @@ def submit():
 
     print(f"Preparing {len(samples)} requests...")
 
-    samples = samples[:5]
+    samples = samples[5:15]
 
     for sample in samples:
         item_id = sample["id"]
