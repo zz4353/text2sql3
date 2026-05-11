@@ -1,9 +1,9 @@
 """
-Batch API version of pipeline2 select_columns step.
+Batch API version of pipeline4 select_columns step.
 
 Usage:
-  python run_select_columns_pipeline2_batch.py submit    # prepare & submit batch
-  python run_select_columns_pipeline2_batch.py retrieve  # check status & save results
+  python run_select_columns_pipeline_batch.py submit    # prepare & submit batch
+  python run_select_columns_pipeline_batch.py retrieve  # check status & save results
 """
 
 import json
@@ -15,17 +15,18 @@ from openai import OpenAI
 
 from db_client import get_llm_table_schema_context, get_all_foreign_keys, DB_ID
 from db_client import get_all_table_column_names2
-from pipeline2.select_columns import _map_to_valid_columns, _apply_column_constraints
-from utils import render_prompt
+from pipeline4.select_columns import _map_to_valid_columns, _apply_column_constraints, _format_schema
+from utils import render_prompt, extract_columns_from_insert
+from utils.text_to_image import render_text_pages_b64
 
 load_dotenv()
 
-RESULTS_DIR = os.path.join("results", "pipeline2")
+RESULTS_DIR = os.path.join("results", "pipeline4")
 TEST_PATH = "test.json"
 OUTPUT_PATH = os.path.join(RESULTS_DIR, "selected_cols.json")
 BATCH_STATE_PATH = os.path.join(RESULTS_DIR, "select_cols_batch_state.json")
 BATCH_INPUT_PATH = os.path.join(RESULTS_DIR, "select_cols_batch_input.jsonl")
-TEMPLATE_PATH = os.path.join("pipeline2", "templates", "select_cols.md")
+TEMPLATE_PATH = os.path.join("pipeline4", "templates", "select_cols.md")
 
 
 def submit():
@@ -38,6 +39,8 @@ def submit():
 
     print(f"Preparing {len(samples)} requests...")
 
+    samples = samples[:5]
+
     for sample in samples:
         item_id = sample["id"]
         db_id = sample["db_id"]
@@ -46,20 +49,27 @@ def submit():
         try:
             schema_context = get_llm_table_schema_context(DB_ID(db_id))
             foreign_keys = get_all_foreign_keys(DB_ID(db_id))
-            prompt = render_prompt(
-                TEMPLATE_PATH,
-                user_input=user_input,
-                schema=schema_context,
-                foreign_keys=foreign_keys,
-            )
+            system_prompt = render_prompt(TEMPLATE_PATH, foreign_keys=foreign_keys)
+
+            schema_images = render_text_pages_b64(_format_schema(schema_context), header="[Database Schema]")
+            user_input_images = render_text_pages_b64(str(user_input), header="[User Request]")
+            all_images = schema_images + user_input_images
+
+            user_content = [
+                {"type": "input_image", "image_url": f"data:image/png;base64,{b64}"}
+                for b64 in all_images
+            ]
             requests.append({
                 "custom_id": str(item_id),
                 "method": "POST",
-                "url": "/v1/chat/completions",
+                "url": "/v1/responses",
                 "body": {
                     "model": model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "response_format": {"type": "json_object"},
+                    "input": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_content},
+                    ],
+                    "text": {"format": {"type": "json_object"}},
                     "temperature": 0,
                 },
             })
@@ -84,7 +94,7 @@ def submit():
     print("Creating batch job...")
     batch = client.batches.create(
         input_file_id=batch_file.id,
-        endpoint="/v1/chat/completions",
+        endpoint="/v1/responses",
         completion_window="24h",
     )
 
@@ -143,11 +153,11 @@ def retrieve():
             continue
 
         try:
-            raw = resp["response"]["body"]["choices"][0]["message"]["content"]
-            tables_dict = json.loads(raw)["tables"]
+            raw = resp["response"]["body"]["output"][0]["content"][0]["text"]
+            raw_cols = extract_columns_from_insert(json.loads(raw)["sql"])
 
             all_columns = get_all_table_column_names2(DB_ID(db_id))
-            valid_cols = _map_to_valid_columns(tables_dict, all_columns)
+            valid_cols = _map_to_valid_columns(raw_cols, all_columns)
             selected_columns = _apply_column_constraints(DB_ID(db_id), valid_cols)
 
             results.append({"id": item_id, "db_id": db_id, "selected_columns": selected_columns})
@@ -172,4 +182,4 @@ if __name__ == "__main__":
     elif cmd == "retrieve":
         retrieve()
     else:
-        print("Usage: python run_select_columns_pipeline2_batch.py [submit|retrieve]")
+        print("Usage: python run_select_columns_pipeline_batch.py [submit|retrieve]")

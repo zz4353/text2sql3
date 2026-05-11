@@ -25,3 +25,25 @@ class OpenAIClient:
             **kwargs
         )
         return response.output_text.strip()
+
+    def call_llm2(self, system_prompt: str, image_b64_list: list[str], temperature: float = 0, **kwargs):
+        """
+        Send a system prompt (text) followed by a list of base64-encoded PNG images
+        as user content.
+        """
+        user_content = [
+            {"type": "input_image", "image_url": f"data:image/png;base64,{b64}"}
+            for b64 in image_b64_list
+        ]
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_content},
+        ]
+
+        response = self._client.responses.create(
+            model=self.model,
+            input=messages,
+            temperature=temperature,
+            **kwargs
+        )
+        return response.output_text.strip()
