@@ -51,6 +51,7 @@ def _build_request_body(model: str, user_request: str, selected_columns: dict, s
         ],
         "text": {"format": {"type": "json_object"}},
         "temperature": 0,
+        "max_output_tokens": 32768,
     }
 
 
@@ -61,6 +62,7 @@ def submit():
         test_lookup = {s["id"]: s for s in json.load(f)}
 
     samples = [s for s in select_columns_data if "error" not in s]
+    samples = samples[:10]
     print(f"Preparing {len(samples)} requests...")
 
     model = os.getenv("CHAT_MODEL", "gpt-4o-mini")

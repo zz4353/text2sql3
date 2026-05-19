@@ -30,7 +30,7 @@ def _font_metrics(font: ImageFont.ImageFont) -> tuple[int, int]:
     draw = ImageDraw.Draw(probe)
     bbox = draw.textbbox((0, 0), "M", font=font)
     char_width = max(1, bbox[2] - bbox[0])
-    line_height = max(1, bbox[3] - bbox[1] + 3)
+    line_height = max(1, bbox[3] - bbox[1] + 5)
     return char_width, line_height
 
 
@@ -108,7 +108,7 @@ def render_text_pages(
     width: int = 512,
     max_height: int = 512,
     min_height: int = 64,
-    font_size: int = 10,
+    font_size: int = 11,
     margin: int = 2,
     background: str = "white",
 ) -> list[Image.Image]:

@@ -7,8 +7,7 @@ You will be given:
 
 - Database schema (table names, column names, primary keys, foreign keys) (provided as image)
 
-- Foreign key relationships (from_table.from_col → to_table.to_col)
-{{ foreign_keys }}
+- Foreign key relationships (from_table.from_col → to_table.to_col) (provided as image)
 
 - A natural language request from the user, including the data to be inserted (provided as image)
 

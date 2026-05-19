@@ -8,12 +8,13 @@ from utils.text_to_image import render_text_pages_b64
 
 def select_columns(db_id: DB_ID, llm, user_input, schema_context):
     template_path = os.path.join(os.path.dirname(__file__), "templates/select_cols.md")
-    foreign_keys = get_all_foreign_keys(db_id)
-    system_prompt = render_prompt(template_path, foreign_keys=foreign_keys)
+    system_prompt = render_prompt(template_path)
 
+    foreign_keys = get_all_foreign_keys(db_id)
     schema_images = render_text_pages_b64(_format_schema(schema_context), header="[Database Schema]")
+    fk_images = render_text_pages_b64(_format_foreign_keys(foreign_keys), header="[Foreign Keys]")
     user_input_images = render_text_pages_b64(str(user_input), header="[User Request]")
-    all_images = schema_images + user_input_images
+    all_images = schema_images + fk_images + user_input_images
 
     llm_raw_result = llm.call_llm2(system_prompt, all_images, text={"format": {"type": "json_object"}})
     llm_raw_result = extract_columns_from_insert(json.loads(llm_raw_result)['sql'])
@@ -29,6 +30,15 @@ def select_columns(db_id: DB_ID, llm, user_input, schema_context):
 
 def _format_schema(schema_context: list[dict]) -> str:
     return "\n\n".join(json.dumps(col, ensure_ascii=False) for col in schema_context)
+
+
+def _format_foreign_keys(foreign_keys: list[dict]) -> str:
+    if not foreign_keys:
+        return "(no foreign keys)"
+    return "\n".join(
+        f"{fk['from_table']}.{fk['from_col']} -> {fk['to_table']}.{fk['to_col']}"
+        for fk in foreign_keys
+    )
 
 
 def _map_to_valid_columns(raw_cols: dict[str, list[str]], all_columns: dict[str, list[str]]) -> dict[str, list[str]]:

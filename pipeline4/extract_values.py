@@ -38,9 +38,24 @@ def _call_extract_llm(llm, user_request, columns, schema_context_stripped, examp
     system_prompt = render_prompt(template_path, columns=columns, examples=examples)
 
     schema_text = _format_column_descriptions(schema_context_stripped)
-    schema_images = render_text_pages_b64(schema_text, header="[Column Descriptions]")
-    user_input_images = render_text_pages_b64(str(user_request), header="[User Request]")
-    all_images = schema_images + user_input_images
+
+    from utils.text_to_image import render_text_pages
+    schema_imgs = render_text_pages(schema_text, header="[Column Descriptions]")
+    user_input_imgs = render_text_pages(str(user_request), header="[User Request]")
+
+    # DEBUG: save images to disk (remove later)
+    import base64, io
+    for i, img in enumerate(schema_imgs):
+        img.save(f"debug_ev_schema_{i}.png")
+    for i, img in enumerate(user_input_imgs):
+        img.save(f"debug_ev_user_input_{i}.png")
+
+    all_imgs = schema_imgs + user_input_imgs
+    all_images = []
+    for img in all_imgs:
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        all_images.append(base64.b64encode(buf.getvalue()).decode("ascii"))
 
     raw = llm.call_llm2(system_prompt, all_images, text={"format": {"type": "json_object"}})
     return json.loads(raw)
